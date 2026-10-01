@@ -1,0 +1,448 @@
+order_id,patient_id,age,gender,tat_minutes,department,test_name,result_value,unit,ref_range,is_critical,alert_priority,action_required,flagged_timestamp
+ORD00001,PT1328,25,Male,91,Critical Care,Serum_Potassium,2.22,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00002,PT1280,44,Male,80,Biochemistry,Serum_Creatinine,4.37,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00003,PT1177,56,Female,244,Biochemistry,PPBS,123.54,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00003,PT1177,56,Female,244,Critical Care,Serum_Potassium,4.44,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00008,PT1349,45,Male,261,Biochemistry,PPBS,118.52,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00009,PT1137,67,Female,210,Biochemistry,Lipid_Cholesterol,175.34,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00009,PT1137,67,Female,210,Critical Care,Serum_Potassium,5.0,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00009,PT1137,67,Female,210,Pathology,Urine_Routine_PusCells,0.8,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00010,PT1391,28,Male,247,Biochemistry,FBS,496.02,mg/dL,70.0-99.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00010,PT1391,28,Male,247,Biochemistry,Serum_Creatinine,1.06,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00012,PT1265,46,Male,83,Biochemistry,FBS,32.43,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00013,PT1249,31,Male,121,Biochemistry,Serum_Creatinine,4.98,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00016,PT1002,42,Female,307,Biochemistry,Lipid_Cholesterol,166.05,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00016,PT1002,42,Female,307,Biochemistry,PPBS,89.02,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00016,PT1002,42,Female,307,Hematology,CBC_Platelets,462.17,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00022,PT1023,18,Female,96,Hematology,CBC_Hemoglobin,29.14,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00026,PT1205,61,Female,290,Biochemistry,FBS,79.45,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00026,PT1205,61,Female,290,Biochemistry,PPBS,112.34,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00027,PT1262,25,Female,117,Biochemistry,Serum_Creatinine,5.4,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00035,PT1395,55,Male,224,Hematology,CBC_Hemoglobin,15.37,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00035,PT1395,55,Male,224,Pathology,Urine_Routine_PusCells,4.71,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00040,PT1086,56,Male,209,Hematology,CBC_Hemoglobin,14.6,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00040,PT1086,56,Male,209,Immunoassay,TSH,1.69,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00040,PT1086,56,Male,209,Pathology,Urine_Routine_PusCells,1.27,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00041,PT1351,56,Male,106,Biochemistry,PPBS,36.03,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00047,PT1028,53,Female,104,Pathology,Urine_Routine_PusCells,44.2,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00049,PT1231,76,Female,151,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00050,PT1305,48,Female,334,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00053,PT1310,34,Male,238,Biochemistry,FBS,100.81,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00053,PT1310,34,Male,238,Critical Care,Serum_Potassium,4.23,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00053,PT1310,34,Male,238,Hematology,CBC_Hemoglobin,14.56,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00055,PT1340,78,Female,120,Hematology,CBC_Hemoglobin,25.16,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00059,PT1213,39,Female,293,Biochemistry,Lipid_Cholesterol,147.13,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00059,PT1213,39,Female,293,Hematology,CBC_Platelets,321.83,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00061,PT1340,68,Male,274,Biochemistry,PPBS,44.6,mg/dL,90.0-140.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00061,PT1340,68,Male,274,Hematology,CBC_Platelets,167.19,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00062,PT1136,39,Female,269,Biochemistry,FBS,94.47,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00062,PT1136,39,Female,269,Critical Care,Serum_Potassium,3.51,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00062,PT1136,39,Female,269,Hematology,CBC_Platelets,1464.42,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00069,PT1174,69,Male,124,Biochemistry,PPBS,501.86,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00070,PT1300,42,Female,309,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00070,PT1300,42,Female,309,Immunoassay,TSH,29.18,uIU/mL,0.4-4.5,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00070,PT1300,42,Female,309,Pathology,Urine_Routine_PusCells,4.97,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00072,PT1144,20,Female,227,Immunoassay,TSH,4.5,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00072,PT1144,20,Female,227,Pathology,Urine_Routine_PusCells,35.22,cells/HPF,0.0-5.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00073,PT1233,23,Male,67,Biochemistry,Serum_Creatinine,5.58,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00074,PT1107,55,Male,244,Biochemistry,Lipid_Cholesterol,190.66,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00077,PT1365,76,Female,116,Biochemistry,Serum_Creatinine,5.46,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00079,PT1352,77,Female,76,Immunoassay,TSH,26.06,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00087,PT1364,58,Female,102,Biochemistry,FBS,484.96,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00092,PT1127,63,Female,119,Pathology,Urine_Routine_PusCells,40.02,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00094,PT1305,63,Male,143,Biochemistry,PPBS,46.4,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00107,PT1205,65,Female,278,Biochemistry,PPBS,96.6,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00107,PT1205,65,Female,278,Critical Care,Serum_Potassium,4.15,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00107,PT1205,65,Female,278,Immunoassay,TSH,0.83,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00113,PT1364,77,Male,89,Hematology,CBC_Platelets,1216.01,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00117,PT1338,57,Female,206,Biochemistry,Serum_Creatinine,5.8,mg/dL,0.7-1.3,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00117,PT1338,57,Female,206,Critical Care,Serum_Potassium,4.51,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00117,PT1338,57,Female,206,Hematology,CBC_Hemoglobin,14.87,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00119,PT1105,39,Male,133,Biochemistry,Lipid_Cholesterol,442.63,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00122,PT1335,61,Female,223,Biochemistry,Lipid_Cholesterol,157.23,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00122,PT1335,61,Female,223,Hematology,CBC_Hemoglobin,12.96,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00122,PT1335,61,Female,223,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00123,PT1282,35,Male,294,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00132,PT1343,75,Male,118,Biochemistry,Lipid_Cholesterol,389.3,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00136,PT1008,65,Female,127,Pathology,Urine_Routine_PusCells,44.75,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00143,PT1210,29,Male,288,Hematology,CBC_Hemoglobin,14.31,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00143,PT1210,29,Male,288,Hematology,CBC_Platelets,367.8,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00145,PT1238,61,Female,105,Biochemistry,Serum_Creatinine,5.39,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00148,PT1303,74,Male,241,Hematology,CBC_Hemoglobin,12.21,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00148,PT1303,74,Male,241,Hematology,CBC_Platelets,422.78,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00148,PT1303,74,Male,241,Immunoassay,TSH,3.66,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00149,PT1154,72,Male,255,Biochemistry,Lipid_Cholesterol,202.53,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00149,PT1154,72,Male,255,Biochemistry,Serum_Creatinine,0.73,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00149,PT1154,72,Male,255,Pathology,Urine_Routine_PusCells,1.07,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00151,PT1380,25,Female,295,Biochemistry,Serum_Creatinine,0.99,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00151,PT1380,25,Female,295,Critical Care,Serum_Potassium,4.02,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00151,PT1380,25,Female,295,Immunoassay,TSH,3.2,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00152,PT1370,48,Female,298,Biochemistry,FBS,77.55,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00152,PT1370,48,Female,298,Biochemistry,Lipid_Cholesterol,170.07,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00152,PT1370,48,Female,298,Pathology,Urine_Routine_PusCells,1.21,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00154,PT1251,29,Male,70,Biochemistry,Serum_Creatinine,4.47,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00156,PT1272,64,Female,335,Biochemistry,PPBS,117.75,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00157,PT1124,30,Female,272,Biochemistry,Serum_Creatinine,1.24,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00157,PT1124,30,Female,272,Pathology,Urine_Routine_PusCells,44.89,cells/HPF,0.0-5.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00158,PT1333,66,Male,154,Biochemistry,Lipid_Cholesterol,429.12,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00164,PT1167,73,Female,316,Pathology,Urine_Routine_PusCells,2.0,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00167,PT1070,37,Female,252,Critical Care,Serum_Potassium,4.83,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00167,PT1070,37,Female,252,Hematology,CBC_Platelets,235.0,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00170,PT1194,22,Female,289,Biochemistry,FBS,88.74,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00170,PT1194,22,Female,289,Hematology,CBC_Hemoglobin,15.19,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00170,PT1194,22,Female,289,Pathology,Urine_Routine_PusCells,0.57,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00189,PT1304,32,Female,96,Hematology,CBC_Platelets,16.58,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00190,PT1053,24,Female,306,Biochemistry,PPBS,86.02,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00194,PT1395,22,Male,221,Critical Care,Serum_Potassium,4.68,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00194,PT1395,22,Male,221,Pathology,Urine_Routine_PusCells,2.63,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00195,PT1043,58,Male,231,Pathology,Urine_Routine_PusCells,3.08,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00197,PT1090,25,Male,263,Biochemistry,PPBS,140.84,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00197,PT1090,25,Male,263,Critical Care,Serum_Potassium,4.74,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00197,PT1090,25,Male,263,Pathology,Urine_Routine_PusCells,3.94,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00198,PT1172,69,Female,149,Pathology,Urine_Routine_PusCells,43.1,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00199,PT1396,24,Male,309,Biochemistry,FBS,80.84,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00201,PT1027,29,Male,93,Critical Care,Serum_Potassium,1.86,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00202,PT1379,57,Male,324,Biochemistry,Lipid_Cholesterol,370.35,mg/dL,120.0-200.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00205,PT1304,54,Male,248,Immunoassay,TSH,1.4,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00205,PT1304,54,Male,248,Pathology,Urine_Routine_PusCells,0.71,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00208,PT1016,78,Female,126,Biochemistry,PPBS,596.86,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00210,PT1331,46,Male,72,Hematology,CBC_Hemoglobin,22.56,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00213,PT1399,35,Male,251,Biochemistry,Serum_Creatinine,0.85,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00219,PT1046,70,Female,104,Biochemistry,PPBS,34.44,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00220,PT1194,40,Female,124,Critical Care,Serum_Potassium,1.53,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00223,PT1014,31,Male,104,Hematology,CBC_Platelets,1133.2,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00225,PT1268,44,Female,269,Biochemistry,FBS,83.32,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00225,PT1268,44,Female,269,Biochemistry,Lipid_Cholesterol,130.05,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00225,PT1268,44,Female,269,Pathology,Urine_Routine_PusCells,1.01,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00228,PT1055,54,Male,138,Hematology,CBC_Platelets,11.29,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00231,PT1264,68,Male,143,Biochemistry,Lipid_Cholesterol,319.46,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00231,PT1264,68,Male,143,Biochemistry,PPBS,29.48,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00236,PT1365,78,Female,318,Hematology,CBC_Hemoglobin,11.54,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00236,PT1365,78,Female,318,Hematology,CBC_Platelets,276.02,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00236,PT1365,78,Female,318,Immunoassay,TSH,1.66,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00241,PT1087,54,Male,81,Pathology,Urine_Routine_PusCells,34.19,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00244,PT1373,26,Male,113,Hematology,CBC_Hemoglobin,26.96,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00246,PT1340,51,Female,314,Biochemistry,FBS,102.94,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00246,PT1340,51,Female,314,Biochemistry,PPBS,116.11,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00246,PT1340,51,Female,314,Critical Care,Serum_Potassium,4.82,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00247,PT1184,63,Female,158,Immunoassay,TSH,29.16,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00248,PT1077,78,Male,98,Critical Care,Serum_Potassium,8.66,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00252,PT1033,34,Female,170,Immunoassay,TSH,23.24,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00262,PT1364,25,Female,149,Critical Care,Serum_Potassium,1.88,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00262,PT1364,25,Female,149,Hematology,CBC_Hemoglobin,3.72,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00265,PT1007,65,Female,116,Hematology,CBC_Hemoglobin,27.62,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00266,PT1062,42,Male,92,Immunoassay,TSH,26.37,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00270,PT1013,76,Female,150,Biochemistry,Serum_Creatinine,4.37,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00271,PT1108,60,Male,92,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00274,PT1383,43,Female,150,Biochemistry,Lipid_Cholesterol,395.55,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00282,PT1315,61,Male,108,Biochemistry,Lipid_Cholesterol,417.8,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00283,PT1266,76,Female,234,Biochemistry,PPBS,101.69,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00283,PT1266,76,Female,234,Critical Care,Serum_Potassium,3.66,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00286,PT1369,25,Female,148,Biochemistry,FBS,392.88,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00288,PT1074,68,Male,97,Biochemistry,Serum_Creatinine,5.14,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00289,PT1259,61,Female,266,Biochemistry,FBS,71.38,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00289,PT1259,61,Female,266,Biochemistry,PPBS,136.39,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00289,PT1259,61,Female,266,Pathology,Urine_Routine_PusCells,4.07,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00290,PT1333,45,Female,262,Hematology,CBC_Hemoglobin,15.4,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00290,PT1333,45,Female,262,Immunoassay,TSH,3.41,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00291,PT1051,45,Male,84,Hematology,CBC_Hemoglobin,21.06,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00295,PT1336,51,Female,134,Pathology,Urine_Routine_PusCells,39.59,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00305,PT1176,41,Male,272,Biochemistry,Lipid_Cholesterol,192.16,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00305,PT1176,41,Male,272,Hematology,CBC_Platelets,465.66,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00306,PT1370,35,Male,109,Biochemistry,Lipid_Cholesterol,371.91,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00310,PT1328,69,Female,344,Biochemistry,Lipid_Cholesterol,144.09,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00311,PT1335,36,Female,316,Hematology,CBC_Platelets,1347.91,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00311,PT1335,36,Female,316,Pathology,Urine_Routine_PusCells,0.97,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00312,PT1381,62,Male,214,Biochemistry,FBS,69.62,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00312,PT1381,62,Male,214,Pathology,Urine_Routine_PusCells,36.86,cells/HPF,0.0-5.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00313,PT1135,57,Male,123,Biochemistry,Lipid_Cholesterol,404.58,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00315,PT1159,76,Female,121,Biochemistry,Lipid_Cholesterol,385.65,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00318,PT1327,47,Female,115,Pathology,Urine_Routine_PusCells,44.63,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00321,PT1129,70,Female,136,Biochemistry,FBS,400.33,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00329,PT1337,49,Female,239,Hematology,CBC_Platelets,417.09,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00330,PT1240,69,Male,133,Critical Care,Serum_Potassium,2.59,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00333,PT1131,41,Female,98,Critical Care,Serum_Potassium,6.88,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00335,PT1154,23,Female,105,Biochemistry,PPBS,488.68,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00344,PT1338,41,Male,270,Biochemistry,PPBS,118.19,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00344,PT1338,41,Male,270,Biochemistry,Serum_Creatinine,1.31,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00344,PT1338,41,Male,270,Immunoassay,TSH,2.56,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00349,PT1211,37,Female,96,Biochemistry,Lipid_Cholesterol,448.1,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00358,PT1255,72,Female,161,Pathology,Urine_Routine_PusCells,43.41,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00359,PT1107,21,Male,240,Biochemistry,FBS,88.78,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00359,PT1107,21,Male,240,Critical Care,Serum_Potassium,1.62,mmol/L,3.5-5.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00359,PT1107,21,Male,240,Immunoassay,TSH,3.04,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00360,PT1288,29,Female,73,Biochemistry,PPBS,27.75,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00362,PT1133,51,Female,157,Biochemistry,Serum_Creatinine,4.24,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00363,PT1321,68,Male,152,Pathology,Urine_Routine_PusCells,34.22,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00369,PT1265,61,Male,320,Biochemistry,FBS,68.15,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00371,PT1396,46,Male,218,Biochemistry,PPBS,143.51,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00371,PT1396,46,Male,218,Hematology,CBC_Platelets,331.95,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00371,PT1396,46,Male,218,Pathology,Urine_Routine_PusCells,2.88,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00372,PT1088,22,Female,94,Biochemistry,FBS,29.03,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00373,PT1316,40,Female,252,Biochemistry,Lipid_Cholesterol,202.29,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00373,PT1316,40,Female,252,Biochemistry,PPBS,113.52,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00376,PT1212,33,Male,92,Critical Care,Serum_Potassium,7.85,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00377,PT1250,25,Female,267,Biochemistry,PPBS,122.18,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00384,PT1399,35,Female,110,Biochemistry,PPBS,42.52,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00386,PT1378,57,Male,217,Biochemistry,Lipid_Cholesterol,185.18,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00386,PT1378,57,Male,217,Critical Care,Serum_Potassium,3.85,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00389,PT1205,48,Female,123,Critical Care,Serum_Potassium,7.51,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00390,PT1348,38,Male,300,Critical Care,Serum_Potassium,4.08,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00390,PT1348,38,Male,300,Immunoassay,TSH,0.81,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00392,PT1035,18,Female,160,Critical Care,Serum_Potassium,6.45,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00396,PT1053,20,Male,218,Biochemistry,FBS,91.39,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00399,PT1197,60,Male,111,Hematology,CBC_Platelets,18.97,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00409,PT1389,47,Male,116,Pathology,Urine_Routine_PusCells,34.68,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00413,PT1088,54,Male,343,Biochemistry,Lipid_Cholesterol,203.04,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00413,PT1088,54,Male,343,Hematology,CBC_Platelets,17.85,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00413,PT1088,54,Male,343,Pathology,Urine_Routine_PusCells,2.28,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00415,PT1375,44,Male,86,Hematology,CBC_Platelets,16.95,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00417,PT1295,68,Male,333,Biochemistry,FBS,39.58,mg/dL,70.0-99.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00417,PT1295,68,Male,333,Hematology,CBC_Platelets,327.55,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00417,PT1295,68,Male,333,Immunoassay,TSH,2.4,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00418,PT1397,31,Male,301,Biochemistry,Lipid_Cholesterol,361.61,mg/dL,120.0-200.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00418,PT1397,31,Male,301,Biochemistry,Serum_Creatinine,0.85,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00418,PT1397,31,Male,301,Pathology,Urine_Routine_PusCells,1.46,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00419,PT1249,50,Male,171,Biochemistry,PPBS,471.91,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00426,PT1158,19,Female,93,Pathology,Urine_Routine_PusCells,38.77,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00427,PT1045,80,Female,245,Biochemistry,Lipid_Cholesterol,115.17,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00427,PT1045,80,Female,245,Hematology,CBC_Hemoglobin,13.71,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00428,PT1177,40,Female,307,Biochemistry,Lipid_Cholesterol,200.06,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00428,PT1177,40,Female,307,Critical Care,Serum_Potassium,5.19,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00430,PT1071,30,Male,157,Hematology,CBC_Platelets,12.36,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00440,PT1297,66,Male,233,Biochemistry,FBS,98.38,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00440,PT1297,66,Male,233,Biochemistry,PPBS,128.44,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00440,PT1297,66,Male,233,Hematology,CBC_Platelets,364.76,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00442,PT1286,64,Male,116,Biochemistry,PPBS,505.62,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00445,PT1244,60,Female,127,Biochemistry,Serum_Creatinine,4.3,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00447,PT1134,52,Female,256,Hematology,CBC_Hemoglobin,16.01,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00449,PT1252,60,Female,134,Immunoassay,TSH,22.15,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00450,PT1188,40,Male,96,Hematology,CBC_Hemoglobin,3.63,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00451,PT1353,22,Female,129,Hematology,CBC_Hemoglobin,3.06,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00455,PT1265,73,Male,276,Biochemistry,FBS,94.45,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00455,PT1265,73,Male,276,Critical Care,Serum_Potassium,4.95,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00455,PT1265,73,Male,276,Hematology,CBC_Hemoglobin,13.9,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00457,PT1123,25,Male,138,Biochemistry,FBS,411.25,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00458,PT1282,29,Male,311,Biochemistry,PPBS,125.93,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00458,PT1282,29,Male,311,Critical Care,Serum_Potassium,4.11,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00460,PT1200,69,Male,233,Critical Care,Serum_Potassium,4.67,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00460,PT1200,69,Male,233,Hematology,CBC_Hemoglobin,11.7,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00461,PT1058,38,Female,95,Biochemistry,FBS,493.33,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00463,PT1199,18,Female,241,Hematology,CBC_Platelets,432.72,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00467,PT1194,78,Male,246,Critical Care,Serum_Potassium,3.65,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00468,PT1206,57,Female,226,Biochemistry,FBS,82.8,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00470,PT1145,64,Male,246,Hematology,CBC_Platelets,264.48,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00472,PT1132,22,Male,281,Biochemistry,FBS,80.77,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00472,PT1132,22,Male,281,Biochemistry,Lipid_Cholesterol,199.65,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00472,PT1132,22,Male,281,Pathology,Urine_Routine_PusCells,3.52,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00477,PT1109,55,Male,124,Biochemistry,PPBS,542.52,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00479,PT1375,64,Male,137,Biochemistry,FBS,393.16,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00486,PT1245,47,Female,160,Hematology,CBC_Hemoglobin,3.04,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00488,PT1228,79,Female,162,Hematology,CBC_Hemoglobin,27.42,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00489,PT1284,36,Male,167,Hematology,CBC_Platelets,15.19,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00491,PT1309,72,Female,154,Hematology,CBC_Hemoglobin,3.47,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00494,PT1175,68,Female,129,Pathology,Urine_Routine_PusCells,44.27,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00498,PT1216,68,Male,138,Biochemistry,Serum_Creatinine,4.77,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00500,PT1005,70,Female,120,Hematology,CBC_Hemoglobin,4.96,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00501,PT1379,74,Male,84,Immunoassay,TSH,26.33,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00512,PT1010,35,Male,153,Immunoassay,TSH,21.21,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00515,PT1062,21,Male,127,Hematology,CBC_Hemoglobin,4.1,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00519,PT1259,79,Female,133,Biochemistry,Serum_Creatinine,5.45,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00520,PT1331,77,Male,82,Hematology,CBC_Platelets,1343.07,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00521,PT1064,40,Female,106,Biochemistry,PPBS,556.52,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00524,PT1141,30,Male,131,Hematology,CBC_Hemoglobin,24.89,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00526,PT1013,65,Male,100,Biochemistry,PPBS,25.54,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00527,PT1321,77,Female,236,Immunoassay,TSH,1.41,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00539,PT1275,36,Male,135,Biochemistry,Serum_Creatinine,5.12,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00539,PT1275,36,Male,135,Hematology,CBC_Platelets,15.97,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00547,PT1005,49,Female,138,Critical Care,Serum_Potassium,8.79,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00554,PT1081,35,Female,265,Biochemistry,FBS,74.27,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00554,PT1081,35,Female,265,Biochemistry,PPBS,116.52,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00554,PT1081,35,Female,265,Immunoassay,TSH,2.16,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00555,PT1023,47,Male,162,Biochemistry,Serum_Creatinine,4.65,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00558,PT1111,63,Male,94,Hematology,CBC_Hemoglobin,27.9,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00561,PT1206,59,Female,117,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00562,PT1053,63,Male,306,Biochemistry,Lipid_Cholesterol,198.86,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00562,PT1053,63,Male,306,Biochemistry,PPBS,106.11,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00562,PT1053,63,Male,306,Immunoassay,TSH,4.08,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00563,PT1312,76,Female,138,Biochemistry,Serum_Creatinine,5.57,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00564,PT1064,37,Male,85,Biochemistry,Serum_Creatinine,5.86,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00566,PT1148,66,Male,112,Critical Care,Serum_Potassium,2.6,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00568,PT1240,37,Male,109,Biochemistry,Serum_Creatinine,5.95,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00570,PT1276,27,Male,137,Biochemistry,Lipid_Cholesterol,382.59,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00575,PT1177,70,Male,225,Biochemistry,FBS,450.18,mg/dL,70.0-99.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00575,PT1177,70,Male,225,Biochemistry,PPBS,130.58,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00578,PT1345,66,Male,301,Biochemistry,Serum_Creatinine,0.67,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00589,PT1360,20,Female,102,Hematology,CBC_Platelets,1118.72,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00593,PT1087,77,Male,226,Biochemistry,PPBS,144.21,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00593,PT1087,77,Male,226,Hematology,CBC_Hemoglobin,4.32,g/dL,12.0-16.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00593,PT1087,77,Male,226,Immunoassay,TSH,2.14,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00598,PT1386,20,Male,152,Biochemistry,FBS,509.98,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00600,PT1111,79,Male,142,Critical Care,Serum_Potassium,1.94,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00602,PT1139,25,Male,106,Biochemistry,Lipid_Cholesterol,365.92,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00623,PT1258,68,Male,120,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00630,PT1374,29,Female,121,Biochemistry,Lipid_Cholesterol,348.11,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00632,PT1128,67,Male,339,Pathology,Urine_Routine_PusCells,1.78,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00635,PT1219,42,Male,301,Hematology,CBC_Platelets,178.84,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00636,PT1053,79,Female,267,Biochemistry,FBS,73.17,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00640,PT1255,52,Female,123,Biochemistry,Serum_Creatinine,5.99,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00642,PT1283,80,Female,81,Biochemistry,Lipid_Cholesterol,445.26,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00645,PT1257,37,Male,253,Biochemistry,Serum_Creatinine,0.7,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00647,PT1040,41,Female,139,Critical Care,Serum_Potassium,2.63,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00652,PT1291,58,Female,279,Hematology,CBC_Platelets,18.41,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00654,PT1064,80,Female,270,Biochemistry,Lipid_Cholesterol,173.96,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00654,PT1064,80,Female,270,Hematology,CBC_Platelets,170.05,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00654,PT1064,80,Female,270,Pathology,Urine_Routine_PusCells,2.36,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00658,PT1328,31,Female,91,Hematology,CBC_Platelets,1478.69,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00659,PT1326,29,Male,263,Biochemistry,Serum_Creatinine,0.73,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00659,PT1326,29,Male,263,Hematology,CBC_Hemoglobin,12.8,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00665,PT1211,40,Female,247,Hematology,CBC_Hemoglobin,14.61,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00665,PT1211,40,Female,247,Immunoassay,TSH,2.04,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00670,PT1099,57,Female,252,Biochemistry,Lipid_Cholesterol,163.66,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00670,PT1099,57,Female,252,Hematology,CBC_Hemoglobin,11.94,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00671,PT1065,50,Male,118,Biochemistry,Serum_Creatinine,4.99,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00673,PT1372,67,Female,213,Biochemistry,FBS,88.82,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00673,PT1372,67,Female,213,Biochemistry,PPBS,102.87,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00673,PT1372,67,Female,213,Pathology,Urine_Routine_PusCells,0.49,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00679,PT1231,28,Male,123,Pathology,Urine_Routine_PusCells,33.93,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00681,PT1112,24,Female,315,Hematology,CBC_Hemoglobin,12.47,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00681,PT1112,24,Female,315,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00683,PT1207,20,Male,124,Pathology,Urine_Routine_PusCells,41.96,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00687,PT1164,73,Male,143,Immunoassay,TSH,27.4,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00688,PT1181,53,Male,222,Biochemistry,Serum_Creatinine,4.59,mg/dL,0.7-1.3,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00689,PT1198,30,Female,302,Biochemistry,Lipid_Cholesterol,202.0,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00689,PT1198,30,Female,302,Hematology,CBC_Platelets,177.37,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00691,PT1055,65,Male,112,Hematology,CBC_Platelets,11.36,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00692,PT1028,46,Female,334,Critical Care,Serum_Potassium,3.67,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00696,PT1073,79,Male,243,Biochemistry,Lipid_Cholesterol,195.9,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00700,PT1221,41,Male,259,Critical Care,Serum_Potassium,5.14,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00700,PT1221,41,Male,259,Hematology,CBC_Platelets,251.79,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00700,PT1221,41,Male,259,Pathology,Urine_Routine_PusCells,4.78,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00702,PT1239,61,Male,115,Critical Care,Serum_Potassium,1.76,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00707,PT1227,62,Female,141,Hematology,CBC_Hemoglobin,29.62,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00711,PT1004,69,Female,75,Pathology,Urine_Routine_PusCells,34.26,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00714,PT1088,50,Male,90,Biochemistry,Serum_Creatinine,5.02,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00715,PT1289,42,Male,246,Biochemistry,Lipid_Cholesterol,158.0,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00715,PT1289,42,Male,246,Hematology,CBC_Platelets,14.51,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00727,PT1169,77,Male,280,Biochemistry,PPBS,102.14,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00727,PT1169,77,Male,280,Hematology,CBC_Platelets,14.57,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00730,PT1030,33,Male,126,Pathology,Urine_Routine_PusCells,33.21,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00733,PT1211,63,Female,134,Biochemistry,PPBS,34.91,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00734,PT1011,49,Male,329,Critical Care,Serum_Potassium,4.06,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00736,PT1312,66,Female,124,Pathology,Urine_Routine_PusCells,32.97,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00740,PT1133,67,Female,232,Biochemistry,FBS,73.4,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00740,PT1133,67,Female,232,Biochemistry,Serum_Creatinine,0.97,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00740,PT1133,67,Female,232,Pathology,Urine_Routine_PusCells,2.91,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00753,PT1396,24,Male,269,Biochemistry,Lipid_Cholesterol,184.52,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00753,PT1396,24,Male,269,Hematology,CBC_Hemoglobin,12.17,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00753,PT1396,24,Male,269,Pathology,Urine_Routine_PusCells,1.67,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00759,PT1142,47,Male,214,Biochemistry,Serum_Creatinine,1.33,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00759,PT1142,47,Male,214,Hematology,CBC_Hemoglobin,12.73,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00759,PT1142,47,Male,214,Immunoassay,TSH,4.02,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00763,PT1164,60,Male,344,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00763,PT1164,60,Male,344,Hematology,CBC_Hemoglobin,3.58,g/dL,12.0-16.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00769,PT1396,62,Male,115,Critical Care,Serum_Potassium,8.36,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00773,PT1049,53,Male,85,Pathology,Urine_Routine_PusCells,38.16,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00775,PT1376,23,Male,100,Biochemistry,Lipid_Cholesterol,372.26,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00777,PT1366,41,Female,98,Immunoassay,TSH,23.81,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00779,PT1116,40,Male,161,Critical Care,Serum_Potassium,2.32,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00780,PT1053,26,Female,132,Hematology,CBC_Platelets,11.95,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00782,PT1182,37,Female,259,Biochemistry,Lipid_Cholesterol,161.05,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00782,PT1182,37,Female,259,Hematology,CBC_Hemoglobin,15.1,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00789,PT1002,37,Female,140,Hematology,CBC_Platelets,1132.13,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00793,PT1350,68,Female,162,Biochemistry,Serum_Creatinine,4.41,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00798,PT1001,60,Male,89,Hematology,CBC_Hemoglobin,4.85,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00802,PT1218,27,Female,263,Biochemistry,Lipid_Cholesterol,163.67,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00802,PT1218,27,Female,263,Pathology,Urine_Routine_PusCells,4.23,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00809,PT1383,34,Male,245,Biochemistry,Serum_Creatinine,1.2,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00809,PT1383,34,Male,245,Immunoassay,TSH,3.63,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00809,PT1383,34,Male,245,Pathology,Urine_Routine_PusCells,1.96,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00812,PT1007,39,Female,287,Biochemistry,Lipid_Cholesterol,430.06,mg/dL,120.0-200.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00812,PT1007,39,Female,287,Biochemistry,Serum_Creatinine,0.84,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00813,PT1041,58,Female,140,Hematology,CBC_Platelets,1125.03,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00816,PT1258,52,Female,334,Biochemistry,Lipid_Cholesterol,114.32,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00820,PT1126,61,Female,153,Biochemistry,Lipid_Cholesterol,319.36,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00830,PT1091,20,Female,327,Biochemistry,FBS,83.89,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00830,PT1091,20,Female,327,Biochemistry,PPBS,133.56,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00830,PT1091,20,Female,327,Critical Care,Serum_Potassium,4.45,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00833,PT1128,39,Female,233,Hematology,CBC_Platelets,1279.3,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00834,PT1254,28,Male,255,Biochemistry,Lipid_Cholesterol,143.49,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00834,PT1254,28,Male,255,Immunoassay,TSH,0.85,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00836,PT1081,38,Female,255,Critical Care,Serum_Potassium,3.97,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00836,PT1081,38,Female,255,Immunoassay,TSH,3.62,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00837,PT1231,37,Female,323,Hematology,CBC_Hemoglobin,15.75,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00840,PT1370,55,Female,146,Hematology,CBC_Hemoglobin,4.45,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00843,PT1361,34,Female,78,Hematology,CBC_Platelets,1218.06,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00844,PT1290,45,Male,156,Biochemistry,PPBS,440.22,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00845,PT1240,57,Male,158,Biochemistry,Lipid_Cholesterol,402.46,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00849,PT1084,45,Female,239,Biochemistry,PPBS,573.75,mg/dL,90.0-140.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00849,PT1084,45,Female,239,Hematology,CBC_Hemoglobin,11.67,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00850,PT1225,43,Male,248,Biochemistry,PPBS,122.7,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00850,PT1225,43,Male,248,Hematology,CBC_Platelets,247.07,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00850,PT1225,43,Male,248,Pathology,Urine_Routine_PusCells,0.63,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00852,PT1185,78,Female,270,Hematology,CBC_Hemoglobin,11.49,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00855,PT1319,38,Male,121,Hematology,CBC_Hemoglobin,4.62,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00856,PT1269,28,Male,267,Hematology,CBC_Platelets,279.48,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00859,PT1237,60,Female,134,Biochemistry,FBS,29.1,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00866,PT1083,66,Male,154,Immunoassay,TSH,23.49,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00869,PT1250,66,Female,235,Biochemistry,Serum_Creatinine,1.11,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00869,PT1250,66,Female,235,Hematology,CBC_Hemoglobin,15.36,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00869,PT1250,66,Female,235,Hematology,CBC_Platelets,16.93,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00871,PT1400,70,Female,144,Critical Care,Serum_Potassium,6.94,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00876,PT1208,38,Female,257,Immunoassay,TSH,4.27,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00876,PT1208,38,Female,257,Pathology,Urine_Routine_PusCells,5.04,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00877,PT1166,19,Male,163,Hematology,CBC_Hemoglobin,28.89,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00878,PT1367,39,Female,332,Biochemistry,PPBS,112.72,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00878,PT1367,39,Female,332,Immunoassay,TSH,27.01,uIU/mL,0.4-4.5,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00879,PT1141,19,Female,103,Biochemistry,Lipid_Cholesterol,347.9,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00883,PT1115,47,Female,155,Biochemistry,Lipid_Cholesterol,375.54,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00884,PT1333,21,Female,212,Biochemistry,FBS,101.81,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00884,PT1333,21,Female,212,Critical Care,Serum_Potassium,4.27,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00889,PT1032,80,Male,70,Hematology,CBC_Hemoglobin,26.07,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00891,PT1362,72,Male,91,Biochemistry,Lipid_Cholesterol,341.08,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00896,PT1271,71,Male,170,Biochemistry,FBS,29.24,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00897,PT1351,73,Female,136,Biochemistry,Serum_Creatinine,5.91,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00905,PT1090,40,Female,244,Biochemistry,PPBS,106.16,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00905,PT1090,40,Female,244,Biochemistry,Serum_Creatinine,0.68,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00905,PT1090,40,Female,244,Pathology,Urine_Routine_PusCells,4.43,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00909,PT1233,52,Female,289,Immunoassay,TSH,2.26,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00914,PT1078,44,Female,130,Biochemistry,FBS,504.44,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00914,PT1078,44,Female,130,Pathology,Urine_Routine_PusCells,32.38,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00915,PT1183,30,Male,283,Biochemistry,Lipid_Cholesterol,128.59,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00915,PT1183,30,Male,283,Hematology,CBC_Platelets,238.11,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00915,PT1183,30,Male,283,Pathology,Urine_Routine_PusCells,2.95,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00916,PT1213,25,Female,329,Biochemistry,PPBS,44.81,mg/dL,90.0-140.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00916,PT1213,25,Female,329,Biochemistry,Serum_Creatinine,1.3,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00916,PT1213,25,Female,329,Immunoassay,TSH,2.45,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00917,PT1393,19,Female,128,Pathology,Urine_Routine_PusCells,33.32,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00920,PT1171,53,Male,98,Hematology,CBC_Hemoglobin,27.27,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00927,PT1152,56,Female,127,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00928,PT1031,57,Female,246,Biochemistry,PPBS,141.74,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00928,PT1031,57,Female,246,Critical Care,Serum_Potassium,4.42,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00928,PT1031,57,Female,246,Immunoassay,TSH,3.01,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00931,PT1188,18,Female,286,Biochemistry,PPBS,31.1,mg/dL,90.0-140.0,1,CRITICAL_SEV_1_BREACH_DELAY,Call Duty Doctor Immediately + Escalate Lab Supervisor,2026-10-01 20:24:31
+ORD00938,PT1168,40,Female,279,Biochemistry,Serum_Creatinine,1.09,mg/dL,0.7-1.3,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00938,PT1168,40,Female,279,Hematology,CBC_Hemoglobin,11.73,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00938,PT1168,40,Female,279,Pathology,Urine_Routine_PusCells,0.99,cells/HPF,0.0-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00939,PT1100,51,Female,88,Critical Care,Serum_Potassium,8.36,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00943,PT1021,74,Male,216,Biochemistry,Lipid_Cholesterol,129.68,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00945,PT1214,59,Female,91,Biochemistry,Serum_Creatinine,5.43,mg/dL,0.7-1.3,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00945,PT1214,59,Female,91,Pathology,Urine_Routine_PusCells,40.18,cells/HPF,0.0-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00946,PT1358,32,Female,93,Hematology,CBC_Hemoglobin,25.43,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00948,PT1275,18,Female,141,Biochemistry,PPBS,537.25,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00950,PT1153,71,Male,95,Critical Care,Serum_Potassium,2.45,mmol/L,3.5-5.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00951,PT1168,47,Female,152,Biochemistry,PPBS,25.25,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00953,PT1155,27,Female,88,Biochemistry,FBS,30.28,mg/dL,70.0-99.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00957,PT1377,58,Female,284,Biochemistry,Lipid_Cholesterol,153.15,mg/dL,120.0-200.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00957,PT1377,58,Female,284,Hematology,CBC_Platelets,171.03,x10^3/uL,150.0-450.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00962,PT1327,24,Male,93,Biochemistry,Lipid_Cholesterol,395.67,mg/dL,120.0-200.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00965,PT1324,77,Male,298,Immunoassay,TSH,3.76,uIU/mL,0.4-4.5,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00971,PT1062,19,Male,127,Immunoassay,TSH,22.67,uIU/mL,0.4-4.5,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00982,PT1202,18,Male,274,Biochemistry,PPBS,112.39,mg/dL,90.0-140.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00982,PT1202,18,Male,274,Critical Care,Serum_Potassium,5.21,mmol/L,3.5-5.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00982,PT1202,18,Male,274,Hematology,CBC_Hemoglobin,14.04,g/dL,12.0-16.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31
+ORD00987,PT1236,57,Male,66,Hematology,CBC_Platelets,1249.14,x10^3/uL,150.0-450.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00990,PT1194,28,Female,133,Hematology,CBC_Hemoglobin,23.2,g/dL,12.0-16.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00993,PT1307,51,Male,89,Biochemistry,PPBS,501.56,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD00995,PT1380,29,Female,100,Biochemistry,PPBS,43.39,mg/dL,90.0-140.0,1,CRITICAL_SEV_2_PANIC_VALUE,Urgent SMS/Call to Ordering Physician,2026-10-01 20:24:31
+ORD01000,PT1311,54,Female,290,Biochemistry,FBS,88.96,mg/dL,70.0-99.0,0,WARNING_SEV_3_TAT_BREACH,Log Logistics & Analyzer Delay,2026-10-01 20:24:31

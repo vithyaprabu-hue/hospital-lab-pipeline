@@ -1,0 +1,2082 @@
+result_id,order_id,department,test_name,result_value,unit,ref_range,is_critical
+RES000001,ORD00001,Pathology,Urine_Routine_PusCells,0.16,cells/HPF,0.0-5.0,0
+RES000002,ORD00001,Biochemistry,PPBS,116.58,mg/dL,90.0-140.0,0
+RES000003,ORD00001,Critical Care,Serum_Potassium,2.22,mmol/L,3.5-5.0,1
+RES000004,ORD00002,Biochemistry,Lipid_Cholesterol,146.31,mg/dL,120.0-200.0,0
+RES000005,ORD00002,Biochemistry,Serum_Creatinine,4.37,mg/dL,0.7-1.3,1
+RES000006,ORD00003,Biochemistry,PPBS,123.54,mg/dL,90.0-140.0,0
+RES000007,ORD00003,Critical Care,Serum_Potassium,4.44,mmol/L,3.5-5.0,0
+RES000008,ORD00004,Hematology,CBC_Hemoglobin,14.83,g/dL,12.0-16.0,0
+RES000009,ORD00005,Biochemistry,Serum_Creatinine,1.36,mg/dL,0.7-1.3,0
+RES000010,ORD00005,Biochemistry,Lipid_Cholesterol,167.47,mg/dL,120.0-200.0,0
+RES000011,ORD00005,Pathology,Urine_Routine_PusCells,4.42,cells/HPF,0.0-5.0,0
+RES000012,ORD00006,Immunoassay,TSH,4.22,uIU/mL,0.4-4.5,0
+RES000013,ORD00006,Biochemistry,Serum_Creatinine,0.77,mg/dL,0.7-1.3,0
+RES000014,ORD00006,Pathology,Urine_Routine_PusCells,3.91,cells/HPF,0.0-5.0,0
+RES000015,ORD00007,Biochemistry,PPBS,95.34,mg/dL,90.0-140.0,0
+RES000016,ORD00008,Biochemistry,PPBS,118.52,mg/dL,90.0-140.0,0
+RES000017,ORD00009,Critical Care,Serum_Potassium,5.0,mmol/L,3.5-5.0,0
+RES000018,ORD00009,Biochemistry,Lipid_Cholesterol,175.34,mg/dL,120.0-200.0,0
+RES000019,ORD00009,Pathology,Urine_Routine_PusCells,0.8,cells/HPF,0.0-5.0,0
+RES000020,ORD00010,Biochemistry,Serum_Creatinine,1.06,mg/dL,0.7-1.3,0
+RES000021,ORD00010,Biochemistry,FBS,496.02,mg/dL,70.0-99.0,1
+RES000022,ORD00011,Hematology,CBC_Hemoglobin,15.13,g/dL,12.0-16.0,0
+RES000023,ORD00011,Biochemistry,Serum_Creatinine,0.94,mg/dL,0.7-1.3,0
+RES000024,ORD00011,Critical Care,Serum_Potassium,4.04,mmol/L,3.5-5.0,0
+RES000025,ORD00012,Biochemistry,Serum_Creatinine,0.71,mg/dL,0.7-1.3,0
+RES000026,ORD00012,Biochemistry,FBS,32.43,mg/dL,70.0-99.0,1
+RES000027,ORD00012,Hematology,CBC_Platelets,234.4,x10^3/uL,150.0-450.0,0
+RES000028,ORD00013,Biochemistry,Serum_Creatinine,4.98,mg/dL,0.7-1.3,1
+RES000029,ORD00013,Biochemistry,PPBS,114.22,mg/dL,90.0-140.0,0
+RES000030,ORD00014,Hematology,CBC_Platelets,295.17,x10^3/uL,150.0-450.0,0
+RES000031,ORD00014,Biochemistry,Lipid_Cholesterol,121.24,mg/dL,120.0-200.0,0
+RES000032,ORD00014,Biochemistry,Serum_Creatinine,1.26,mg/dL,0.7-1.3,0
+RES000033,ORD00015,Hematology,CBC_Hemoglobin,12.29,g/dL,12.0-16.0,0
+RES000034,ORD00016,Hematology,CBC_Platelets,462.17,x10^3/uL,150.0-450.0,0
+RES000035,ORD00016,Biochemistry,Lipid_Cholesterol,166.05,mg/dL,120.0-200.0,0
+RES000036,ORD00016,Biochemistry,PPBS,89.02,mg/dL,90.0-140.0,0
+RES000037,ORD00017,Hematology,CBC_Hemoglobin,16.21,g/dL,12.0-16.0,0
+RES000038,ORD00018,Biochemistry,Serum_Creatinine,0.94,mg/dL,0.7-1.3,0
+RES000039,ORD00018,Immunoassay,TSH,1.68,uIU/mL,0.4-4.5,0
+RES000040,ORD00019,Critical Care,Serum_Potassium,5.02,mmol/L,3.5-5.0,0
+RES000041,ORD00019,Biochemistry,Lipid_Cholesterol,129.14,mg/dL,120.0-200.0,0
+RES000042,ORD00019,Hematology,CBC_Platelets,374.67,x10^3/uL,150.0-450.0,0
+RES000043,ORD00020,Biochemistry,PPBS,95.06,mg/dL,90.0-140.0,0
+RES000044,ORD00021,Biochemistry,PPBS,136.5,mg/dL,90.0-140.0,0
+RES000045,ORD00022,Hematology,CBC_Hemoglobin,29.14,g/dL,12.0-16.0,1
+RES000046,ORD00022,Biochemistry,FBS,97.76,mg/dL,70.0-99.0,0
+RES000047,ORD00022,Hematology,CBC_Platelets,191.37,x10^3/uL,150.0-450.0,0
+RES000048,ORD00023,Biochemistry,PPBS,139.29,mg/dL,90.0-140.0,0
+RES000049,ORD00023,Immunoassay,TSH,3.64,uIU/mL,0.4-4.5,0
+RES000050,ORD00023,Hematology,CBC_Hemoglobin,12.68,g/dL,12.0-16.0,0
+RES000051,ORD00024,Biochemistry,Serum_Creatinine,0.74,mg/dL,0.7-1.3,0
+RES000052,ORD00024,Critical Care,Serum_Potassium,4.98,mmol/L,3.5-5.0,0
+RES000053,ORD00024,Biochemistry,PPBS,135.72,mg/dL,90.0-140.0,0
+RES000054,ORD00025,Immunoassay,TSH,4.58,uIU/mL,0.4-4.5,0
+RES000055,ORD00025,Critical Care,Serum_Potassium,4.56,mmol/L,3.5-5.0,0
+RES000056,ORD00026,Biochemistry,FBS,79.45,mg/dL,70.0-99.0,0
+RES000057,ORD00026,Biochemistry,PPBS,112.34,mg/dL,90.0-140.0,0
+RES000058,ORD00027,Biochemistry,Serum_Creatinine,5.4,mg/dL,0.7-1.3,1
+RES000059,ORD00027,Immunoassay,TSH,1.74,uIU/mL,0.4-4.5,0
+RES000060,ORD00027,Pathology,Urine_Routine_PusCells,3.78,cells/HPF,0.0-5.0,0
+RES000061,ORD00028,Hematology,CBC_Hemoglobin,13.03,g/dL,12.0-16.0,0
+RES000062,ORD00028,Biochemistry,Lipid_Cholesterol,114.04,mg/dL,120.0-200.0,0
+RES000063,ORD00029,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0
+RES000064,ORD00029,Hematology,CBC_Platelets,170.48,x10^3/uL,150.0-450.0,0
+RES000065,ORD00029,Hematology,CBC_Hemoglobin,14.82,g/dL,12.0-16.0,0
+RES000066,ORD00030,Biochemistry,PPBS,124.23,mg/dL,90.0-140.0,0
+RES000067,ORD00030,Hematology,CBC_Platelets,372.3,x10^3/uL,150.0-450.0,0
+RES000068,ORD00031,Pathology,Urine_Routine_PusCells,2.93,cells/HPF,0.0-5.0,0
+RES000069,ORD00032,Pathology,Urine_Routine_PusCells,2.88,cells/HPF,0.0-5.0,0
+RES000070,ORD00032,Hematology,CBC_Hemoglobin,15.42,g/dL,12.0-16.0,0
+RES000071,ORD00033,Biochemistry,Serum_Creatinine,1.16,mg/dL,0.7-1.3,0
+RES000072,ORD00033,Critical Care,Serum_Potassium,3.97,mmol/L,3.5-5.0,0
+RES000073,ORD00034,Hematology,CBC_Hemoglobin,13.65,g/dL,12.0-16.0,0
+RES000074,ORD00034,Immunoassay,TSH,2.21,uIU/mL,0.4-4.5,0
+RES000075,ORD00035,Hematology,CBC_Hemoglobin,15.37,g/dL,12.0-16.0,0
+RES000076,ORD00035,Pathology,Urine_Routine_PusCells,4.71,cells/HPF,0.0-5.0,0
+RES000077,ORD00036,Biochemistry,Lipid_Cholesterol,208.15,mg/dL,120.0-200.0,0
+RES000078,ORD00036,Hematology,CBC_Platelets,441.79,x10^3/uL,150.0-450.0,0
+RES000079,ORD00037,Immunoassay,TSH,1.85,uIU/mL,0.4-4.5,0
+RES000080,ORD00037,Biochemistry,Serum_Creatinine,0.86,mg/dL,0.7-1.3,0
+RES000081,ORD00038,Biochemistry,FBS,102.06,mg/dL,70.0-99.0,0
+RES000082,ORD00039,Hematology,CBC_Platelets,395.58,x10^3/uL,150.0-450.0,0
+RES000083,ORD00040,Hematology,CBC_Hemoglobin,14.6,g/dL,12.0-16.0,0
+RES000084,ORD00040,Pathology,Urine_Routine_PusCells,1.27,cells/HPF,0.0-5.0,0
+RES000085,ORD00040,Immunoassay,TSH,1.69,uIU/mL,0.4-4.5,0
+RES000086,ORD00041,Biochemistry,PPBS,36.03,mg/dL,90.0-140.0,1
+RES000087,ORD00041,Immunoassay,TSH,1.95,uIU/mL,0.4-4.5,0
+RES000088,ORD00042,Hematology,CBC_Platelets,338.02,x10^3/uL,150.0-450.0,0
+RES000089,ORD00042,Pathology,Urine_Routine_PusCells,1.29,cells/HPF,0.0-5.0,0
+RES000090,ORD00042,Biochemistry,Serum_Creatinine,0.86,mg/dL,0.7-1.3,0
+RES000091,ORD00043,Biochemistry,Lipid_Cholesterol,190.59,mg/dL,120.0-200.0,0
+RES000092,ORD00043,Hematology,CBC_Platelets,433.01,x10^3/uL,150.0-450.0,0
+RES000093,ORD00044,Pathology,Urine_Routine_PusCells,3.39,cells/HPF,0.0-5.0,0
+RES000094,ORD00044,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0
+RES000095,ORD00045,Immunoassay,TSH,1.91,uIU/mL,0.4-4.5,0
+RES000096,ORD00045,Hematology,CBC_Hemoglobin,13.06,g/dL,12.0-16.0,0
+RES000097,ORD00045,Pathology,Urine_Routine_PusCells,3.79,cells/HPF,0.0-5.0,0
+RES000098,ORD00046,Critical Care,Serum_Potassium,3.76,mmol/L,3.5-5.0,0
+RES000099,ORD00046,Biochemistry,PPBS,86.37,mg/dL,90.0-140.0,0
+RES000100,ORD00046,Hematology,CBC_Hemoglobin,12.88,g/dL,12.0-16.0,0
+RES000101,ORD00047,Hematology,CBC_Platelets,203.34,x10^3/uL,150.0-450.0,0
+RES000102,ORD00047,Pathology,Urine_Routine_PusCells,44.2,cells/HPF,0.0-5.0,1
+RES000103,ORD00048,Critical Care,Serum_Potassium,4.8,mmol/L,3.5-5.0,0
+RES000104,ORD00048,Biochemistry,PPBS,134.13,mg/dL,90.0-140.0,0
+RES000105,ORD00048,Hematology,CBC_Platelets,314.95,x10^3/uL,150.0-450.0,0
+RES000106,ORD00049,Biochemistry,PPBS,126.12,mg/dL,90.0-140.0,0
+RES000107,ORD00049,Biochemistry,Serum_Creatinine,0.79,mg/dL,0.7-1.3,0
+RES000108,ORD00049,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1
+RES000109,ORD00050,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0
+RES000110,ORD00051,Biochemistry,FBS,78.02,mg/dL,70.0-99.0,0
+RES000111,ORD00052,Pathology,Urine_Routine_PusCells,3.14,cells/HPF,0.0-5.0,0
+RES000112,ORD00052,Hematology,CBC_Platelets,384.9,x10^3/uL,150.0-450.0,0
+RES000113,ORD00053,Critical Care,Serum_Potassium,4.23,mmol/L,3.5-5.0,0
+RES000114,ORD00053,Biochemistry,FBS,100.81,mg/dL,70.0-99.0,0
+RES000115,ORD00053,Hematology,CBC_Hemoglobin,14.56,g/dL,12.0-16.0,0
+RES000116,ORD00054,Immunoassay,TSH,2.53,uIU/mL,0.4-4.5,0
+RES000117,ORD00055,Biochemistry,PPBS,136.23,mg/dL,90.0-140.0,0
+RES000118,ORD00055,Hematology,CBC_Hemoglobin,25.16,g/dL,12.0-16.0,1
+RES000119,ORD00056,Pathology,Urine_Routine_PusCells,2.3,cells/HPF,0.0-5.0,0
+RES000120,ORD00056,Biochemistry,Lipid_Cholesterol,125.66,mg/dL,120.0-200.0,0
+RES000121,ORD00057,Biochemistry,PPBS,92.72,mg/dL,90.0-140.0,0
+RES000122,ORD00058,Biochemistry,Lipid_Cholesterol,162.79,mg/dL,120.0-200.0,0
+RES000123,ORD00058,Hematology,CBC_Hemoglobin,16.07,g/dL,12.0-16.0,0
+RES000124,ORD00058,Biochemistry,PPBS,134.09,mg/dL,90.0-140.0,0
+RES000125,ORD00059,Biochemistry,Lipid_Cholesterol,147.13,mg/dL,120.0-200.0,0
+RES000126,ORD00059,Hematology,CBC_Platelets,321.83,x10^3/uL,150.0-450.0,0
+RES000127,ORD00060,Biochemistry,FBS,92.91,mg/dL,70.0-99.0,0
+RES000128,ORD00060,Immunoassay,TSH,2.06,uIU/mL,0.4-4.5,0
+RES000129,ORD00061,Biochemistry,PPBS,44.6,mg/dL,90.0-140.0,1
+RES000130,ORD00061,Hematology,CBC_Platelets,167.19,x10^3/uL,150.0-450.0,0
+RES000131,ORD00062,Hematology,CBC_Platelets,1464.42,x10^3/uL,150.0-450.0,1
+RES000132,ORD00062,Biochemistry,FBS,94.47,mg/dL,70.0-99.0,0
+RES000133,ORD00062,Critical Care,Serum_Potassium,3.51,mmol/L,3.5-5.0,0
+RES000134,ORD00063,Critical Care,Serum_Potassium,4.15,mmol/L,3.5-5.0,0
+RES000135,ORD00064,Biochemistry,Serum_Creatinine,0.77,mg/dL,0.7-1.3,0
+RES000136,ORD00064,Hematology,CBC_Platelets,226.31,x10^3/uL,150.0-450.0,0
+RES000137,ORD00065,Critical Care,Serum_Potassium,4.2,mmol/L,3.5-5.0,0
+RES000138,ORD00065,Hematology,CBC_Hemoglobin,16.8,g/dL,12.0-16.0,0
+RES000139,ORD00066,Hematology,CBC_Hemoglobin,15.1,g/dL,12.0-16.0,0
+RES000140,ORD00066,Critical Care,Serum_Potassium,3.42,mmol/L,3.5-5.0,0
+RES000141,ORD00066,Biochemistry,FBS,85.1,mg/dL,70.0-99.0,0
+RES000142,ORD00067,Biochemistry,Lipid_Cholesterol,143.66,mg/dL,120.0-200.0,0
+RES000143,ORD00067,Biochemistry,PPBS,121.14,mg/dL,90.0-140.0,0
+RES000144,ORD00067,Immunoassay,TSH,0.77,uIU/mL,0.4-4.5,0
+RES000145,ORD00068,Biochemistry,Lipid_Cholesterol,204.64,mg/dL,120.0-200.0,0
+RES000146,ORD00068,Critical Care,Serum_Potassium,3.89,mmol/L,3.5-5.0,0
+RES000147,ORD00069,Biochemistry,PPBS,501.86,mg/dL,90.0-140.0,1
+RES000148,ORD00069,Hematology,CBC_Hemoglobin,15.03,g/dL,12.0-16.0,0
+RES000149,ORD00070,Immunoassay,TSH,29.18,uIU/mL,0.4-4.5,1
+RES000150,ORD00070,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0
+RES000151,ORD00070,Pathology,Urine_Routine_PusCells,4.97,cells/HPF,0.0-5.0,0
+RES000152,ORD00071,Pathology,Urine_Routine_PusCells,0.81,cells/HPF,0.0-5.0,0
+RES000153,ORD00071,Hematology,CBC_Hemoglobin,11.93,g/dL,12.0-16.0,0
+RES000154,ORD00071,Critical Care,Serum_Potassium,4.11,mmol/L,3.5-5.0,0
+RES000155,ORD00072,Pathology,Urine_Routine_PusCells,35.22,cells/HPF,0.0-5.0,1
+RES000156,ORD00072,Immunoassay,TSH,4.5,uIU/mL,0.4-4.5,0
+RES000157,ORD00073,Biochemistry,Serum_Creatinine,5.58,mg/dL,0.7-1.3,1
+RES000158,ORD00074,Biochemistry,Lipid_Cholesterol,190.66,mg/dL,120.0-200.0,0
+RES000159,ORD00075,Biochemistry,FBS,86.2,mg/dL,70.0-99.0,0
+RES000160,ORD00075,Biochemistry,Lipid_Cholesterol,159.72,mg/dL,120.0-200.0,0
+RES000161,ORD00076,Pathology,Urine_Routine_PusCells,0.16,cells/HPF,0.0-5.0,0
+RES000162,ORD00076,Critical Care,Serum_Potassium,4.96,mmol/L,3.5-5.0,0
+RES000163,ORD00076,Biochemistry,Serum_Creatinine,0.74,mg/dL,0.7-1.3,0
+RES000164,ORD00077,Pathology,Urine_Routine_PusCells,2.79,cells/HPF,0.0-5.0,0
+RES000165,ORD00077,Immunoassay,TSH,3.01,uIU/mL,0.4-4.5,0
+RES000166,ORD00077,Biochemistry,Serum_Creatinine,5.46,mg/dL,0.7-1.3,1
+RES000167,ORD00078,Hematology,CBC_Hemoglobin,13.09,g/dL,12.0-16.0,0
+RES000168,ORD00078,Biochemistry,PPBS,144.15,mg/dL,90.0-140.0,0
+RES000169,ORD00079,Immunoassay,TSH,26.06,uIU/mL,0.4-4.5,1
+RES000170,ORD00079,Biochemistry,Lipid_Cholesterol,153.44,mg/dL,120.0-200.0,0
+RES000171,ORD00079,Critical Care,Serum_Potassium,5.14,mmol/L,3.5-5.0,0
+RES000172,ORD00080,Hematology,CBC_Platelets,178.21,x10^3/uL,150.0-450.0,0
+RES000173,ORD00081,Pathology,Urine_Routine_PusCells,4.35,cells/HPF,0.0-5.0,0
+RES000174,ORD00081,Biochemistry,FBS,73.26,mg/dL,70.0-99.0,0
+RES000175,ORD00081,Critical Care,Serum_Potassium,3.92,mmol/L,3.5-5.0,0
+RES000176,ORD00082,Biochemistry,FBS,80.59,mg/dL,70.0-99.0,0
+RES000177,ORD00082,Biochemistry,PPBS,95.18,mg/dL,90.0-140.0,0
+RES000178,ORD00082,Immunoassay,TSH,1.79,uIU/mL,0.4-4.5,0
+RES000179,ORD00083,Hematology,CBC_Hemoglobin,13.64,g/dL,12.0-16.0,0
+RES000180,ORD00083,Hematology,CBC_Platelets,311.57,x10^3/uL,150.0-450.0,0
+RES000181,ORD00084,Biochemistry,Serum_Creatinine,1.08,mg/dL,0.7-1.3,0
+RES000182,ORD00085,Hematology,CBC_Hemoglobin,14.28,g/dL,12.0-16.0,0
+RES000183,ORD00085,Biochemistry,Lipid_Cholesterol,167.64,mg/dL,120.0-200.0,0
+RES000184,ORD00086,Immunoassay,TSH,2.87,uIU/mL,0.4-4.5,0
+RES000185,ORD00087,Hematology,CBC_Platelets,177.43,x10^3/uL,150.0-450.0,0
+RES000186,ORD00087,Immunoassay,TSH,2.12,uIU/mL,0.4-4.5,0
+RES000187,ORD00087,Biochemistry,FBS,484.96,mg/dL,70.0-99.0,1
+RES000188,ORD00088,Immunoassay,TSH,1.02,uIU/mL,0.4-4.5,0
+RES000189,ORD00088,Biochemistry,Lipid_Cholesterol,171.83,mg/dL,120.0-200.0,0
+RES000190,ORD00089,Hematology,CBC_Platelets,246.83,x10^3/uL,150.0-450.0,0
+RES000191,ORD00089,Immunoassay,TSH,2.42,uIU/mL,0.4-4.5,0
+RES000192,ORD00089,Hematology,CBC_Hemoglobin,15.7,g/dL,12.0-16.0,0
+RES000193,ORD00090,Biochemistry,PPBS,116.68,mg/dL,90.0-140.0,0
+RES000194,ORD00090,Pathology,Urine_Routine_PusCells,2.91,cells/HPF,0.0-5.0,0
+RES000195,ORD00091,Biochemistry,Lipid_Cholesterol,200.32,mg/dL,120.0-200.0,0
+RES000196,ORD00091,Biochemistry,FBS,93.25,mg/dL,70.0-99.0,0
+RES000197,ORD00091,Biochemistry,Serum_Creatinine,0.79,mg/dL,0.7-1.3,0
+RES000198,ORD00092,Hematology,CBC_Hemoglobin,15.07,g/dL,12.0-16.0,0
+RES000199,ORD00092,Pathology,Urine_Routine_PusCells,40.02,cells/HPF,0.0-5.0,1
+RES000200,ORD00093,Biochemistry,Lipid_Cholesterol,127.58,mg/dL,120.0-200.0,0
+RES000201,ORD00093,Immunoassay,TSH,4.58,uIU/mL,0.4-4.5,0
+RES000202,ORD00093,Biochemistry,FBS,81.18,mg/dL,70.0-99.0,0
+RES000203,ORD00094,Pathology,Urine_Routine_PusCells,2.67,cells/HPF,0.0-5.0,0
+RES000204,ORD00094,Biochemistry,PPBS,46.4,mg/dL,90.0-140.0,1
+RES000205,ORD00094,Immunoassay,TSH,3.71,uIU/mL,0.4-4.5,0
+RES000206,ORD00095,Pathology,Urine_Routine_PusCells,4.02,cells/HPF,0.0-5.0,0
+RES000207,ORD00095,Biochemistry,FBS,80.61,mg/dL,70.0-99.0,0
+RES000208,ORD00095,Immunoassay,TSH,3.99,uIU/mL,0.4-4.5,0
+RES000209,ORD00096,Critical Care,Serum_Potassium,3.79,mmol/L,3.5-5.0,0
+RES000210,ORD00096,Hematology,CBC_Platelets,401.34,x10^3/uL,150.0-450.0,0
+RES000211,ORD00097,Biochemistry,Serum_Creatinine,0.76,mg/dL,0.7-1.3,0
+RES000212,ORD00098,Biochemistry,Lipid_Cholesterol,200.91,mg/dL,120.0-200.0,0
+RES000213,ORD00099,Pathology,Urine_Routine_PusCells,5.22,cells/HPF,0.0-5.0,0
+RES000214,ORD00099,Immunoassay,TSH,0.5,uIU/mL,0.4-4.5,0
+RES000215,ORD00100,Hematology,CBC_Platelets,144.23,x10^3/uL,150.0-450.0,0
+RES000216,ORD00101,Biochemistry,Serum_Creatinine,0.83,mg/dL,0.7-1.3,0
+RES000217,ORD00101,Critical Care,Serum_Potassium,4.52,mmol/L,3.5-5.0,0
+RES000218,ORD00102,Critical Care,Serum_Potassium,4.51,mmol/L,3.5-5.0,0
+RES000219,ORD00103,Pathology,Urine_Routine_PusCells,0.23,cells/HPF,0.0-5.0,0
+RES000220,ORD00103,Biochemistry,FBS,80.48,mg/dL,70.0-99.0,0
+RES000221,ORD00103,Biochemistry,Serum_Creatinine,0.91,mg/dL,0.7-1.3,0
+RES000222,ORD00104,Biochemistry,FBS,79.18,mg/dL,70.0-99.0,0
+RES000223,ORD00105,Biochemistry,FBS,96.13,mg/dL,70.0-99.0,0
+RES000224,ORD00105,Critical Care,Serum_Potassium,3.93,mmol/L,3.5-5.0,0
+RES000225,ORD00106,Immunoassay,TSH,1.82,uIU/mL,0.4-4.5,0
+RES000226,ORD00106,Biochemistry,FBS,80.28,mg/dL,70.0-99.0,0
+RES000227,ORD00107,Critical Care,Serum_Potassium,4.15,mmol/L,3.5-5.0,0
+RES000228,ORD00107,Biochemistry,PPBS,96.6,mg/dL,90.0-140.0,0
+RES000229,ORD00107,Immunoassay,TSH,0.83,uIU/mL,0.4-4.5,0
+RES000230,ORD00108,Hematology,CBC_Platelets,443.33,x10^3/uL,150.0-450.0,0
+RES000231,ORD00108,Biochemistry,FBS,82.79,mg/dL,70.0-99.0,0
+RES000232,ORD00109,Biochemistry,Lipid_Cholesterol,179.1,mg/dL,120.0-200.0,0
+RES000233,ORD00109,Biochemistry,FBS,71.23,mg/dL,70.0-99.0,0
+RES000234,ORD00109,Biochemistry,PPBS,125.18,mg/dL,90.0-140.0,0
+RES000235,ORD00110,Biochemistry,Lipid_Cholesterol,152.21,mg/dL,120.0-200.0,0
+RES000236,ORD00111,Biochemistry,PPBS,112.95,mg/dL,90.0-140.0,0
+RES000237,ORD00111,Critical Care,Serum_Potassium,3.87,mmol/L,3.5-5.0,0
+RES000238,ORD00111,Hematology,CBC_Hemoglobin,14.05,g/dL,12.0-16.0,0
+RES000239,ORD00112,Immunoassay,TSH,1.64,uIU/mL,0.4-4.5,0
+RES000240,ORD00112,Biochemistry,PPBS,95.19,mg/dL,90.0-140.0,0
+RES000241,ORD00113,Hematology,CBC_Platelets,1216.01,x10^3/uL,150.0-450.0,1
+RES000242,ORD00114,Biochemistry,PPBS,125.0,mg/dL,90.0-140.0,0
+RES000243,ORD00114,Biochemistry,Lipid_Cholesterol,179.29,mg/dL,120.0-200.0,0
+RES000244,ORD00115,Critical Care,Serum_Potassium,3.95,mmol/L,3.5-5.0,0
+RES000245,ORD00116,Critical Care,Serum_Potassium,4.35,mmol/L,3.5-5.0,0
+RES000246,ORD00116,Biochemistry,Lipid_Cholesterol,130.19,mg/dL,120.0-200.0,0
+RES000247,ORD00116,Immunoassay,TSH,1.05,uIU/mL,0.4-4.5,0
+RES000248,ORD00117,Critical Care,Serum_Potassium,4.51,mmol/L,3.5-5.0,0
+RES000249,ORD00117,Biochemistry,Serum_Creatinine,5.8,mg/dL,0.7-1.3,1
+RES000250,ORD00117,Hematology,CBC_Hemoglobin,14.87,g/dL,12.0-16.0,0
+RES000251,ORD00118,Biochemistry,Lipid_Cholesterol,160.49,mg/dL,120.0-200.0,0
+RES000252,ORD00119,Pathology,Urine_Routine_PusCells,0.64,cells/HPF,0.0-5.0,0
+RES000253,ORD00119,Biochemistry,PPBS,94.16,mg/dL,90.0-140.0,0
+RES000254,ORD00119,Biochemistry,Lipid_Cholesterol,442.63,mg/dL,120.0-200.0,1
+RES000255,ORD00120,Hematology,CBC_Platelets,296.55,x10^3/uL,150.0-450.0,0
+RES000256,ORD00121,Biochemistry,FBS,88.88,mg/dL,70.0-99.0,0
+RES000257,ORD00122,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1
+RES000258,ORD00122,Hematology,CBC_Hemoglobin,12.96,g/dL,12.0-16.0,0
+RES000259,ORD00122,Biochemistry,Lipid_Cholesterol,157.23,mg/dL,120.0-200.0,0
+RES000260,ORD00123,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0
+RES000261,ORD00124,Biochemistry,Lipid_Cholesterol,151.72,mg/dL,120.0-200.0,0
+RES000262,ORD00124,Immunoassay,TSH,4.04,uIU/mL,0.4-4.5,0
+RES000263,ORD00124,Critical Care,Serum_Potassium,4.3,mmol/L,3.5-5.0,0
+RES000264,ORD00125,Hematology,CBC_Hemoglobin,15.7,g/dL,12.0-16.0,0
+RES000265,ORD00126,Hematology,CBC_Platelets,350.08,x10^3/uL,150.0-450.0,0
+RES000266,ORD00127,Hematology,CBC_Platelets,192.47,x10^3/uL,150.0-450.0,0
+RES000267,ORD00128,Pathology,Urine_Routine_PusCells,3.48,cells/HPF,0.0-5.0,0
+RES000268,ORD00129,Critical Care,Serum_Potassium,3.86,mmol/L,3.5-5.0,0
+RES000269,ORD00129,Hematology,CBC_Platelets,453.19,x10^3/uL,150.0-450.0,0
+RES000270,ORD00129,Biochemistry,PPBS,132.93,mg/dL,90.0-140.0,0
+RES000271,ORD00130,Pathology,Urine_Routine_PusCells,5.01,cells/HPF,0.0-5.0,0
+RES000272,ORD00130,Hematology,CBC_Hemoglobin,12.97,g/dL,12.0-16.0,0
+RES000273,ORD00130,Biochemistry,Serum_Creatinine,1.16,mg/dL,0.7-1.3,0
+RES000274,ORD00131,Pathology,Urine_Routine_PusCells,3.23,cells/HPF,0.0-5.0,0
+RES000275,ORD00131,Critical Care,Serum_Potassium,3.79,mmol/L,3.5-5.0,0
+RES000276,ORD00132,Biochemistry,Lipid_Cholesterol,389.3,mg/dL,120.0-200.0,1
+RES000277,ORD00133,Biochemistry,Serum_Creatinine,1.17,mg/dL,0.7-1.3,0
+RES000278,ORD00134,Critical Care,Serum_Potassium,4.49,mmol/L,3.5-5.0,0
+RES000279,ORD00134,Biochemistry,FBS,79.05,mg/dL,70.0-99.0,0
+RES000280,ORD00134,Hematology,CBC_Platelets,354.13,x10^3/uL,150.0-450.0,0
+RES000281,ORD00135,Hematology,CBC_Platelets,379.64,x10^3/uL,150.0-450.0,0
+RES000282,ORD00136,Hematology,CBC_Hemoglobin,13.56,g/dL,12.0-16.0,0
+RES000283,ORD00136,Pathology,Urine_Routine_PusCells,44.75,cells/HPF,0.0-5.0,1
+RES000284,ORD00136,Critical Care,Serum_Potassium,5.13,mmol/L,3.5-5.0,0
+RES000285,ORD00137,Biochemistry,FBS,75.35,mg/dL,70.0-99.0,0
+RES000286,ORD00137,Critical Care,Serum_Potassium,4.22,mmol/L,3.5-5.0,0
+RES000287,ORD00137,Immunoassay,TSH,3.36,uIU/mL,0.4-4.5,0
+RES000288,ORD00138,Hematology,CBC_Platelets,389.25,x10^3/uL,150.0-450.0,0
+RES000289,ORD00139,Biochemistry,Serum_Creatinine,1.08,mg/dL,0.7-1.3,0
+RES000290,ORD00140,Pathology,Urine_Routine_PusCells,0.86,cells/HPF,0.0-5.0,0
+RES000291,ORD00140,Biochemistry,Serum_Creatinine,0.97,mg/dL,0.7-1.3,0
+RES000292,ORD00140,Critical Care,Serum_Potassium,4.71,mmol/L,3.5-5.0,0
+RES000293,ORD00141,Pathology,Urine_Routine_PusCells,4.24,cells/HPF,0.0-5.0,0
+RES000294,ORD00142,Biochemistry,PPBS,89.74,mg/dL,90.0-140.0,0
+RES000295,ORD00142,Biochemistry,FBS,67.69,mg/dL,70.0-99.0,0
+RES000296,ORD00143,Hematology,CBC_Platelets,367.8,x10^3/uL,150.0-450.0,0
+RES000297,ORD00143,Hematology,CBC_Hemoglobin,14.31,g/dL,12.0-16.0,0
+RES000298,ORD00144,Biochemistry,FBS,103.14,mg/dL,70.0-99.0,0
+RES000299,ORD00145,Biochemistry,Serum_Creatinine,5.39,mg/dL,0.7-1.3,1
+RES000300,ORD00145,Biochemistry,PPBS,143.08,mg/dL,90.0-140.0,0
+RES000301,ORD00146,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0
+RES000302,ORD00147,Immunoassay,TSH,1.0,uIU/mL,0.4-4.5,0
+RES000303,ORD00147,Pathology,Urine_Routine_PusCells,1.16,cells/HPF,0.0-5.0,0
+RES000304,ORD00147,Biochemistry,PPBS,89.25,mg/dL,90.0-140.0,0
+RES000305,ORD00148,Hematology,CBC_Hemoglobin,12.21,g/dL,12.0-16.0,0
+RES000306,ORD00148,Immunoassay,TSH,3.66,uIU/mL,0.4-4.5,0
+RES000307,ORD00148,Hematology,CBC_Platelets,422.78,x10^3/uL,150.0-450.0,0
+RES000308,ORD00149,Pathology,Urine_Routine_PusCells,1.07,cells/HPF,0.0-5.0,0
+RES000309,ORD00149,Biochemistry,Lipid_Cholesterol,202.53,mg/dL,120.0-200.0,0
+RES000310,ORD00149,Biochemistry,Serum_Creatinine,0.73,mg/dL,0.7-1.3,0
+RES000311,ORD00150,Pathology,Urine_Routine_PusCells,4.76,cells/HPF,0.0-5.0,0
+RES000312,ORD00150,Biochemistry,Serum_Creatinine,1.3,mg/dL,0.7-1.3,0
+RES000313,ORD00150,Hematology,CBC_Platelets,205.21,x10^3/uL,150.0-450.0,0
+RES000314,ORD00151,Immunoassay,TSH,3.2,uIU/mL,0.4-4.5,0
+RES000315,ORD00151,Critical Care,Serum_Potassium,4.02,mmol/L,3.5-5.0,0
+RES000316,ORD00151,Biochemistry,Serum_Creatinine,0.99,mg/dL,0.7-1.3,0
+RES000317,ORD00152,Biochemistry,Lipid_Cholesterol,170.07,mg/dL,120.0-200.0,0
+RES000318,ORD00152,Biochemistry,FBS,77.55,mg/dL,70.0-99.0,0
+RES000319,ORD00152,Pathology,Urine_Routine_PusCells,1.21,cells/HPF,0.0-5.0,0
+RES000320,ORD00153,Hematology,CBC_Platelets,404.84,x10^3/uL,150.0-450.0,0
+RES000321,ORD00153,Pathology,Urine_Routine_PusCells,3.78,cells/HPF,0.0-5.0,0
+RES000322,ORD00154,Biochemistry,Serum_Creatinine,4.47,mg/dL,0.7-1.3,1
+RES000323,ORD00155,Pathology,Urine_Routine_PusCells,0.06,cells/HPF,0.0-5.0,0
+RES000324,ORD00156,Biochemistry,PPBS,117.75,mg/dL,90.0-140.0,0
+RES000325,ORD00157,Biochemistry,Serum_Creatinine,1.24,mg/dL,0.7-1.3,0
+RES000326,ORD00157,Pathology,Urine_Routine_PusCells,44.89,cells/HPF,0.0-5.0,1
+RES000327,ORD00158,Biochemistry,Lipid_Cholesterol,429.12,mg/dL,120.0-200.0,1
+RES000328,ORD00159,Hematology,CBC_Platelets,368.36,x10^3/uL,150.0-450.0,0
+RES000329,ORD00159,Critical Care,Serum_Potassium,4.37,mmol/L,3.5-5.0,0
+RES000330,ORD00159,Biochemistry,FBS,73.22,mg/dL,70.0-99.0,0
+RES000331,ORD00160,Biochemistry,Serum_Creatinine,0.9,mg/dL,0.7-1.3,0
+RES000332,ORD00160,Hematology,CBC_Hemoglobin,12.16,g/dL,12.0-16.0,0
+RES000333,ORD00160,Immunoassay,TSH,3.53,uIU/mL,0.4-4.5,0
+RES000334,ORD00161,Hematology,CBC_Hemoglobin,15.63,g/dL,12.0-16.0,0
+RES000335,ORD00161,Immunoassay,TSH,1.37,uIU/mL,0.4-4.5,0
+RES000336,ORD00161,Biochemistry,FBS,80.56,mg/dL,70.0-99.0,0
+RES000337,ORD00162,Biochemistry,Lipid_Cholesterol,174.85,mg/dL,120.0-200.0,0
+RES000338,ORD00162,Hematology,CBC_Hemoglobin,13.11,g/dL,12.0-16.0,0
+RES000339,ORD00163,Hematology,CBC_Platelets,172.07,x10^3/uL,150.0-450.0,0
+RES000340,ORD00163,Hematology,CBC_Hemoglobin,14.62,g/dL,12.0-16.0,0
+RES000341,ORD00164,Pathology,Urine_Routine_PusCells,2.0,cells/HPF,0.0-5.0,0
+RES000342,ORD00165,Hematology,CBC_Platelets,454.09,x10^3/uL,150.0-450.0,0
+RES000343,ORD00165,Biochemistry,PPBS,115.99,mg/dL,90.0-140.0,0
+RES000344,ORD00166,Immunoassay,TSH,3.92,uIU/mL,0.4-4.5,0
+RES000345,ORD00166,Hematology,CBC_Platelets,463.99,x10^3/uL,150.0-450.0,0
+RES000346,ORD00167,Critical Care,Serum_Potassium,4.83,mmol/L,3.5-5.0,0
+RES000347,ORD00167,Hematology,CBC_Platelets,235.0,x10^3/uL,150.0-450.0,0
+RES000348,ORD00168,Hematology,CBC_Platelets,211.68,x10^3/uL,150.0-450.0,0
+RES000349,ORD00169,Critical Care,Serum_Potassium,4.7,mmol/L,3.5-5.0,0
+RES000350,ORD00170,Hematology,CBC_Hemoglobin,15.19,g/dL,12.0-16.0,0
+RES000351,ORD00170,Biochemistry,FBS,88.74,mg/dL,70.0-99.0,0
+RES000352,ORD00170,Pathology,Urine_Routine_PusCells,0.57,cells/HPF,0.0-5.0,0
+RES000353,ORD00171,Immunoassay,TSH,0.81,uIU/mL,0.4-4.5,0
+RES000354,ORD00171,Hematology,CBC_Hemoglobin,15.43,g/dL,12.0-16.0,0
+RES000355,ORD00172,Biochemistry,FBS,82.08,mg/dL,70.0-99.0,0
+RES000356,ORD00172,Hematology,CBC_Platelets,180.8,x10^3/uL,150.0-450.0,0
+RES000357,ORD00173,Hematology,CBC_Platelets,291.81,x10^3/uL,150.0-450.0,0
+RES000358,ORD00174,Biochemistry,Serum_Creatinine,1.05,mg/dL,0.7-1.3,0
+RES000359,ORD00175,Hematology,CBC_Hemoglobin,16.17,g/dL,12.0-16.0,0
+RES000360,ORD00175,Biochemistry,FBS,82.59,mg/dL,70.0-99.0,0
+RES000361,ORD00176,Biochemistry,Lipid_Cholesterol,124.94,mg/dL,120.0-200.0,0
+RES000362,ORD00176,Immunoassay,TSH,2.51,uIU/mL,0.4-4.5,0
+RES000363,ORD00176,Pathology,Urine_Routine_PusCells,1.65,cells/HPF,0.0-5.0,0
+RES000364,ORD00177,Critical Care,Serum_Potassium,3.55,mmol/L,3.5-5.0,0
+RES000365,ORD00177,Biochemistry,PPBS,96.76,mg/dL,90.0-140.0,0
+RES000366,ORD00177,Immunoassay,TSH,2.6,uIU/mL,0.4-4.5,0
+RES000367,ORD00178,Biochemistry,Lipid_Cholesterol,131.96,mg/dL,120.0-200.0,0
+RES000368,ORD00178,Pathology,Urine_Routine_PusCells,3.25,cells/HPF,0.0-5.0,0
+RES000369,ORD00178,Biochemistry,Serum_Creatinine,1.33,mg/dL,0.7-1.3,0
+RES000370,ORD00179,Hematology,CBC_Platelets,329.08,x10^3/uL,150.0-450.0,0
+RES000371,ORD00179,Pathology,Urine_Routine_PusCells,1.16,cells/HPF,0.0-5.0,0
+RES000372,ORD00180,Pathology,Urine_Routine_PusCells,1.41,cells/HPF,0.0-5.0,0
+RES000373,ORD00180,Biochemistry,PPBS,146.44,mg/dL,90.0-140.0,0
+RES000374,ORD00181,Biochemistry,Serum_Creatinine,0.98,mg/dL,0.7-1.3,0
+RES000375,ORD00181,Critical Care,Serum_Potassium,4.9,mmol/L,3.5-5.0,0
+RES000376,ORD00181,Hematology,CBC_Hemoglobin,16.77,g/dL,12.0-16.0,0
+RES000377,ORD00182,Hematology,CBC_Hemoglobin,12.52,g/dL,12.0-16.0,0
+RES000378,ORD00182,Biochemistry,Lipid_Cholesterol,119.7,mg/dL,120.0-200.0,0
+RES000379,ORD00182,Critical Care,Serum_Potassium,3.87,mmol/L,3.5-5.0,0
+RES000380,ORD00183,Biochemistry,PPBS,142.0,mg/dL,90.0-140.0,0
+RES000381,ORD00183,Biochemistry,Lipid_Cholesterol,197.24,mg/dL,120.0-200.0,0
+RES000382,ORD00183,Hematology,CBC_Hemoglobin,16.08,g/dL,12.0-16.0,0
+RES000383,ORD00184,Critical Care,Serum_Potassium,4.54,mmol/L,3.5-5.0,0
+RES000384,ORD00184,Hematology,CBC_Hemoglobin,11.9,g/dL,12.0-16.0,0
+RES000385,ORD00184,Biochemistry,Serum_Creatinine,0.86,mg/dL,0.7-1.3,0
+RES000386,ORD00185,Biochemistry,PPBS,111.92,mg/dL,90.0-140.0,0
+RES000387,ORD00185,Hematology,CBC_Hemoglobin,12.85,g/dL,12.0-16.0,0
+RES000388,ORD00186,Biochemistry,FBS,72.42,mg/dL,70.0-99.0,0
+RES000389,ORD00186,Biochemistry,PPBS,146.5,mg/dL,90.0-140.0,0
+RES000390,ORD00187,Immunoassay,TSH,3.2,uIU/mL,0.4-4.5,0
+RES000391,ORD00188,Biochemistry,FBS,69.42,mg/dL,70.0-99.0,0
+RES000392,ORD00189,Hematology,CBC_Platelets,16.58,x10^3/uL,150.0-450.0,1
+RES000393,ORD00190,Biochemistry,PPBS,86.02,mg/dL,90.0-140.0,0
+RES000394,ORD00191,Biochemistry,Serum_Creatinine,0.76,mg/dL,0.7-1.3,0
+RES000395,ORD00191,Biochemistry,PPBS,130.4,mg/dL,90.0-140.0,0
+RES000396,ORD00192,Critical Care,Serum_Potassium,5.01,mmol/L,3.5-5.0,0
+RES000397,ORD00192,Biochemistry,FBS,89.23,mg/dL,70.0-99.0,0
+RES000398,ORD00192,Hematology,CBC_Hemoglobin,13.52,g/dL,12.0-16.0,0
+RES000399,ORD00193,Biochemistry,FBS,98.74,mg/dL,70.0-99.0,0
+RES000400,ORD00193,Immunoassay,TSH,1.97,uIU/mL,0.4-4.5,0
+RES000401,ORD00193,Biochemistry,Lipid_Cholesterol,187.22,mg/dL,120.0-200.0,0
+RES000402,ORD00194,Pathology,Urine_Routine_PusCells,2.63,cells/HPF,0.0-5.0,0
+RES000403,ORD00194,Critical Care,Serum_Potassium,4.68,mmol/L,3.5-5.0,0
+RES000404,ORD00195,Pathology,Urine_Routine_PusCells,3.08,cells/HPF,0.0-5.0,0
+RES000405,ORD00196,Biochemistry,PPBS,88.88,mg/dL,90.0-140.0,0
+RES000406,ORD00196,Hematology,CBC_Platelets,359.66,x10^3/uL,150.0-450.0,0
+RES000407,ORD00197,Pathology,Urine_Routine_PusCells,3.94,cells/HPF,0.0-5.0,0
+RES000408,ORD00197,Critical Care,Serum_Potassium,4.74,mmol/L,3.5-5.0,0
+RES000409,ORD00197,Biochemistry,PPBS,140.84,mg/dL,90.0-140.0,0
+RES000410,ORD00198,Pathology,Urine_Routine_PusCells,43.1,cells/HPF,0.0-5.0,1
+RES000411,ORD00198,Immunoassay,TSH,1.06,uIU/mL,0.4-4.5,0
+RES000412,ORD00199,Biochemistry,FBS,80.84,mg/dL,70.0-99.0,0
+RES000413,ORD00200,Immunoassay,TSH,2.86,uIU/mL,0.4-4.5,0
+RES000414,ORD00200,Critical Care,Serum_Potassium,4.62,mmol/L,3.5-5.0,0
+RES000415,ORD00201,Critical Care,Serum_Potassium,1.86,mmol/L,3.5-5.0,1
+RES000416,ORD00201,Immunoassay,TSH,3.79,uIU/mL,0.4-4.5,0
+RES000417,ORD00202,Biochemistry,Lipid_Cholesterol,370.35,mg/dL,120.0-200.0,1
+RES000418,ORD00203,Critical Care,Serum_Potassium,5.22,mmol/L,3.5-5.0,0
+RES000419,ORD00203,Biochemistry,PPBS,144.61,mg/dL,90.0-140.0,0
+RES000420,ORD00204,Hematology,CBC_Platelets,309.29,x10^3/uL,150.0-450.0,0
+RES000421,ORD00204,Biochemistry,PPBS,109.75,mg/dL,90.0-140.0,0
+RES000422,ORD00205,Immunoassay,TSH,1.4,uIU/mL,0.4-4.5,0
+RES000423,ORD00205,Pathology,Urine_Routine_PusCells,0.71,cells/HPF,0.0-5.0,0
+RES000424,ORD00206,Immunoassay,TSH,1.53,uIU/mL,0.4-4.5,0
+RES000425,ORD00206,Biochemistry,Serum_Creatinine,0.78,mg/dL,0.7-1.3,0
+RES000426,ORD00206,Hematology,CBC_Platelets,415.21,x10^3/uL,150.0-450.0,0
+RES000427,ORD00207,Critical Care,Serum_Potassium,5.23,mmol/L,3.5-5.0,0
+RES000428,ORD00208,Biochemistry,PPBS,596.86,mg/dL,90.0-140.0,1
+RES000429,ORD00209,Biochemistry,FBS,73.91,mg/dL,70.0-99.0,0
+RES000430,ORD00210,Hematology,CBC_Hemoglobin,22.56,g/dL,12.0-16.0,1
+RES000431,ORD00210,Pathology,Urine_Routine_PusCells,0.98,cells/HPF,0.0-5.0,0
+RES000432,ORD00210,Biochemistry,Serum_Creatinine,1.28,mg/dL,0.7-1.3,0
+RES000433,ORD00211,Hematology,CBC_Hemoglobin,14.87,g/dL,12.0-16.0,0
+RES000434,ORD00211,Biochemistry,Lipid_Cholesterol,137.92,mg/dL,120.0-200.0,0
+RES000435,ORD00212,Pathology,Urine_Routine_PusCells,0.94,cells/HPF,0.0-5.0,0
+RES000436,ORD00212,Immunoassay,TSH,1.33,uIU/mL,0.4-4.5,0
+RES000437,ORD00213,Biochemistry,Serum_Creatinine,0.85,mg/dL,0.7-1.3,0
+RES000438,ORD00214,Immunoassay,TSH,1.91,uIU/mL,0.4-4.5,0
+RES000439,ORD00214,Biochemistry,FBS,71.82,mg/dL,70.0-99.0,0
+RES000440,ORD00215,Biochemistry,Serum_Creatinine,0.9,mg/dL,0.7-1.3,0
+RES000441,ORD00215,Biochemistry,FBS,96.7,mg/dL,70.0-99.0,0
+RES000442,ORD00215,Critical Care,Serum_Potassium,3.67,mmol/L,3.5-5.0,0
+RES000443,ORD00216,Biochemistry,PPBS,126.22,mg/dL,90.0-140.0,0
+RES000444,ORD00216,Immunoassay,TSH,1.84,uIU/mL,0.4-4.5,0
+RES000445,ORD00217,Pathology,Urine_Routine_PusCells,4.28,cells/HPF,0.0-5.0,0
+RES000446,ORD00217,Immunoassay,TSH,3.57,uIU/mL,0.4-4.5,0
+RES000447,ORD00217,Biochemistry,PPBS,96.43,mg/dL,90.0-140.0,0
+RES000448,ORD00218,Biochemistry,Serum_Creatinine,1.19,mg/dL,0.7-1.3,0
+RES000449,ORD00218,Biochemistry,PPBS,145.92,mg/dL,90.0-140.0,0
+RES000450,ORD00218,Pathology,Urine_Routine_PusCells,4.65,cells/HPF,0.0-5.0,0
+RES000451,ORD00219,Biochemistry,PPBS,34.44,mg/dL,90.0-140.0,1
+RES000452,ORD00219,Biochemistry,FBS,82.01,mg/dL,70.0-99.0,0
+RES000453,ORD00220,Critical Care,Serum_Potassium,1.53,mmol/L,3.5-5.0,1
+RES000454,ORD00221,Hematology,CBC_Platelets,196.95,x10^3/uL,150.0-450.0,0
+RES000455,ORD00221,Biochemistry,FBS,72.38,mg/dL,70.0-99.0,0
+RES000456,ORD00221,Biochemistry,Serum_Creatinine,0.81,mg/dL,0.7-1.3,0
+RES000457,ORD00222,Hematology,CBC_Platelets,283.61,x10^3/uL,150.0-450.0,0
+RES000458,ORD00222,Biochemistry,Lipid_Cholesterol,177.55,mg/dL,120.0-200.0,0
+RES000459,ORD00222,Biochemistry,FBS,73.98,mg/dL,70.0-99.0,0
+RES000460,ORD00223,Hematology,CBC_Platelets,1133.2,x10^3/uL,150.0-450.0,1
+RES000461,ORD00223,Critical Care,Serum_Potassium,4.04,mmol/L,3.5-5.0,0
+RES000462,ORD00224,Biochemistry,PPBS,118.8,mg/dL,90.0-140.0,0
+RES000463,ORD00224,Pathology,Urine_Routine_PusCells,3.1,cells/HPF,0.0-5.0,0
+RES000464,ORD00224,Immunoassay,TSH,4.03,uIU/mL,0.4-4.5,0
+RES000465,ORD00225,Biochemistry,FBS,83.32,mg/dL,70.0-99.0,0
+RES000466,ORD00225,Biochemistry,Lipid_Cholesterol,130.05,mg/dL,120.0-200.0,0
+RES000467,ORD00225,Pathology,Urine_Routine_PusCells,1.01,cells/HPF,0.0-5.0,0
+RES000468,ORD00226,Biochemistry,PPBS,109.94,mg/dL,90.0-140.0,0
+RES000469,ORD00226,Pathology,Urine_Routine_PusCells,1.45,cells/HPF,0.0-5.0,0
+RES000470,ORD00227,Biochemistry,Lipid_Cholesterol,169.94,mg/dL,120.0-200.0,0
+RES000471,ORD00227,Pathology,Urine_Routine_PusCells,0.53,cells/HPF,0.0-5.0,0
+RES000472,ORD00228,Hematology,CBC_Platelets,11.29,x10^3/uL,150.0-450.0,1
+RES000473,ORD00228,Pathology,Urine_Routine_PusCells,3.64,cells/HPF,0.0-5.0,0
+RES000474,ORD00229,Critical Care,Serum_Potassium,4.27,mmol/L,3.5-5.0,0
+RES000475,ORD00229,Pathology,Urine_Routine_PusCells,0.52,cells/HPF,0.0-5.0,0
+RES000476,ORD00230,Biochemistry,PPBS,136.17,mg/dL,90.0-140.0,0
+RES000477,ORD00230,Biochemistry,Serum_Creatinine,1.2,mg/dL,0.7-1.3,0
+RES000478,ORD00230,Hematology,CBC_Platelets,413.44,x10^3/uL,150.0-450.0,0
+RES000479,ORD00231,Biochemistry,FBS,74.02,mg/dL,70.0-99.0,0
+RES000480,ORD00231,Biochemistry,Lipid_Cholesterol,319.46,mg/dL,120.0-200.0,1
+RES000481,ORD00231,Biochemistry,PPBS,29.48,mg/dL,90.0-140.0,1
+RES000482,ORD00232,Hematology,CBC_Platelets,324.44,x10^3/uL,150.0-450.0,0
+RES000483,ORD00232,Biochemistry,Lipid_Cholesterol,194.41,mg/dL,120.0-200.0,0
+RES000484,ORD00232,Hematology,CBC_Hemoglobin,15.89,g/dL,12.0-16.0,0
+RES000485,ORD00233,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0
+RES000486,ORD00234,Critical Care,Serum_Potassium,4.96,mmol/L,3.5-5.0,0
+RES000487,ORD00234,Hematology,CBC_Hemoglobin,12.58,g/dL,12.0-16.0,0
+RES000488,ORD00235,Critical Care,Serum_Potassium,3.45,mmol/L,3.5-5.0,0
+RES000489,ORD00235,Pathology,Urine_Routine_PusCells,3.36,cells/HPF,0.0-5.0,0
+RES000490,ORD00235,Immunoassay,TSH,1.51,uIU/mL,0.4-4.5,0
+RES000491,ORD00236,Hematology,CBC_Hemoglobin,11.54,g/dL,12.0-16.0,0
+RES000492,ORD00236,Immunoassay,TSH,1.66,uIU/mL,0.4-4.5,0
+RES000493,ORD00236,Hematology,CBC_Platelets,276.02,x10^3/uL,150.0-450.0,0
+RES000494,ORD00237,Immunoassay,TSH,3.24,uIU/mL,0.4-4.5,0
+RES000495,ORD00237,Critical Care,Serum_Potassium,3.89,mmol/L,3.5-5.0,0
+RES000496,ORD00237,Hematology,CBC_Hemoglobin,15.4,g/dL,12.0-16.0,0
+RES000497,ORD00238,Hematology,CBC_Hemoglobin,14.56,g/dL,12.0-16.0,0
+RES000498,ORD00238,Immunoassay,TSH,0.89,uIU/mL,0.4-4.5,0
+RES000499,ORD00239,Biochemistry,Lipid_Cholesterol,133.23,mg/dL,120.0-200.0,0
+RES000500,ORD00240,Biochemistry,Lipid_Cholesterol,114.45,mg/dL,120.0-200.0,0
+RES000501,ORD00240,Immunoassay,TSH,3.69,uIU/mL,0.4-4.5,0
+RES000502,ORD00241,Hematology,CBC_Hemoglobin,13.47,g/dL,12.0-16.0,0
+RES000503,ORD00241,Pathology,Urine_Routine_PusCells,34.19,cells/HPF,0.0-5.0,1
+RES000504,ORD00242,Biochemistry,Serum_Creatinine,0.88,mg/dL,0.7-1.3,0
+RES000505,ORD00242,Pathology,Urine_Routine_PusCells,2.64,cells/HPF,0.0-5.0,0
+RES000506,ORD00242,Immunoassay,TSH,0.66,uIU/mL,0.4-4.5,0
+RES000507,ORD00243,Biochemistry,Lipid_Cholesterol,132.09,mg/dL,120.0-200.0,0
+RES000508,ORD00243,Immunoassay,TSH,4.37,uIU/mL,0.4-4.5,0
+RES000509,ORD00243,Biochemistry,Serum_Creatinine,0.82,mg/dL,0.7-1.3,0
+RES000510,ORD00244,Biochemistry,FBS,86.53,mg/dL,70.0-99.0,0
+RES000511,ORD00244,Hematology,CBC_Hemoglobin,26.96,g/dL,12.0-16.0,1
+RES000512,ORD00244,Immunoassay,TSH,0.47,uIU/mL,0.4-4.5,0
+RES000513,ORD00245,Biochemistry,FBS,91.28,mg/dL,70.0-99.0,0
+RES000514,ORD00246,Biochemistry,PPBS,116.11,mg/dL,90.0-140.0,0
+RES000515,ORD00246,Critical Care,Serum_Potassium,4.82,mmol/L,3.5-5.0,0
+RES000516,ORD00246,Biochemistry,FBS,102.94,mg/dL,70.0-99.0,0
+RES000517,ORD00247,Immunoassay,TSH,29.16,uIU/mL,0.4-4.5,1
+RES000518,ORD00247,Biochemistry,Serum_Creatinine,1.13,mg/dL,0.7-1.3,0
+RES000519,ORD00248,Critical Care,Serum_Potassium,8.66,mmol/L,3.5-5.0,1
+RES000520,ORD00248,Hematology,CBC_Platelets,261.37,x10^3/uL,150.0-450.0,0
+RES000521,ORD00249,Biochemistry,Lipid_Cholesterol,205.69,mg/dL,120.0-200.0,0
+RES000522,ORD00249,Immunoassay,TSH,3.57,uIU/mL,0.4-4.5,0
+RES000523,ORD00249,Pathology,Urine_Routine_PusCells,1.8,cells/HPF,0.0-5.0,0
+RES000524,ORD00250,Biochemistry,PPBS,130.17,mg/dL,90.0-140.0,0
+RES000525,ORD00251,Biochemistry,FBS,84.78,mg/dL,70.0-99.0,0
+RES000526,ORD00251,Biochemistry,Lipid_Cholesterol,156.31,mg/dL,120.0-200.0,0
+RES000527,ORD00252,Biochemistry,Serum_Creatinine,1.16,mg/dL,0.7-1.3,0
+RES000528,ORD00252,Immunoassay,TSH,23.24,uIU/mL,0.4-4.5,1
+RES000529,ORD00252,Critical Care,Serum_Potassium,4.63,mmol/L,3.5-5.0,0
+RES000530,ORD00253,Biochemistry,Lipid_Cholesterol,144.78,mg/dL,120.0-200.0,0
+RES000531,ORD00253,Biochemistry,PPBS,102.61,mg/dL,90.0-140.0,0
+RES000532,ORD00254,Hematology,CBC_Platelets,181.67,x10^3/uL,150.0-450.0,0
+RES000533,ORD00255,Critical Care,Serum_Potassium,4.41,mmol/L,3.5-5.0,0
+RES000534,ORD00256,Hematology,CBC_Platelets,174.65,x10^3/uL,150.0-450.0,0
+RES000535,ORD00256,Immunoassay,TSH,0.39,uIU/mL,0.4-4.5,0
+RES000536,ORD00256,Pathology,Urine_Routine_PusCells,3.33,cells/HPF,0.0-5.0,0
+RES000537,ORD00257,Hematology,CBC_Hemoglobin,12.41,g/dL,12.0-16.0,0
+RES000538,ORD00257,Biochemistry,PPBS,109.66,mg/dL,90.0-140.0,0
+RES000539,ORD00257,Biochemistry,Lipid_Cholesterol,189.02,mg/dL,120.0-200.0,0
+RES000540,ORD00258,Hematology,CBC_Platelets,143.93,x10^3/uL,150.0-450.0,0
+RES000541,ORD00258,Biochemistry,Lipid_Cholesterol,167.11,mg/dL,120.0-200.0,0
+RES000542,ORD00259,Biochemistry,PPBS,122.43,mg/dL,90.0-140.0,0
+RES000543,ORD00260,Critical Care,Serum_Potassium,3.59,mmol/L,3.5-5.0,0
+RES000544,ORD00260,Hematology,CBC_Platelets,435.02,x10^3/uL,150.0-450.0,0
+RES000545,ORD00261,Critical Care,Serum_Potassium,4.69,mmol/L,3.5-5.0,0
+RES000546,ORD00261,Immunoassay,TSH,1.15,uIU/mL,0.4-4.5,0
+RES000547,ORD00261,Hematology,CBC_Platelets,352.67,x10^3/uL,150.0-450.0,0
+RES000548,ORD00262,Critical Care,Serum_Potassium,1.88,mmol/L,3.5-5.0,1
+RES000549,ORD00262,Hematology,CBC_Hemoglobin,3.72,g/dL,12.0-16.0,1
+RES000550,ORD00262,Hematology,CBC_Platelets,467.07,x10^3/uL,150.0-450.0,0
+RES000551,ORD00263,Hematology,CBC_Platelets,365.42,x10^3/uL,150.0-450.0,0
+RES000552,ORD00263,Biochemistry,PPBS,99.29,mg/dL,90.0-140.0,0
+RES000553,ORD00264,Hematology,CBC_Hemoglobin,16.67,g/dL,12.0-16.0,0
+RES000554,ORD00264,Pathology,Urine_Routine_PusCells,2.9,cells/HPF,0.0-5.0,0
+RES000555,ORD00265,Immunoassay,TSH,1.22,uIU/mL,0.4-4.5,0
+RES000556,ORD00265,Biochemistry,Serum_Creatinine,1.35,mg/dL,0.7-1.3,0
+RES000557,ORD00265,Hematology,CBC_Hemoglobin,27.62,g/dL,12.0-16.0,1
+RES000558,ORD00266,Biochemistry,FBS,101.61,mg/dL,70.0-99.0,0
+RES000559,ORD00266,Immunoassay,TSH,26.37,uIU/mL,0.4-4.5,1
+RES000560,ORD00267,Pathology,Urine_Routine_PusCells,2.73,cells/HPF,0.0-5.0,0
+RES000561,ORD00267,Biochemistry,Serum_Creatinine,0.78,mg/dL,0.7-1.3,0
+RES000562,ORD00268,Pathology,Urine_Routine_PusCells,2.95,cells/HPF,0.0-5.0,0
+RES000563,ORD00269,Biochemistry,Serum_Creatinine,0.93,mg/dL,0.7-1.3,0
+RES000564,ORD00269,Biochemistry,FBS,70.75,mg/dL,70.0-99.0,0
+RES000565,ORD00269,Immunoassay,TSH,3.53,uIU/mL,0.4-4.5,0
+RES000566,ORD00270,Biochemistry,Serum_Creatinine,4.37,mg/dL,0.7-1.3,1
+RES000567,ORD00270,Immunoassay,TSH,3.74,uIU/mL,0.4-4.5,0
+RES000568,ORD00270,Critical Care,Serum_Potassium,4.53,mmol/L,3.5-5.0,0
+RES000569,ORD00271,Hematology,CBC_Hemoglobin,11.53,g/dL,12.0-16.0,0
+RES000570,ORD00271,Biochemistry,PPBS,87.83,mg/dL,90.0-140.0,0
+RES000571,ORD00271,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1
+RES000572,ORD00272,Biochemistry,PPBS,123.53,mg/dL,90.0-140.0,0
+RES000573,ORD00272,Biochemistry,FBS,88.43,mg/dL,70.0-99.0,0
+RES000574,ORD00273,Hematology,CBC_Hemoglobin,11.57,g/dL,12.0-16.0,0
+RES000575,ORD00273,Pathology,Urine_Routine_PusCells,1.15,cells/HPF,0.0-5.0,0
+RES000576,ORD00274,Biochemistry,Lipid_Cholesterol,395.55,mg/dL,120.0-200.0,1
+RES000577,ORD00274,Biochemistry,PPBS,143.74,mg/dL,90.0-140.0,0
+RES000578,ORD00274,Biochemistry,FBS,94.52,mg/dL,70.0-99.0,0
+RES000579,ORD00275,Critical Care,Serum_Potassium,4.86,mmol/L,3.5-5.0,0
+RES000580,ORD00275,Biochemistry,Serum_Creatinine,1.26,mg/dL,0.7-1.3,0
+RES000581,ORD00275,Biochemistry,FBS,103.74,mg/dL,70.0-99.0,0
+RES000582,ORD00276,Immunoassay,TSH,3.23,uIU/mL,0.4-4.5,0
+RES000583,ORD00276,Pathology,Urine_Routine_PusCells,3.25,cells/HPF,0.0-5.0,0
+RES000584,ORD00277,Immunoassay,TSH,1.74,uIU/mL,0.4-4.5,0
+RES000585,ORD00277,Pathology,Urine_Routine_PusCells,3.74,cells/HPF,0.0-5.0,0
+RES000586,ORD00277,Biochemistry,Serum_Creatinine,0.86,mg/dL,0.7-1.3,0
+RES000587,ORD00278,Biochemistry,PPBS,138.31,mg/dL,90.0-140.0,0
+RES000588,ORD00279,Pathology,Urine_Routine_PusCells,4.27,cells/HPF,0.0-5.0,0
+RES000589,ORD00280,Immunoassay,TSH,4.25,uIU/mL,0.4-4.5,0
+RES000590,ORD00281,Biochemistry,Serum_Creatinine,1.23,mg/dL,0.7-1.3,0
+RES000591,ORD00282,Biochemistry,Lipid_Cholesterol,417.8,mg/dL,120.0-200.0,1
+RES000592,ORD00282,Hematology,CBC_Platelets,229.74,x10^3/uL,150.0-450.0,0
+RES000593,ORD00282,Pathology,Urine_Routine_PusCells,3.51,cells/HPF,0.0-5.0,0
+RES000594,ORD00283,Biochemistry,PPBS,101.69,mg/dL,90.0-140.0,0
+RES000595,ORD00283,Critical Care,Serum_Potassium,3.66,mmol/L,3.5-5.0,0
+RES000596,ORD00284,Pathology,Urine_Routine_PusCells,4.29,cells/HPF,0.0-5.0,0
+RES000597,ORD00285,Critical Care,Serum_Potassium,4.02,mmol/L,3.5-5.0,0
+RES000598,ORD00285,Biochemistry,Serum_Creatinine,0.75,mg/dL,0.7-1.3,0
+RES000599,ORD00285,Biochemistry,PPBS,135.39,mg/dL,90.0-140.0,0
+RES000600,ORD00286,Biochemistry,FBS,392.88,mg/dL,70.0-99.0,1
+RES000601,ORD00286,Biochemistry,Serum_Creatinine,0.69,mg/dL,0.7-1.3,0
+RES000602,ORD00287,Biochemistry,FBS,89.21,mg/dL,70.0-99.0,0
+RES000603,ORD00287,Critical Care,Serum_Potassium,4.25,mmol/L,3.5-5.0,0
+RES000604,ORD00287,Pathology,Urine_Routine_PusCells,2.16,cells/HPF,0.0-5.0,0
+RES000605,ORD00288,Biochemistry,PPBS,93.63,mg/dL,90.0-140.0,0
+RES000606,ORD00288,Biochemistry,Serum_Creatinine,5.14,mg/dL,0.7-1.3,1
+RES000607,ORD00289,Biochemistry,FBS,71.38,mg/dL,70.0-99.0,0
+RES000608,ORD00289,Biochemistry,PPBS,136.39,mg/dL,90.0-140.0,0
+RES000609,ORD00289,Pathology,Urine_Routine_PusCells,4.07,cells/HPF,0.0-5.0,0
+RES000610,ORD00290,Hematology,CBC_Hemoglobin,15.4,g/dL,12.0-16.0,0
+RES000611,ORD00290,Immunoassay,TSH,3.41,uIU/mL,0.4-4.5,0
+RES000612,ORD00291,Hematology,CBC_Hemoglobin,21.06,g/dL,12.0-16.0,1
+RES000613,ORD00291,Critical Care,Serum_Potassium,4.33,mmol/L,3.5-5.0,0
+RES000614,ORD00291,Biochemistry,PPBS,98.13,mg/dL,90.0-140.0,0
+RES000615,ORD00292,Hematology,CBC_Hemoglobin,15.08,g/dL,12.0-16.0,0
+RES000616,ORD00292,Immunoassay,TSH,2.18,uIU/mL,0.4-4.5,0
+RES000617,ORD00292,Critical Care,Serum_Potassium,4.25,mmol/L,3.5-5.0,0
+RES000618,ORD00293,Biochemistry,PPBS,143.88,mg/dL,90.0-140.0,0
+RES000619,ORD00293,Biochemistry,Serum_Creatinine,1.02,mg/dL,0.7-1.3,0
+RES000620,ORD00293,Hematology,CBC_Platelets,406.78,x10^3/uL,150.0-450.0,0
+RES000621,ORD00294,Hematology,CBC_Hemoglobin,13.4,g/dL,12.0-16.0,0
+RES000622,ORD00294,Biochemistry,PPBS,130.06,mg/dL,90.0-140.0,0
+RES000623,ORD00294,Biochemistry,FBS,81.5,mg/dL,70.0-99.0,0
+RES000624,ORD00295,Pathology,Urine_Routine_PusCells,39.59,cells/HPF,0.0-5.0,1
+RES000625,ORD00295,Critical Care,Serum_Potassium,3.77,mmol/L,3.5-5.0,0
+RES000626,ORD00295,Biochemistry,PPBS,87.72,mg/dL,90.0-140.0,0
+RES000627,ORD00296,Biochemistry,Serum_Creatinine,1.31,mg/dL,0.7-1.3,0
+RES000628,ORD00296,Biochemistry,FBS,93.69,mg/dL,70.0-99.0,0
+RES000629,ORD00296,Immunoassay,TSH,2.91,uIU/mL,0.4-4.5,0
+RES000630,ORD00297,Hematology,CBC_Hemoglobin,14.42,g/dL,12.0-16.0,0
+RES000631,ORD00298,Hematology,CBC_Platelets,396.59,x10^3/uL,150.0-450.0,0
+RES000632,ORD00298,Hematology,CBC_Hemoglobin,16.59,g/dL,12.0-16.0,0
+RES000633,ORD00299,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0
+RES000634,ORD00300,Biochemistry,PPBS,107.24,mg/dL,90.0-140.0,0
+RES000635,ORD00300,Biochemistry,Lipid_Cholesterol,139.83,mg/dL,120.0-200.0,0
+RES000636,ORD00301,Biochemistry,Serum_Creatinine,1.25,mg/dL,0.7-1.3,0
+RES000637,ORD00302,Biochemistry,FBS,84.94,mg/dL,70.0-99.0,0
+RES000638,ORD00302,Hematology,CBC_Platelets,438.51,x10^3/uL,150.0-450.0,0
+RES000639,ORD00302,Biochemistry,Lipid_Cholesterol,161.12,mg/dL,120.0-200.0,0
+RES000640,ORD00303,Hematology,CBC_Platelets,272.43,x10^3/uL,150.0-450.0,0
+RES000641,ORD00303,Biochemistry,FBS,73.05,mg/dL,70.0-99.0,0
+RES000642,ORD00304,Immunoassay,TSH,1.52,uIU/mL,0.4-4.5,0
+RES000643,ORD00304,Critical Care,Serum_Potassium,5.17,mmol/L,3.5-5.0,0
+RES000644,ORD00305,Hematology,CBC_Platelets,465.66,x10^3/uL,150.0-450.0,0
+RES000645,ORD00305,Biochemistry,Lipid_Cholesterol,192.16,mg/dL,120.0-200.0,0
+RES000646,ORD00306,Biochemistry,Lipid_Cholesterol,371.91,mg/dL,120.0-200.0,1
+RES000647,ORD00306,Hematology,CBC_Platelets,437.28,x10^3/uL,150.0-450.0,0
+RES000648,ORD00306,Hematology,CBC_Hemoglobin,14.28,g/dL,12.0-16.0,0
+RES000649,ORD00307,Biochemistry,FBS,76.02,mg/dL,70.0-99.0,0
+RES000650,ORD00308,Immunoassay,TSH,1.91,uIU/mL,0.4-4.5,0
+RES000651,ORD00308,Biochemistry,FBS,89.18,mg/dL,70.0-99.0,0
+RES000652,ORD00309,Biochemistry,PPBS,114.02,mg/dL,90.0-140.0,0
+RES000653,ORD00309,Hematology,CBC_Hemoglobin,16.09,g/dL,12.0-16.0,0
+RES000654,ORD00310,Biochemistry,Lipid_Cholesterol,144.09,mg/dL,120.0-200.0,0
+RES000655,ORD00311,Pathology,Urine_Routine_PusCells,0.97,cells/HPF,0.0-5.0,0
+RES000656,ORD00311,Hematology,CBC_Platelets,1347.91,x10^3/uL,150.0-450.0,1
+RES000657,ORD00312,Pathology,Urine_Routine_PusCells,36.86,cells/HPF,0.0-5.0,1
+RES000658,ORD00312,Biochemistry,FBS,69.62,mg/dL,70.0-99.0,0
+RES000659,ORD00313,Hematology,CBC_Platelets,419.21,x10^3/uL,150.0-450.0,0
+RES000660,ORD00313,Biochemistry,Lipid_Cholesterol,404.58,mg/dL,120.0-200.0,1
+RES000661,ORD00314,Pathology,Urine_Routine_PusCells,3.31,cells/HPF,0.0-5.0,0
+RES000662,ORD00314,Biochemistry,Lipid_Cholesterol,168.14,mg/dL,120.0-200.0,0
+RES000663,ORD00314,Critical Care,Serum_Potassium,4.56,mmol/L,3.5-5.0,0
+RES000664,ORD00315,Biochemistry,Lipid_Cholesterol,385.65,mg/dL,120.0-200.0,1
+RES000665,ORD00315,Critical Care,Serum_Potassium,3.59,mmol/L,3.5-5.0,0
+RES000666,ORD00316,Biochemistry,Serum_Creatinine,0.8,mg/dL,0.7-1.3,0
+RES000667,ORD00316,Biochemistry,FBS,82.87,mg/dL,70.0-99.0,0
+RES000668,ORD00317,Critical Care,Serum_Potassium,4.88,mmol/L,3.5-5.0,0
+RES000669,ORD00317,Pathology,Urine_Routine_PusCells,4.48,cells/HPF,0.0-5.0,0
+RES000670,ORD00317,Immunoassay,TSH,1.64,uIU/mL,0.4-4.5,0
+RES000671,ORD00318,Pathology,Urine_Routine_PusCells,44.63,cells/HPF,0.0-5.0,1
+RES000672,ORD00319,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0
+RES000673,ORD00319,Immunoassay,TSH,1.99,uIU/mL,0.4-4.5,0
+RES000674,ORD00320,Pathology,Urine_Routine_PusCells,1.01,cells/HPF,0.0-5.0,0
+RES000675,ORD00321,Biochemistry,Serum_Creatinine,1.18,mg/dL,0.7-1.3,0
+RES000676,ORD00321,Biochemistry,FBS,400.33,mg/dL,70.0-99.0,1
+RES000677,ORD00322,Critical Care,Serum_Potassium,3.43,mmol/L,3.5-5.0,0
+RES000678,ORD00322,Biochemistry,Serum_Creatinine,1.35,mg/dL,0.7-1.3,0
+RES000679,ORD00323,Biochemistry,FBS,88.26,mg/dL,70.0-99.0,0
+RES000680,ORD00324,Immunoassay,TSH,1.05,uIU/mL,0.4-4.5,0
+RES000681,ORD00324,Biochemistry,FBS,70.52,mg/dL,70.0-99.0,0
+RES000682,ORD00324,Hematology,CBC_Platelets,247.02,x10^3/uL,150.0-450.0,0
+RES000683,ORD00325,Biochemistry,Lipid_Cholesterol,156.0,mg/dL,120.0-200.0,0
+RES000684,ORD00325,Critical Care,Serum_Potassium,4.67,mmol/L,3.5-5.0,0
+RES000685,ORD00325,Biochemistry,FBS,73.49,mg/dL,70.0-99.0,0
+RES000686,ORD00326,Critical Care,Serum_Potassium,4.2,mmol/L,3.5-5.0,0
+RES000687,ORD00326,Pathology,Urine_Routine_PusCells,2.66,cells/HPF,0.0-5.0,0
+RES000688,ORD00327,Pathology,Urine_Routine_PusCells,2.61,cells/HPF,0.0-5.0,0
+RES000689,ORD00327,Hematology,CBC_Hemoglobin,14.71,g/dL,12.0-16.0,0
+RES000690,ORD00327,Biochemistry,PPBS,124.92,mg/dL,90.0-140.0,0
+RES000691,ORD00328,Biochemistry,FBS,97.82,mg/dL,70.0-99.0,0
+RES000692,ORD00329,Hematology,CBC_Platelets,417.09,x10^3/uL,150.0-450.0,0
+RES000693,ORD00330,Critical Care,Serum_Potassium,2.59,mmol/L,3.5-5.0,1
+RES000694,ORD00330,Biochemistry,FBS,70.14,mg/dL,70.0-99.0,0
+RES000695,ORD00330,Immunoassay,TSH,2.69,uIU/mL,0.4-4.5,0
+RES000696,ORD00331,Immunoassay,TSH,4.22,uIU/mL,0.4-4.5,0
+RES000697,ORD00331,Hematology,CBC_Platelets,202.03,x10^3/uL,150.0-450.0,0
+RES000698,ORD00331,Pathology,Urine_Routine_PusCells,1.77,cells/HPF,0.0-5.0,0
+RES000699,ORD00332,Immunoassay,TSH,1.31,uIU/mL,0.4-4.5,0
+RES000700,ORD00332,Biochemistry,Serum_Creatinine,1.31,mg/dL,0.7-1.3,0
+RES000701,ORD00333,Critical Care,Serum_Potassium,6.88,mmol/L,3.5-5.0,1
+RES000702,ORD00334,Immunoassay,TSH,1.97,uIU/mL,0.4-4.5,0
+RES000703,ORD00334,Biochemistry,Lipid_Cholesterol,136.37,mg/dL,120.0-200.0,0
+RES000704,ORD00335,Biochemistry,PPBS,488.68,mg/dL,90.0-140.0,1
+RES000705,ORD00335,Critical Care,Serum_Potassium,5.1,mmol/L,3.5-5.0,0
+RES000706,ORD00336,Biochemistry,FBS,78.46,mg/dL,70.0-99.0,0
+RES000707,ORD00336,Critical Care,Serum_Potassium,3.95,mmol/L,3.5-5.0,0
+RES000708,ORD00337,Biochemistry,PPBS,109.75,mg/dL,90.0-140.0,0
+RES000709,ORD00337,Biochemistry,Serum_Creatinine,0.72,mg/dL,0.7-1.3,0
+RES000710,ORD00337,Hematology,CBC_Platelets,158.77,x10^3/uL,150.0-450.0,0
+RES000711,ORD00338,Biochemistry,Serum_Creatinine,0.8,mg/dL,0.7-1.3,0
+RES000712,ORD00338,Hematology,CBC_Platelets,385.27,x10^3/uL,150.0-450.0,0
+RES000713,ORD00338,Pathology,Urine_Routine_PusCells,0.38,cells/HPF,0.0-5.0,0
+RES000714,ORD00339,Immunoassay,TSH,3.23,uIU/mL,0.4-4.5,0
+RES000715,ORD00340,Biochemistry,Serum_Creatinine,0.77,mg/dL,0.7-1.3,0
+RES000716,ORD00341,Biochemistry,FBS,70.67,mg/dL,70.0-99.0,0
+RES000717,ORD00341,Immunoassay,TSH,0.48,uIU/mL,0.4-4.5,0
+RES000718,ORD00342,Biochemistry,FBS,100.43,mg/dL,70.0-99.0,0
+RES000719,ORD00343,Biochemistry,PPBS,102.19,mg/dL,90.0-140.0,0
+RES000720,ORD00344,Biochemistry,PPBS,118.19,mg/dL,90.0-140.0,0
+RES000721,ORD00344,Immunoassay,TSH,2.56,uIU/mL,0.4-4.5,0
+RES000722,ORD00344,Biochemistry,Serum_Creatinine,1.31,mg/dL,0.7-1.3,0
+RES000723,ORD00345,Immunoassay,TSH,1.41,uIU/mL,0.4-4.5,0
+RES000724,ORD00345,Pathology,Urine_Routine_PusCells,2.63,cells/HPF,0.0-5.0,0
+RES000725,ORD00346,Biochemistry,Lipid_Cholesterol,163.99,mg/dL,120.0-200.0,0
+RES000726,ORD00346,Biochemistry,PPBS,139.17,mg/dL,90.0-140.0,0
+RES000727,ORD00347,Biochemistry,Lipid_Cholesterol,165.97,mg/dL,120.0-200.0,0
+RES000728,ORD00347,Biochemistry,Serum_Creatinine,1.27,mg/dL,0.7-1.3,0
+RES000729,ORD00347,Immunoassay,TSH,3.44,uIU/mL,0.4-4.5,0
+RES000730,ORD00348,Pathology,Urine_Routine_PusCells,4.62,cells/HPF,0.0-5.0,0
+RES000731,ORD00348,Biochemistry,PPBS,132.57,mg/dL,90.0-140.0,0
+RES000732,ORD00348,Hematology,CBC_Platelets,279.13,x10^3/uL,150.0-450.0,0
+RES000733,ORD00349,Biochemistry,Lipid_Cholesterol,448.1,mg/dL,120.0-200.0,1
+RES000734,ORD00350,Biochemistry,Lipid_Cholesterol,149.9,mg/dL,120.0-200.0,0
+RES000735,ORD00350,Hematology,CBC_Platelets,304.68,x10^3/uL,150.0-450.0,0
+RES000736,ORD00351,Biochemistry,Serum_Creatinine,1.33,mg/dL,0.7-1.3,0
+RES000737,ORD00351,Pathology,Urine_Routine_PusCells,3.24,cells/HPF,0.0-5.0,0
+RES000738,ORD00351,Biochemistry,FBS,98.96,mg/dL,70.0-99.0,0
+RES000739,ORD00352,Pathology,Urine_Routine_PusCells,2.4,cells/HPF,0.0-5.0,0
+RES000740,ORD00352,Biochemistry,FBS,99.37,mg/dL,70.0-99.0,0
+RES000741,ORD00352,Critical Care,Serum_Potassium,4.36,mmol/L,3.5-5.0,0
+RES000742,ORD00353,Critical Care,Serum_Potassium,3.89,mmol/L,3.5-5.0,0
+RES000743,ORD00353,Hematology,CBC_Platelets,370.18,x10^3/uL,150.0-450.0,0
+RES000744,ORD00354,Pathology,Urine_Routine_PusCells,2.37,cells/HPF,0.0-5.0,0
+RES000745,ORD00354,Biochemistry,Lipid_Cholesterol,170.67,mg/dL,120.0-200.0,0
+RES000746,ORD00354,Biochemistry,Serum_Creatinine,0.81,mg/dL,0.7-1.3,0
+RES000747,ORD00355,Biochemistry,PPBS,124.5,mg/dL,90.0-140.0,0
+RES000748,ORD00356,Biochemistry,Lipid_Cholesterol,168.29,mg/dL,120.0-200.0,0
+RES000749,ORD00357,Hematology,CBC_Platelets,439.02,x10^3/uL,150.0-450.0,0
+RES000750,ORD00357,Critical Care,Serum_Potassium,3.33,mmol/L,3.5-5.0,0
+RES000751,ORD00357,Immunoassay,TSH,0.43,uIU/mL,0.4-4.5,0
+RES000752,ORD00358,Hematology,CBC_Platelets,340.9,x10^3/uL,150.0-450.0,0
+RES000753,ORD00358,Pathology,Urine_Routine_PusCells,43.41,cells/HPF,0.0-5.0,1
+RES000754,ORD00358,Biochemistry,Serum_Creatinine,1.11,mg/dL,0.7-1.3,0
+RES000755,ORD00359,Critical Care,Serum_Potassium,1.62,mmol/L,3.5-5.0,1
+RES000756,ORD00359,Immunoassay,TSH,3.04,uIU/mL,0.4-4.5,0
+RES000757,ORD00359,Biochemistry,FBS,88.78,mg/dL,70.0-99.0,0
+RES000758,ORD00360,Hematology,CBC_Hemoglobin,15.95,g/dL,12.0-16.0,0
+RES000759,ORD00360,Biochemistry,PPBS,27.75,mg/dL,90.0-140.0,1
+RES000760,ORD00361,Pathology,Urine_Routine_PusCells,3.18,cells/HPF,0.0-5.0,0
+RES000761,ORD00361,Biochemistry,PPBS,128.97,mg/dL,90.0-140.0,0
+RES000762,ORD00361,Biochemistry,Serum_Creatinine,1.26,mg/dL,0.7-1.3,0
+RES000763,ORD00362,Biochemistry,Lipid_Cholesterol,208.01,mg/dL,120.0-200.0,0
+RES000764,ORD00362,Biochemistry,Serum_Creatinine,4.24,mg/dL,0.7-1.3,1
+RES000765,ORD00363,Pathology,Urine_Routine_PusCells,34.22,cells/HPF,0.0-5.0,1
+RES000766,ORD00363,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0
+RES000767,ORD00364,Biochemistry,FBS,79.16,mg/dL,70.0-99.0,0
+RES000768,ORD00364,Biochemistry,Lipid_Cholesterol,201.95,mg/dL,120.0-200.0,0
+RES000769,ORD00364,Biochemistry,PPBS,125.21,mg/dL,90.0-140.0,0
+RES000770,ORD00365,Biochemistry,FBS,78.32,mg/dL,70.0-99.0,0
+RES000771,ORD00365,Critical Care,Serum_Potassium,3.73,mmol/L,3.5-5.0,0
+RES000772,ORD00365,Hematology,CBC_Platelets,406.35,x10^3/uL,150.0-450.0,0
+RES000773,ORD00366,Hematology,CBC_Hemoglobin,15.62,g/dL,12.0-16.0,0
+RES000774,ORD00366,Biochemistry,Lipid_Cholesterol,196.35,mg/dL,120.0-200.0,0
+RES000775,ORD00366,Critical Care,Serum_Potassium,3.85,mmol/L,3.5-5.0,0
+RES000776,ORD00367,Immunoassay,TSH,3.76,uIU/mL,0.4-4.5,0
+RES000777,ORD00368,Pathology,Urine_Routine_PusCells,0.75,cells/HPF,0.0-5.0,0
+RES000778,ORD00368,Critical Care,Serum_Potassium,4.91,mmol/L,3.5-5.0,0
+RES000779,ORD00369,Biochemistry,FBS,68.15,mg/dL,70.0-99.0,0
+RES000780,ORD00370,Critical Care,Serum_Potassium,4.55,mmol/L,3.5-5.0,0
+RES000781,ORD00370,Biochemistry,FBS,74.01,mg/dL,70.0-99.0,0
+RES000782,ORD00370,Pathology,Urine_Routine_PusCells,2.79,cells/HPF,0.0-5.0,0
+RES000783,ORD00371,Pathology,Urine_Routine_PusCells,2.88,cells/HPF,0.0-5.0,0
+RES000784,ORD00371,Biochemistry,PPBS,143.51,mg/dL,90.0-140.0,0
+RES000785,ORD00371,Hematology,CBC_Platelets,331.95,x10^3/uL,150.0-450.0,0
+RES000786,ORD00372,Biochemistry,FBS,29.03,mg/dL,70.0-99.0,1
+RES000787,ORD00372,Biochemistry,PPBS,121.95,mg/dL,90.0-140.0,0
+RES000788,ORD00372,Biochemistry,Serum_Creatinine,1.15,mg/dL,0.7-1.3,0
+RES000789,ORD00373,Biochemistry,Lipid_Cholesterol,202.29,mg/dL,120.0-200.0,0
+RES000790,ORD00373,Biochemistry,PPBS,113.52,mg/dL,90.0-140.0,0
+RES000791,ORD00374,Immunoassay,TSH,0.66,uIU/mL,0.4-4.5,0
+RES000792,ORD00374,Pathology,Urine_Routine_PusCells,2.51,cells/HPF,0.0-5.0,0
+RES000793,ORD00374,Biochemistry,Serum_Creatinine,0.86,mg/dL,0.7-1.3,0
+RES000794,ORD00375,Critical Care,Serum_Potassium,4.1,mmol/L,3.5-5.0,0
+RES000795,ORD00376,Hematology,CBC_Hemoglobin,14.34,g/dL,12.0-16.0,0
+RES000796,ORD00376,Pathology,Urine_Routine_PusCells,3.48,cells/HPF,0.0-5.0,0
+RES000797,ORD00376,Critical Care,Serum_Potassium,7.85,mmol/L,3.5-5.0,1
+RES000798,ORD00377,Biochemistry,PPBS,122.18,mg/dL,90.0-140.0,0
+RES000799,ORD00378,Biochemistry,FBS,86.4,mg/dL,70.0-99.0,0
+RES000800,ORD00378,Biochemistry,Lipid_Cholesterol,169.48,mg/dL,120.0-200.0,0
+RES000801,ORD00378,Immunoassay,TSH,3.34,uIU/mL,0.4-4.5,0
+RES000802,ORD00379,Hematology,CBC_Hemoglobin,13.39,g/dL,12.0-16.0,0
+RES000803,ORD00379,Biochemistry,Lipid_Cholesterol,119.1,mg/dL,120.0-200.0,0
+RES000804,ORD00379,Pathology,Urine_Routine_PusCells,4.31,cells/HPF,0.0-5.0,0
+RES000805,ORD00380,Hematology,CBC_Hemoglobin,12.54,g/dL,12.0-16.0,0
+RES000806,ORD00380,Pathology,Urine_Routine_PusCells,0.73,cells/HPF,0.0-5.0,0
+RES000807,ORD00380,Biochemistry,Serum_Creatinine,1.26,mg/dL,0.7-1.3,0
+RES000808,ORD00381,Biochemistry,FBS,91.14,mg/dL,70.0-99.0,0
+RES000809,ORD00381,Biochemistry,Lipid_Cholesterol,127.03,mg/dL,120.0-200.0,0
+RES000810,ORD00381,Immunoassay,TSH,3.88,uIU/mL,0.4-4.5,0
+RES000811,ORD00382,Immunoassay,TSH,3.01,uIU/mL,0.4-4.5,0
+RES000812,ORD00382,Biochemistry,Serum_Creatinine,1.26,mg/dL,0.7-1.3,0
+RES000813,ORD00383,Immunoassay,TSH,3.38,uIU/mL,0.4-4.5,0
+RES000814,ORD00383,Biochemistry,PPBS,130.47,mg/dL,90.0-140.0,0
+RES000815,ORD00383,Critical Care,Serum_Potassium,5.22,mmol/L,3.5-5.0,0
+RES000816,ORD00384,Biochemistry,PPBS,42.52,mg/dL,90.0-140.0,1
+RES000817,ORD00384,Critical Care,Serum_Potassium,4.31,mmol/L,3.5-5.0,0
+RES000818,ORD00384,Hematology,CBC_Platelets,384.66,x10^3/uL,150.0-450.0,0
+RES000819,ORD00385,Biochemistry,FBS,87.95,mg/dL,70.0-99.0,0
+RES000820,ORD00385,Hematology,CBC_Platelets,238.78,x10^3/uL,150.0-450.0,0
+RES000821,ORD00386,Critical Care,Serum_Potassium,3.85,mmol/L,3.5-5.0,0
+RES000822,ORD00386,Biochemistry,Lipid_Cholesterol,185.18,mg/dL,120.0-200.0,0
+RES000823,ORD00387,Biochemistry,Lipid_Cholesterol,122.1,mg/dL,120.0-200.0,0
+RES000824,ORD00387,Biochemistry,FBS,101.48,mg/dL,70.0-99.0,0
+RES000825,ORD00388,Biochemistry,Lipid_Cholesterol,147.13,mg/dL,120.0-200.0,0
+RES000826,ORD00388,Biochemistry,Serum_Creatinine,1.19,mg/dL,0.7-1.3,0
+RES000827,ORD00388,Critical Care,Serum_Potassium,3.65,mmol/L,3.5-5.0,0
+RES000828,ORD00389,Hematology,CBC_Platelets,429.69,x10^3/uL,150.0-450.0,0
+RES000829,ORD00389,Critical Care,Serum_Potassium,7.51,mmol/L,3.5-5.0,1
+RES000830,ORD00390,Immunoassay,TSH,0.81,uIU/mL,0.4-4.5,0
+RES000831,ORD00390,Critical Care,Serum_Potassium,4.08,mmol/L,3.5-5.0,0
+RES000832,ORD00391,Immunoassay,TSH,3.3,uIU/mL,0.4-4.5,0
+RES000833,ORD00392,Critical Care,Serum_Potassium,6.45,mmol/L,3.5-5.0,1
+RES000834,ORD00392,Biochemistry,Serum_Creatinine,1.29,mg/dL,0.7-1.3,0
+RES000835,ORD00393,Biochemistry,Lipid_Cholesterol,142.28,mg/dL,120.0-200.0,0
+RES000836,ORD00393,Biochemistry,PPBS,90.16,mg/dL,90.0-140.0,0
+RES000837,ORD00393,Immunoassay,TSH,4.7,uIU/mL,0.4-4.5,0
+RES000838,ORD00394,Immunoassay,TSH,3.91,uIU/mL,0.4-4.5,0
+RES000839,ORD00394,Biochemistry,FBS,69.1,mg/dL,70.0-99.0,0
+RES000840,ORD00395,Biochemistry,PPBS,129.5,mg/dL,90.0-140.0,0
+RES000841,ORD00396,Biochemistry,FBS,91.39,mg/dL,70.0-99.0,0
+RES000842,ORD00397,Biochemistry,PPBS,127.89,mg/dL,90.0-140.0,0
+RES000843,ORD00397,Biochemistry,Serum_Creatinine,0.75,mg/dL,0.7-1.3,0
+RES000844,ORD00397,Biochemistry,FBS,103.64,mg/dL,70.0-99.0,0
+RES000845,ORD00398,Biochemistry,PPBS,103.33,mg/dL,90.0-140.0,0
+RES000846,ORD00398,Hematology,CBC_Platelets,325.48,x10^3/uL,150.0-450.0,0
+RES000847,ORD00399,Hematology,CBC_Platelets,18.97,x10^3/uL,150.0-450.0,1
+RES000848,ORD00399,Biochemistry,Serum_Creatinine,0.94,mg/dL,0.7-1.3,0
+RES000849,ORD00399,Biochemistry,PPBS,125.07,mg/dL,90.0-140.0,0
+RES000850,ORD00400,Biochemistry,PPBS,126.54,mg/dL,90.0-140.0,0
+RES000851,ORD00400,Biochemistry,Serum_Creatinine,1.14,mg/dL,0.7-1.3,0
+RES000852,ORD00401,Biochemistry,FBS,67.04,mg/dL,70.0-99.0,0
+RES000853,ORD00401,Biochemistry,Serum_Creatinine,1.3,mg/dL,0.7-1.3,0
+RES000854,ORD00401,Immunoassay,TSH,0.8,uIU/mL,0.4-4.5,0
+RES000855,ORD00402,Immunoassay,TSH,4.62,uIU/mL,0.4-4.5,0
+RES000856,ORD00402,Hematology,CBC_Hemoglobin,12.14,g/dL,12.0-16.0,0
+RES000857,ORD00403,Biochemistry,Lipid_Cholesterol,156.11,mg/dL,120.0-200.0,0
+RES000858,ORD00403,Immunoassay,TSH,0.56,uIU/mL,0.4-4.5,0
+RES000859,ORD00404,Critical Care,Serum_Potassium,4.88,mmol/L,3.5-5.0,0
+RES000860,ORD00405,Biochemistry,FBS,93.36,mg/dL,70.0-99.0,0
+RES000861,ORD00406,Biochemistry,PPBS,145.57,mg/dL,90.0-140.0,0
+RES000862,ORD00407,Biochemistry,Lipid_Cholesterol,206.98,mg/dL,120.0-200.0,0
+RES000863,ORD00408,Hematology,CBC_Hemoglobin,14.73,g/dL,12.0-16.0,0
+RES000864,ORD00409,Pathology,Urine_Routine_PusCells,34.68,cells/HPF,0.0-5.0,1
+RES000865,ORD00409,Biochemistry,PPBS,121.16,mg/dL,90.0-140.0,0
+RES000866,ORD00410,Biochemistry,Serum_Creatinine,0.72,mg/dL,0.7-1.3,0
+RES000867,ORD00410,Hematology,CBC_Hemoglobin,11.69,g/dL,12.0-16.0,0
+RES000868,ORD00411,Immunoassay,TSH,1.26,uIU/mL,0.4-4.5,0
+RES000869,ORD00412,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0
+RES000870,ORD00412,Critical Care,Serum_Potassium,4.5,mmol/L,3.5-5.0,0
+RES000871,ORD00413,Hematology,CBC_Platelets,17.85,x10^3/uL,150.0-450.0,1
+RES000872,ORD00413,Pathology,Urine_Routine_PusCells,2.28,cells/HPF,0.0-5.0,0
+RES000873,ORD00413,Biochemistry,Lipid_Cholesterol,203.04,mg/dL,120.0-200.0,0
+RES000874,ORD00414,Hematology,CBC_Platelets,221.87,x10^3/uL,150.0-450.0,0
+RES000875,ORD00414,Biochemistry,PPBS,86.26,mg/dL,90.0-140.0,0
+RES000876,ORD00415,Biochemistry,Lipid_Cholesterol,185.74,mg/dL,120.0-200.0,0
+RES000877,ORD00415,Hematology,CBC_Platelets,16.95,x10^3/uL,150.0-450.0,1
+RES000878,ORD00416,Immunoassay,TSH,3.65,uIU/mL,0.4-4.5,0
+RES000879,ORD00416,Biochemistry,FBS,89.44,mg/dL,70.0-99.0,0
+RES000880,ORD00417,Immunoassay,TSH,2.4,uIU/mL,0.4-4.5,0
+RES000881,ORD00417,Biochemistry,FBS,39.58,mg/dL,70.0-99.0,1
+RES000882,ORD00417,Hematology,CBC_Platelets,327.55,x10^3/uL,150.0-450.0,0
+RES000883,ORD00418,Biochemistry,Serum_Creatinine,0.85,mg/dL,0.7-1.3,0
+RES000884,ORD00418,Pathology,Urine_Routine_PusCells,1.46,cells/HPF,0.0-5.0,0
+RES000885,ORD00418,Biochemistry,Lipid_Cholesterol,361.61,mg/dL,120.0-200.0,1
+RES000886,ORD00419,Immunoassay,TSH,2.37,uIU/mL,0.4-4.5,0
+RES000887,ORD00419,Biochemistry,PPBS,471.91,mg/dL,90.0-140.0,1
+RES000888,ORD00419,Hematology,CBC_Platelets,178.59,x10^3/uL,150.0-450.0,0
+RES000889,ORD00420,Pathology,Urine_Routine_PusCells,2.21,cells/HPF,0.0-5.0,0
+RES000890,ORD00420,Biochemistry,Lipid_Cholesterol,116.06,mg/dL,120.0-200.0,0
+RES000891,ORD00421,Immunoassay,TSH,2.68,uIU/mL,0.4-4.5,0
+RES000892,ORD00421,Hematology,CBC_Platelets,293.64,x10^3/uL,150.0-450.0,0
+RES000893,ORD00421,Critical Care,Serum_Potassium,5.05,mmol/L,3.5-5.0,0
+RES000894,ORD00422,Biochemistry,Lipid_Cholesterol,141.38,mg/dL,120.0-200.0,0
+RES000895,ORD00422,Pathology,Urine_Routine_PusCells,4.41,cells/HPF,0.0-5.0,0
+RES000896,ORD00423,Immunoassay,TSH,3.45,uIU/mL,0.4-4.5,0
+RES000897,ORD00423,Biochemistry,Lipid_Cholesterol,207.89,mg/dL,120.0-200.0,0
+RES000898,ORD00424,Biochemistry,Lipid_Cholesterol,128.98,mg/dL,120.0-200.0,0
+RES000899,ORD00424,Hematology,CBC_Platelets,322.73,x10^3/uL,150.0-450.0,0
+RES000900,ORD00425,Immunoassay,TSH,4.29,uIU/mL,0.4-4.5,0
+RES000901,ORD00425,Biochemistry,PPBS,119.38,mg/dL,90.0-140.0,0
+RES000902,ORD00426,Biochemistry,Serum_Creatinine,0.86,mg/dL,0.7-1.3,0
+RES000903,ORD00426,Pathology,Urine_Routine_PusCells,38.77,cells/HPF,0.0-5.0,1
+RES000904,ORD00426,Hematology,CBC_Hemoglobin,15.03,g/dL,12.0-16.0,0
+RES000905,ORD00427,Hematology,CBC_Hemoglobin,13.71,g/dL,12.0-16.0,0
+RES000906,ORD00427,Biochemistry,Lipid_Cholesterol,115.17,mg/dL,120.0-200.0,0
+RES000907,ORD00428,Critical Care,Serum_Potassium,5.19,mmol/L,3.5-5.0,0
+RES000908,ORD00428,Biochemistry,Lipid_Cholesterol,200.06,mg/dL,120.0-200.0,0
+RES000909,ORD00429,Hematology,CBC_Hemoglobin,16.34,g/dL,12.0-16.0,0
+RES000910,ORD00429,Biochemistry,PPBS,119.68,mg/dL,90.0-140.0,0
+RES000911,ORD00429,Biochemistry,FBS,94.78,mg/dL,70.0-99.0,0
+RES000912,ORD00430,Critical Care,Serum_Potassium,4.22,mmol/L,3.5-5.0,0
+RES000913,ORD00430,Hematology,CBC_Platelets,12.36,x10^3/uL,150.0-450.0,1
+RES000914,ORD00431,Biochemistry,Serum_Creatinine,1.01,mg/dL,0.7-1.3,0
+RES000915,ORD00431,Biochemistry,FBS,88.93,mg/dL,70.0-99.0,0
+RES000916,ORD00431,Hematology,CBC_Platelets,301.06,x10^3/uL,150.0-450.0,0
+RES000917,ORD00432,Biochemistry,FBS,71.97,mg/dL,70.0-99.0,0
+RES000918,ORD00432,Critical Care,Serum_Potassium,4.66,mmol/L,3.5-5.0,0
+RES000919,ORD00432,Biochemistry,PPBS,88.75,mg/dL,90.0-140.0,0
+RES000920,ORD00433,Biochemistry,Lipid_Cholesterol,166.2,mg/dL,120.0-200.0,0
+RES000921,ORD00433,Biochemistry,PPBS,136.35,mg/dL,90.0-140.0,0
+RES000922,ORD00433,Critical Care,Serum_Potassium,3.9,mmol/L,3.5-5.0,0
+RES000923,ORD00434,Immunoassay,TSH,4.38,uIU/mL,0.4-4.5,0
+RES000924,ORD00434,Hematology,CBC_Platelets,214.4,x10^3/uL,150.0-450.0,0
+RES000925,ORD00435,Biochemistry,PPBS,92.67,mg/dL,90.0-140.0,0
+RES000926,ORD00435,Hematology,CBC_Hemoglobin,11.49,g/dL,12.0-16.0,0
+RES000927,ORD00435,Biochemistry,Serum_Creatinine,1.15,mg/dL,0.7-1.3,0
+RES000928,ORD00436,Biochemistry,PPBS,94.26,mg/dL,90.0-140.0,0
+RES000929,ORD00436,Biochemistry,Serum_Creatinine,0.75,mg/dL,0.7-1.3,0
+RES000930,ORD00436,Pathology,Urine_Routine_PusCells,0.41,cells/HPF,0.0-5.0,0
+RES000931,ORD00437,Pathology,Urine_Routine_PusCells,2.46,cells/HPF,0.0-5.0,0
+RES000932,ORD00438,Biochemistry,Lipid_Cholesterol,116.81,mg/dL,120.0-200.0,0
+RES000933,ORD00439,Pathology,Urine_Routine_PusCells,0.52,cells/HPF,0.0-5.0,0
+RES000934,ORD00440,Biochemistry,FBS,98.38,mg/dL,70.0-99.0,0
+RES000935,ORD00440,Biochemistry,PPBS,128.44,mg/dL,90.0-140.0,0
+RES000936,ORD00440,Hematology,CBC_Platelets,364.76,x10^3/uL,150.0-450.0,0
+RES000937,ORD00441,Biochemistry,PPBS,93.86,mg/dL,90.0-140.0,0
+RES000938,ORD00441,Hematology,CBC_Platelets,375.06,x10^3/uL,150.0-450.0,0
+RES000939,ORD00442,Critical Care,Serum_Potassium,3.88,mmol/L,3.5-5.0,0
+RES000940,ORD00442,Hematology,CBC_Platelets,204.8,x10^3/uL,150.0-450.0,0
+RES000941,ORD00442,Biochemistry,PPBS,505.62,mg/dL,90.0-140.0,1
+RES000942,ORD00443,Biochemistry,PPBS,128.24,mg/dL,90.0-140.0,0
+RES000943,ORD00443,Pathology,Urine_Routine_PusCells,3.89,cells/HPF,0.0-5.0,0
+RES000944,ORD00443,Hematology,CBC_Platelets,198.18,x10^3/uL,150.0-450.0,0
+RES000945,ORD00444,Hematology,CBC_Platelets,334.53,x10^3/uL,150.0-450.0,0
+RES000946,ORD00444,Critical Care,Serum_Potassium,4.84,mmol/L,3.5-5.0,0
+RES000947,ORD00444,Hematology,CBC_Hemoglobin,13.56,g/dL,12.0-16.0,0
+RES000948,ORD00445,Hematology,CBC_Platelets,186.92,x10^3/uL,150.0-450.0,0
+RES000949,ORD00445,Biochemistry,Serum_Creatinine,4.3,mg/dL,0.7-1.3,1
+RES000950,ORD00446,Biochemistry,PPBS,132.71,mg/dL,90.0-140.0,0
+RES000951,ORD00446,Pathology,Urine_Routine_PusCells,1.06,cells/HPF,0.0-5.0,0
+RES000952,ORD00446,Immunoassay,TSH,2.51,uIU/mL,0.4-4.5,0
+RES000953,ORD00447,Hematology,CBC_Hemoglobin,16.01,g/dL,12.0-16.0,0
+RES000954,ORD00448,Hematology,CBC_Hemoglobin,13.5,g/dL,12.0-16.0,0
+RES000955,ORD00448,Biochemistry,Lipid_Cholesterol,168.61,mg/dL,120.0-200.0,0
+RES000956,ORD00449,Hematology,CBC_Hemoglobin,12.94,g/dL,12.0-16.0,0
+RES000957,ORD00449,Immunoassay,TSH,22.15,uIU/mL,0.4-4.5,1
+RES000958,ORD00450,Hematology,CBC_Hemoglobin,3.63,g/dL,12.0-16.0,1
+RES000959,ORD00450,Immunoassay,TSH,0.75,uIU/mL,0.4-4.5,0
+RES000960,ORD00451,Hematology,CBC_Hemoglobin,3.06,g/dL,12.0-16.0,1
+RES000961,ORD00451,Pathology,Urine_Routine_PusCells,2.99,cells/HPF,0.0-5.0,0
+RES000962,ORD00451,Biochemistry,Lipid_Cholesterol,123.38,mg/dL,120.0-200.0,0
+RES000963,ORD00452,Hematology,CBC_Hemoglobin,15.98,g/dL,12.0-16.0,0
+RES000964,ORD00452,Biochemistry,Serum_Creatinine,1.25,mg/dL,0.7-1.3,0
+RES000965,ORD00453,Biochemistry,PPBS,89.64,mg/dL,90.0-140.0,0
+RES000966,ORD00453,Pathology,Urine_Routine_PusCells,2.5,cells/HPF,0.0-5.0,0
+RES000967,ORD00453,Critical Care,Serum_Potassium,4.86,mmol/L,3.5-5.0,0
+RES000968,ORD00454,Critical Care,Serum_Potassium,4.38,mmol/L,3.5-5.0,0
+RES000969,ORD00454,Hematology,CBC_Platelets,349.69,x10^3/uL,150.0-450.0,0
+RES000970,ORD00455,Hematology,CBC_Hemoglobin,13.9,g/dL,12.0-16.0,0
+RES000971,ORD00455,Biochemistry,FBS,94.45,mg/dL,70.0-99.0,0
+RES000972,ORD00455,Critical Care,Serum_Potassium,4.95,mmol/L,3.5-5.0,0
+RES000973,ORD00456,Critical Care,Serum_Potassium,3.78,mmol/L,3.5-5.0,0
+RES000974,ORD00457,Hematology,CBC_Hemoglobin,12.87,g/dL,12.0-16.0,0
+RES000975,ORD00457,Biochemistry,FBS,411.25,mg/dL,70.0-99.0,1
+RES000976,ORD00458,Critical Care,Serum_Potassium,4.11,mmol/L,3.5-5.0,0
+RES000977,ORD00458,Biochemistry,PPBS,125.93,mg/dL,90.0-140.0,0
+RES000978,ORD00459,Pathology,Urine_Routine_PusCells,1.25,cells/HPF,0.0-5.0,0
+RES000979,ORD00459,Critical Care,Serum_Potassium,4.88,mmol/L,3.5-5.0,0
+RES000980,ORD00459,Biochemistry,Serum_Creatinine,1.07,mg/dL,0.7-1.3,0
+RES000981,ORD00460,Hematology,CBC_Hemoglobin,11.7,g/dL,12.0-16.0,0
+RES000982,ORD00460,Critical Care,Serum_Potassium,4.67,mmol/L,3.5-5.0,0
+RES000983,ORD00461,Critical Care,Serum_Potassium,5.07,mmol/L,3.5-5.0,0
+RES000984,ORD00461,Biochemistry,FBS,493.33,mg/dL,70.0-99.0,1
+RES000985,ORD00462,Pathology,Urine_Routine_PusCells,4.5,cells/HPF,0.0-5.0,0
+RES000986,ORD00463,Hematology,CBC_Platelets,432.72,x10^3/uL,150.0-450.0,0
+RES000987,ORD00464,Hematology,CBC_Hemoglobin,15.17,g/dL,12.0-16.0,0
+RES000988,ORD00464,Biochemistry,PPBS,107.14,mg/dL,90.0-140.0,0
+RES000989,ORD00465,Biochemistry,Lipid_Cholesterol,143.33,mg/dL,120.0-200.0,0
+RES000990,ORD00465,Biochemistry,FBS,70.65,mg/dL,70.0-99.0,0
+RES000991,ORD00465,Biochemistry,Serum_Creatinine,1.16,mg/dL,0.7-1.3,0
+RES000992,ORD00466,Biochemistry,Lipid_Cholesterol,193.37,mg/dL,120.0-200.0,0
+RES000993,ORD00466,Critical Care,Serum_Potassium,3.71,mmol/L,3.5-5.0,0
+RES000994,ORD00466,Biochemistry,PPBS,96.69,mg/dL,90.0-140.0,0
+RES000995,ORD00467,Critical Care,Serum_Potassium,3.65,mmol/L,3.5-5.0,0
+RES000996,ORD00468,Biochemistry,FBS,82.8,mg/dL,70.0-99.0,0
+RES000997,ORD00469,Critical Care,Serum_Potassium,4.16,mmol/L,3.5-5.0,0
+RES000998,ORD00469,Hematology,CBC_Platelets,213.64,x10^3/uL,150.0-450.0,0
+RES000999,ORD00470,Hematology,CBC_Platelets,264.48,x10^3/uL,150.0-450.0,0
+RES001000,ORD00471,Hematology,CBC_Hemoglobin,15.37,g/dL,12.0-16.0,0
+RES001001,ORD00472,Biochemistry,FBS,80.77,mg/dL,70.0-99.0,0
+RES001002,ORD00472,Pathology,Urine_Routine_PusCells,3.52,cells/HPF,0.0-5.0,0
+RES001003,ORD00472,Biochemistry,Lipid_Cholesterol,199.65,mg/dL,120.0-200.0,0
+RES001004,ORD00473,Immunoassay,TSH,2.26,uIU/mL,0.4-4.5,0
+RES001005,ORD00474,Critical Care,Serum_Potassium,3.64,mmol/L,3.5-5.0,0
+RES001006,ORD00474,Immunoassay,TSH,2.51,uIU/mL,0.4-4.5,0
+RES001007,ORD00475,Biochemistry,Lipid_Cholesterol,209.54,mg/dL,120.0-200.0,0
+RES001008,ORD00475,Hematology,CBC_Platelets,155.96,x10^3/uL,150.0-450.0,0
+RES001009,ORD00476,Biochemistry,Lipid_Cholesterol,192.97,mg/dL,120.0-200.0,0
+RES001010,ORD00476,Pathology,Urine_Routine_PusCells,3.48,cells/HPF,0.0-5.0,0
+RES001011,ORD00477,Biochemistry,PPBS,542.52,mg/dL,90.0-140.0,1
+RES001012,ORD00477,Immunoassay,TSH,2.95,uIU/mL,0.4-4.5,0
+RES001013,ORD00478,Biochemistry,FBS,91.07,mg/dL,70.0-99.0,0
+RES001014,ORD00478,Immunoassay,TSH,1.79,uIU/mL,0.4-4.5,0
+RES001015,ORD00479,Biochemistry,PPBS,96.45,mg/dL,90.0-140.0,0
+RES001016,ORD00479,Hematology,CBC_Hemoglobin,16.07,g/dL,12.0-16.0,0
+RES001017,ORD00479,Biochemistry,FBS,393.16,mg/dL,70.0-99.0,1
+RES001018,ORD00480,Critical Care,Serum_Potassium,3.51,mmol/L,3.5-5.0,0
+RES001019,ORD00480,Biochemistry,Lipid_Cholesterol,133.19,mg/dL,120.0-200.0,0
+RES001020,ORD00481,Biochemistry,Lipid_Cholesterol,122.92,mg/dL,120.0-200.0,0
+RES001021,ORD00481,Hematology,CBC_Hemoglobin,16.66,g/dL,12.0-16.0,0
+RES001022,ORD00482,Biochemistry,PPBS,146.03,mg/dL,90.0-140.0,0
+RES001023,ORD00482,Hematology,CBC_Platelets,241.63,x10^3/uL,150.0-450.0,0
+RES001024,ORD00483,Hematology,CBC_Hemoglobin,15.29,g/dL,12.0-16.0,0
+RES001025,ORD00483,Pathology,Urine_Routine_PusCells,1.87,cells/HPF,0.0-5.0,0
+RES001026,ORD00483,Biochemistry,FBS,95.29,mg/dL,70.0-99.0,0
+RES001027,ORD00484,Critical Care,Serum_Potassium,4.78,mmol/L,3.5-5.0,0
+RES001028,ORD00484,Immunoassay,TSH,3.89,uIU/mL,0.4-4.5,0
+RES001029,ORD00484,Pathology,Urine_Routine_PusCells,4.82,cells/HPF,0.0-5.0,0
+RES001030,ORD00485,Hematology,CBC_Hemoglobin,12.33,g/dL,12.0-16.0,0
+RES001031,ORD00486,Immunoassay,TSH,0.92,uIU/mL,0.4-4.5,0
+RES001032,ORD00486,Hematology,CBC_Hemoglobin,3.04,g/dL,12.0-16.0,1
+RES001033,ORD00486,Hematology,CBC_Platelets,425.97,x10^3/uL,150.0-450.0,0
+RES001034,ORD00487,Biochemistry,Lipid_Cholesterol,125.18,mg/dL,120.0-200.0,0
+RES001035,ORD00487,Hematology,CBC_Platelets,386.3,x10^3/uL,150.0-450.0,0
+RES001036,ORD00488,Hematology,CBC_Hemoglobin,27.42,g/dL,12.0-16.0,1
+RES001037,ORD00488,Biochemistry,FBS,98.28,mg/dL,70.0-99.0,0
+RES001038,ORD00488,Biochemistry,Lipid_Cholesterol,171.2,mg/dL,120.0-200.0,0
+RES001039,ORD00489,Hematology,CBC_Platelets,15.19,x10^3/uL,150.0-450.0,1
+RES001040,ORD00489,Biochemistry,Serum_Creatinine,0.85,mg/dL,0.7-1.3,0
+RES001041,ORD00489,Immunoassay,TSH,4.24,uIU/mL,0.4-4.5,0
+RES001042,ORD00490,Immunoassay,TSH,1.33,uIU/mL,0.4-4.5,0
+RES001043,ORD00490,Hematology,CBC_Platelets,254.42,x10^3/uL,150.0-450.0,0
+RES001044,ORD00491,Immunoassay,TSH,1.08,uIU/mL,0.4-4.5,0
+RES001045,ORD00491,Hematology,CBC_Platelets,370.43,x10^3/uL,150.0-450.0,0
+RES001046,ORD00491,Hematology,CBC_Hemoglobin,3.47,g/dL,12.0-16.0,1
+RES001047,ORD00492,Biochemistry,FBS,76.27,mg/dL,70.0-99.0,0
+RES001048,ORD00493,Biochemistry,PPBS,115.41,mg/dL,90.0-140.0,0
+RES001049,ORD00494,Pathology,Urine_Routine_PusCells,44.27,cells/HPF,0.0-5.0,1
+RES001050,ORD00494,Biochemistry,PPBS,144.7,mg/dL,90.0-140.0,0
+RES001051,ORD00494,Immunoassay,TSH,4.61,uIU/mL,0.4-4.5,0
+RES001052,ORD00495,Immunoassay,TSH,1.65,uIU/mL,0.4-4.5,0
+RES001053,ORD00496,Biochemistry,Serum_Creatinine,0.96,mg/dL,0.7-1.3,0
+RES001054,ORD00497,Immunoassay,TSH,3.27,uIU/mL,0.4-4.5,0
+RES001055,ORD00497,Hematology,CBC_Hemoglobin,15.47,g/dL,12.0-16.0,0
+RES001056,ORD00498,Immunoassay,TSH,0.42,uIU/mL,0.4-4.5,0
+RES001057,ORD00498,Biochemistry,FBS,101.84,mg/dL,70.0-99.0,0
+RES001058,ORD00498,Biochemistry,Serum_Creatinine,4.77,mg/dL,0.7-1.3,1
+RES001059,ORD00499,Pathology,Urine_Routine_PusCells,3.57,cells/HPF,0.0-5.0,0
+RES001060,ORD00499,Critical Care,Serum_Potassium,3.91,mmol/L,3.5-5.0,0
+RES001061,ORD00499,Biochemistry,Serum_Creatinine,1.3,mg/dL,0.7-1.3,0
+RES001062,ORD00500,Hematology,CBC_Platelets,275.99,x10^3/uL,150.0-450.0,0
+RES001063,ORD00500,Immunoassay,TSH,1.69,uIU/mL,0.4-4.5,0
+RES001064,ORD00500,Hematology,CBC_Hemoglobin,4.96,g/dL,12.0-16.0,1
+RES001065,ORD00501,Immunoassay,TSH,26.33,uIU/mL,0.4-4.5,1
+RES001066,ORD00501,Biochemistry,Lipid_Cholesterol,188.32,mg/dL,120.0-200.0,0
+RES001067,ORD00501,Biochemistry,FBS,103.46,mg/dL,70.0-99.0,0
+RES001068,ORD00502,Biochemistry,PPBS,85.82,mg/dL,90.0-140.0,0
+RES001069,ORD00502,Hematology,CBC_Platelets,220.41,x10^3/uL,150.0-450.0,0
+RES001070,ORD00502,Biochemistry,Lipid_Cholesterol,169.83,mg/dL,120.0-200.0,0
+RES001071,ORD00503,Pathology,Urine_Routine_PusCells,2.71,cells/HPF,0.0-5.0,0
+RES001072,ORD00503,Biochemistry,Serum_Creatinine,1.21,mg/dL,0.7-1.3,0
+RES001073,ORD00504,Hematology,CBC_Platelets,168.26,x10^3/uL,150.0-450.0,0
+RES001074,ORD00505,Hematology,CBC_Platelets,280.08,x10^3/uL,150.0-450.0,0
+RES001075,ORD00505,Pathology,Urine_Routine_PusCells,2.66,cells/HPF,0.0-5.0,0
+RES001076,ORD00506,Biochemistry,FBS,80.33,mg/dL,70.0-99.0,0
+RES001077,ORD00506,Biochemistry,Lipid_Cholesterol,171.75,mg/dL,120.0-200.0,0
+RES001078,ORD00507,Immunoassay,TSH,0.5,uIU/mL,0.4-4.5,0
+RES001079,ORD00507,Critical Care,Serum_Potassium,4.83,mmol/L,3.5-5.0,0
+RES001080,ORD00508,Biochemistry,FBS,87.96,mg/dL,70.0-99.0,0
+RES001081,ORD00509,Hematology,CBC_Platelets,428.39,x10^3/uL,150.0-450.0,0
+RES001082,ORD00509,Pathology,Urine_Routine_PusCells,4.2,cells/HPF,0.0-5.0,0
+RES001083,ORD00509,Immunoassay,TSH,2.16,uIU/mL,0.4-4.5,0
+RES001084,ORD00510,Biochemistry,Lipid_Cholesterol,168.91,mg/dL,120.0-200.0,0
+RES001085,ORD00511,Pathology,Urine_Routine_PusCells,3.94,cells/HPF,0.0-5.0,0
+RES001086,ORD00511,Biochemistry,FBS,67.2,mg/dL,70.0-99.0,0
+RES001087,ORD00511,Critical Care,Serum_Potassium,4.35,mmol/L,3.5-5.0,0
+RES001088,ORD00512,Immunoassay,TSH,21.21,uIU/mL,0.4-4.5,1
+RES001089,ORD00512,Hematology,CBC_Hemoglobin,13.64,g/dL,12.0-16.0,0
+RES001090,ORD00512,Critical Care,Serum_Potassium,3.94,mmol/L,3.5-5.0,0
+RES001091,ORD00513,Biochemistry,Lipid_Cholesterol,153.1,mg/dL,120.0-200.0,0
+RES001092,ORD00514,Hematology,CBC_Hemoglobin,12.79,g/dL,12.0-16.0,0
+RES001093,ORD00515,Hematology,CBC_Hemoglobin,4.1,g/dL,12.0-16.0,1
+RES001094,ORD00515,Biochemistry,PPBS,110.56,mg/dL,90.0-140.0,0
+RES001095,ORD00515,Biochemistry,Lipid_Cholesterol,199.07,mg/dL,120.0-200.0,0
+RES001096,ORD00516,Biochemistry,PPBS,94.26,mg/dL,90.0-140.0,0
+RES001097,ORD00516,Biochemistry,Serum_Creatinine,0.78,mg/dL,0.7-1.3,0
+RES001098,ORD00517,Biochemistry,Lipid_Cholesterol,160.29,mg/dL,120.0-200.0,0
+RES001099,ORD00517,Biochemistry,FBS,97.94,mg/dL,70.0-99.0,0
+RES001100,ORD00517,Hematology,CBC_Platelets,258.47,x10^3/uL,150.0-450.0,0
+RES001101,ORD00518,Biochemistry,PPBS,146.93,mg/dL,90.0-140.0,0
+RES001102,ORD00518,Biochemistry,Lipid_Cholesterol,134.24,mg/dL,120.0-200.0,0
+RES001103,ORD00519,Immunoassay,TSH,2.98,uIU/mL,0.4-4.5,0
+RES001104,ORD00519,Biochemistry,Serum_Creatinine,5.45,mg/dL,0.7-1.3,1
+RES001105,ORD00520,Hematology,CBC_Platelets,1343.07,x10^3/uL,150.0-450.0,1
+RES001106,ORD00520,Hematology,CBC_Hemoglobin,16.22,g/dL,12.0-16.0,0
+RES001107,ORD00520,Critical Care,Serum_Potassium,4.18,mmol/L,3.5-5.0,0
+RES001108,ORD00521,Biochemistry,FBS,73.73,mg/dL,70.0-99.0,0
+RES001109,ORD00521,Biochemistry,PPBS,556.52,mg/dL,90.0-140.0,1
+RES001110,ORD00521,Biochemistry,Serum_Creatinine,1.16,mg/dL,0.7-1.3,0
+RES001111,ORD00522,Biochemistry,Serum_Creatinine,1.24,mg/dL,0.7-1.3,0
+RES001112,ORD00522,Biochemistry,FBS,99.08,mg/dL,70.0-99.0,0
+RES001113,ORD00523,Biochemistry,Lipid_Cholesterol,120.24,mg/dL,120.0-200.0,0
+RES001114,ORD00523,Biochemistry,PPBS,120.55,mg/dL,90.0-140.0,0
+RES001115,ORD00523,Critical Care,Serum_Potassium,4.33,mmol/L,3.5-5.0,0
+RES001116,ORD00524,Biochemistry,FBS,101.82,mg/dL,70.0-99.0,0
+RES001117,ORD00524,Hematology,CBC_Hemoglobin,24.89,g/dL,12.0-16.0,1
+RES001118,ORD00525,Biochemistry,Serum_Creatinine,1.04,mg/dL,0.7-1.3,0
+RES001119,ORD00525,Biochemistry,FBS,81.18,mg/dL,70.0-99.0,0
+RES001120,ORD00525,Biochemistry,Lipid_Cholesterol,198.49,mg/dL,120.0-200.0,0
+RES001121,ORD00526,Biochemistry,PPBS,25.54,mg/dL,90.0-140.0,1
+RES001122,ORD00527,Immunoassay,TSH,1.41,uIU/mL,0.4-4.5,0
+RES001123,ORD00528,Biochemistry,FBS,99.83,mg/dL,70.0-99.0,0
+RES001124,ORD00529,Biochemistry,PPBS,119.89,mg/dL,90.0-140.0,0
+RES001125,ORD00530,Biochemistry,FBS,82.53,mg/dL,70.0-99.0,0
+RES001126,ORD00530,Hematology,CBC_Platelets,175.92,x10^3/uL,150.0-450.0,0
+RES001127,ORD00530,Biochemistry,Serum_Creatinine,1.14,mg/dL,0.7-1.3,0
+RES001128,ORD00531,Biochemistry,Serum_Creatinine,0.91,mg/dL,0.7-1.3,0
+RES001129,ORD00531,Biochemistry,Lipid_Cholesterol,173.6,mg/dL,120.0-200.0,0
+RES001130,ORD00531,Immunoassay,TSH,0.98,uIU/mL,0.4-4.5,0
+RES001131,ORD00532,Biochemistry,Lipid_Cholesterol,146.92,mg/dL,120.0-200.0,0
+RES001132,ORD00532,Pathology,Urine_Routine_PusCells,0.04,cells/HPF,0.0-5.0,0
+RES001133,ORD00532,Biochemistry,Serum_Creatinine,1.14,mg/dL,0.7-1.3,0
+RES001134,ORD00533,Hematology,CBC_Platelets,466.53,x10^3/uL,150.0-450.0,0
+RES001135,ORD00534,Hematology,CBC_Platelets,442.98,x10^3/uL,150.0-450.0,0
+RES001136,ORD00535,Immunoassay,TSH,1.18,uIU/mL,0.4-4.5,0
+RES001137,ORD00535,Hematology,CBC_Hemoglobin,13.36,g/dL,12.0-16.0,0
+RES001138,ORD00536,Biochemistry,FBS,77.14,mg/dL,70.0-99.0,0
+RES001139,ORD00536,Pathology,Urine_Routine_PusCells,1.38,cells/HPF,0.0-5.0,0
+RES001140,ORD00537,Biochemistry,Lipid_Cholesterol,124.65,mg/dL,120.0-200.0,0
+RES001141,ORD00537,Hematology,CBC_Hemoglobin,13.05,g/dL,12.0-16.0,0
+RES001142,ORD00537,Immunoassay,TSH,3.9,uIU/mL,0.4-4.5,0
+RES001143,ORD00538,Hematology,CBC_Hemoglobin,16.68,g/dL,12.0-16.0,0
+RES001144,ORD00538,Immunoassay,TSH,0.58,uIU/mL,0.4-4.5,0
+RES001145,ORD00538,Biochemistry,Lipid_Cholesterol,132.15,mg/dL,120.0-200.0,0
+RES001146,ORD00539,Hematology,CBC_Platelets,15.97,x10^3/uL,150.0-450.0,1
+RES001147,ORD00539,Biochemistry,Serum_Creatinine,5.12,mg/dL,0.7-1.3,1
+RES001148,ORD00539,Immunoassay,TSH,3.18,uIU/mL,0.4-4.5,0
+RES001149,ORD00540,Hematology,CBC_Platelets,353.07,x10^3/uL,150.0-450.0,0
+RES001150,ORD00540,Pathology,Urine_Routine_PusCells,3.41,cells/HPF,0.0-5.0,0
+RES001151,ORD00540,Biochemistry,Lipid_Cholesterol,199.91,mg/dL,120.0-200.0,0
+RES001152,ORD00541,Critical Care,Serum_Potassium,3.49,mmol/L,3.5-5.0,0
+RES001153,ORD00541,Biochemistry,PPBS,107.12,mg/dL,90.0-140.0,0
+RES001154,ORD00542,Hematology,CBC_Platelets,150.66,x10^3/uL,150.0-450.0,0
+RES001155,ORD00542,Immunoassay,TSH,1.53,uIU/mL,0.4-4.5,0
+RES001156,ORD00543,Biochemistry,PPBS,107.65,mg/dL,90.0-140.0,0
+RES001157,ORD00544,Critical Care,Serum_Potassium,3.59,mmol/L,3.5-5.0,0
+RES001158,ORD00544,Biochemistry,Serum_Creatinine,1.17,mg/dL,0.7-1.3,0
+RES001159,ORD00544,Immunoassay,TSH,1.51,uIU/mL,0.4-4.5,0
+RES001160,ORD00545,Biochemistry,FBS,95.01,mg/dL,70.0-99.0,0
+RES001161,ORD00545,Hematology,CBC_Platelets,273.68,x10^3/uL,150.0-450.0,0
+RES001162,ORD00545,Immunoassay,TSH,3.64,uIU/mL,0.4-4.5,0
+RES001163,ORD00546,Hematology,CBC_Hemoglobin,14.42,g/dL,12.0-16.0,0
+RES001164,ORD00546,Biochemistry,Serum_Creatinine,1.07,mg/dL,0.7-1.3,0
+RES001165,ORD00546,Hematology,CBC_Platelets,453.81,x10^3/uL,150.0-450.0,0
+RES001166,ORD00547,Critical Care,Serum_Potassium,8.79,mmol/L,3.5-5.0,1
+RES001167,ORD00547,Immunoassay,TSH,4.52,uIU/mL,0.4-4.5,0
+RES001168,ORD00547,Pathology,Urine_Routine_PusCells,3.31,cells/HPF,0.0-5.0,0
+RES001169,ORD00548,Immunoassay,TSH,2.34,uIU/mL,0.4-4.5,0
+RES001170,ORD00549,Biochemistry,FBS,100.63,mg/dL,70.0-99.0,0
+RES001171,ORD00549,Biochemistry,Lipid_Cholesterol,133.77,mg/dL,120.0-200.0,0
+RES001172,ORD00550,Hematology,CBC_Hemoglobin,12.1,g/dL,12.0-16.0,0
+RES001173,ORD00550,Biochemistry,Lipid_Cholesterol,185.34,mg/dL,120.0-200.0,0
+RES001174,ORD00551,Biochemistry,Serum_Creatinine,0.67,mg/dL,0.7-1.3,0
+RES001175,ORD00551,Hematology,CBC_Platelets,163.61,x10^3/uL,150.0-450.0,0
+RES001176,ORD00552,Biochemistry,PPBS,139.68,mg/dL,90.0-140.0,0
+RES001177,ORD00553,Hematology,CBC_Hemoglobin,12.39,g/dL,12.0-16.0,0
+RES001178,ORD00553,Hematology,CBC_Platelets,272.37,x10^3/uL,150.0-450.0,0
+RES001179,ORD00553,Biochemistry,Serum_Creatinine,0.83,mg/dL,0.7-1.3,0
+RES001180,ORD00554,Biochemistry,PPBS,116.52,mg/dL,90.0-140.0,0
+RES001181,ORD00554,Immunoassay,TSH,2.16,uIU/mL,0.4-4.5,0
+RES001182,ORD00554,Biochemistry,FBS,74.27,mg/dL,70.0-99.0,0
+RES001183,ORD00555,Biochemistry,Serum_Creatinine,4.65,mg/dL,0.7-1.3,1
+RES001184,ORD00555,Hematology,CBC_Hemoglobin,12.14,g/dL,12.0-16.0,0
+RES001185,ORD00556,Biochemistry,Lipid_Cholesterol,194.79,mg/dL,120.0-200.0,0
+RES001186,ORD00556,Hematology,CBC_Platelets,148.46,x10^3/uL,150.0-450.0,0
+RES001187,ORD00557,Critical Care,Serum_Potassium,4.01,mmol/L,3.5-5.0,0
+RES001188,ORD00558,Biochemistry,PPBS,88.72,mg/dL,90.0-140.0,0
+RES001189,ORD00558,Hematology,CBC_Hemoglobin,27.9,g/dL,12.0-16.0,1
+RES001190,ORD00558,Immunoassay,TSH,2.01,uIU/mL,0.4-4.5,0
+RES001191,ORD00559,Biochemistry,PPBS,136.57,mg/dL,90.0-140.0,0
+RES001192,ORD00559,Biochemistry,Serum_Creatinine,0.78,mg/dL,0.7-1.3,0
+RES001193,ORD00559,Biochemistry,FBS,70.53,mg/dL,70.0-99.0,0
+RES001194,ORD00560,Biochemistry,PPBS,96.18,mg/dL,90.0-140.0,0
+RES001195,ORD00561,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1
+RES001196,ORD00561,Biochemistry,FBS,103.32,mg/dL,70.0-99.0,0
+RES001197,ORD00562,Biochemistry,Lipid_Cholesterol,198.86,mg/dL,120.0-200.0,0
+RES001198,ORD00562,Immunoassay,TSH,4.08,uIU/mL,0.4-4.5,0
+RES001199,ORD00562,Biochemistry,PPBS,106.11,mg/dL,90.0-140.0,0
+RES001200,ORD00563,Biochemistry,Serum_Creatinine,5.57,mg/dL,0.7-1.3,1
+RES001201,ORD00564,Critical Care,Serum_Potassium,3.72,mmol/L,3.5-5.0,0
+RES001202,ORD00564,Biochemistry,Serum_Creatinine,5.86,mg/dL,0.7-1.3,1
+RES001203,ORD00565,Pathology,Urine_Routine_PusCells,2.18,cells/HPF,0.0-5.0,0
+RES001204,ORD00566,Biochemistry,Serum_Creatinine,1.03,mg/dL,0.7-1.3,0
+RES001205,ORD00566,Pathology,Urine_Routine_PusCells,3.31,cells/HPF,0.0-5.0,0
+RES001206,ORD00566,Critical Care,Serum_Potassium,2.6,mmol/L,3.5-5.0,1
+RES001207,ORD00567,Biochemistry,Serum_Creatinine,0.96,mg/dL,0.7-1.3,0
+RES001208,ORD00568,Hematology,CBC_Platelets,400.33,x10^3/uL,150.0-450.0,0
+RES001209,ORD00568,Biochemistry,Serum_Creatinine,5.95,mg/dL,0.7-1.3,1
+RES001210,ORD00569,Biochemistry,FBS,69.62,mg/dL,70.0-99.0,0
+RES001211,ORD00569,Hematology,CBC_Hemoglobin,13.02,g/dL,12.0-16.0,0
+RES001212,ORD00570,Hematology,CBC_Platelets,297.36,x10^3/uL,150.0-450.0,0
+RES001213,ORD00570,Biochemistry,PPBS,97.16,mg/dL,90.0-140.0,0
+RES001214,ORD00570,Biochemistry,Lipid_Cholesterol,382.59,mg/dL,120.0-200.0,1
+RES001215,ORD00571,Biochemistry,PPBS,93.16,mg/dL,90.0-140.0,0
+RES001216,ORD00571,Hematology,CBC_Hemoglobin,12.28,g/dL,12.0-16.0,0
+RES001217,ORD00571,Biochemistry,FBS,102.34,mg/dL,70.0-99.0,0
+RES001218,ORD00572,Hematology,CBC_Hemoglobin,11.59,g/dL,12.0-16.0,0
+RES001219,ORD00572,Biochemistry,Serum_Creatinine,1.11,mg/dL,0.7-1.3,0
+RES001220,ORD00573,Biochemistry,Lipid_Cholesterol,175.86,mg/dL,120.0-200.0,0
+RES001221,ORD00573,Biochemistry,FBS,81.39,mg/dL,70.0-99.0,0
+RES001222,ORD00573,Hematology,CBC_Platelets,439.83,x10^3/uL,150.0-450.0,0
+RES001223,ORD00574,Hematology,CBC_Hemoglobin,16.13,g/dL,12.0-16.0,0
+RES001224,ORD00574,Critical Care,Serum_Potassium,3.5,mmol/L,3.5-5.0,0
+RES001225,ORD00574,Immunoassay,TSH,3.75,uIU/mL,0.4-4.5,0
+RES001226,ORD00575,Biochemistry,FBS,450.18,mg/dL,70.0-99.0,1
+RES001227,ORD00575,Biochemistry,PPBS,130.58,mg/dL,90.0-140.0,0
+RES001228,ORD00576,Hematology,CBC_Platelets,212.65,x10^3/uL,150.0-450.0,0
+RES001229,ORD00577,Biochemistry,PPBS,108.73,mg/dL,90.0-140.0,0
+RES001230,ORD00577,Biochemistry,Lipid_Cholesterol,146.85,mg/dL,120.0-200.0,0
+RES001231,ORD00577,Biochemistry,FBS,84.4,mg/dL,70.0-99.0,0
+RES001232,ORD00578,Biochemistry,Serum_Creatinine,0.67,mg/dL,0.7-1.3,0
+RES001233,ORD00579,Immunoassay,TSH,3.27,uIU/mL,0.4-4.5,0
+RES001234,ORD00579,Biochemistry,Serum_Creatinine,0.71,mg/dL,0.7-1.3,0
+RES001235,ORD00580,Biochemistry,FBS,99.04,mg/dL,70.0-99.0,0
+RES001236,ORD00581,Biochemistry,FBS,102.36,mg/dL,70.0-99.0,0
+RES001237,ORD00582,Biochemistry,PPBS,142.79,mg/dL,90.0-140.0,0
+RES001238,ORD00582,Immunoassay,TSH,4.67,uIU/mL,0.4-4.5,0
+RES001239,ORD00583,Pathology,Urine_Routine_PusCells,0.46,cells/HPF,0.0-5.0,0
+RES001240,ORD00583,Biochemistry,FBS,103.81,mg/dL,70.0-99.0,0
+RES001241,ORD00583,Biochemistry,PPBS,114.21,mg/dL,90.0-140.0,0
+RES001242,ORD00584,Biochemistry,PPBS,87.3,mg/dL,90.0-140.0,0
+RES001243,ORD00584,Pathology,Urine_Routine_PusCells,1.71,cells/HPF,0.0-5.0,0
+RES001244,ORD00584,Biochemistry,Serum_Creatinine,0.86,mg/dL,0.7-1.3,0
+RES001245,ORD00585,Immunoassay,TSH,4.43,uIU/mL,0.4-4.5,0
+RES001246,ORD00586,Hematology,CBC_Hemoglobin,12.97,g/dL,12.0-16.0,0
+RES001247,ORD00586,Biochemistry,Serum_Creatinine,0.9,mg/dL,0.7-1.3,0
+RES001248,ORD00586,Biochemistry,PPBS,97.07,mg/dL,90.0-140.0,0
+RES001249,ORD00587,Biochemistry,Serum_Creatinine,0.92,mg/dL,0.7-1.3,0
+RES001250,ORD00587,Hematology,CBC_Hemoglobin,15.7,g/dL,12.0-16.0,0
+RES001251,ORD00587,Pathology,Urine_Routine_PusCells,3.16,cells/HPF,0.0-5.0,0
+RES001252,ORD00588,Biochemistry,Serum_Creatinine,0.77,mg/dL,0.7-1.3,0
+RES001253,ORD00588,Hematology,CBC_Platelets,389.03,x10^3/uL,150.0-450.0,0
+RES001254,ORD00589,Biochemistry,Serum_Creatinine,1.34,mg/dL,0.7-1.3,0
+RES001255,ORD00589,Hematology,CBC_Platelets,1118.72,x10^3/uL,150.0-450.0,1
+RES001256,ORD00590,Biochemistry,Lipid_Cholesterol,154.55,mg/dL,120.0-200.0,0
+RES001257,ORD00590,Biochemistry,FBS,79.54,mg/dL,70.0-99.0,0
+RES001258,ORD00590,Critical Care,Serum_Potassium,3.46,mmol/L,3.5-5.0,0
+RES001259,ORD00591,Biochemistry,FBS,88.11,mg/dL,70.0-99.0,0
+RES001260,ORD00591,Critical Care,Serum_Potassium,4.25,mmol/L,3.5-5.0,0
+RES001261,ORD00591,Biochemistry,Serum_Creatinine,0.81,mg/dL,0.7-1.3,0
+RES001262,ORD00592,Hematology,CBC_Hemoglobin,13.71,g/dL,12.0-16.0,0
+RES001263,ORD00593,Immunoassay,TSH,2.14,uIU/mL,0.4-4.5,0
+RES001264,ORD00593,Hematology,CBC_Hemoglobin,4.32,g/dL,12.0-16.0,1
+RES001265,ORD00593,Biochemistry,PPBS,144.21,mg/dL,90.0-140.0,0
+RES001266,ORD00594,Hematology,CBC_Hemoglobin,13.38,g/dL,12.0-16.0,0
+RES001267,ORD00594,Critical Care,Serum_Potassium,3.48,mmol/L,3.5-5.0,0
+RES001268,ORD00594,Immunoassay,TSH,3.29,uIU/mL,0.4-4.5,0
+RES001269,ORD00595,Biochemistry,Lipid_Cholesterol,181.46,mg/dL,120.0-200.0,0
+RES001270,ORD00595,Hematology,CBC_Hemoglobin,12.08,g/dL,12.0-16.0,0
+RES001271,ORD00595,Biochemistry,Serum_Creatinine,1.16,mg/dL,0.7-1.3,0
+RES001272,ORD00596,Hematology,CBC_Platelets,320.36,x10^3/uL,150.0-450.0,0
+RES001273,ORD00596,Biochemistry,PPBS,125.58,mg/dL,90.0-140.0,0
+RES001274,ORD00596,Critical Care,Serum_Potassium,3.72,mmol/L,3.5-5.0,0
+RES001275,ORD00597,Biochemistry,PPBS,98.18,mg/dL,90.0-140.0,0
+RES001276,ORD00597,Biochemistry,FBS,87.57,mg/dL,70.0-99.0,0
+RES001277,ORD00598,Biochemistry,FBS,509.98,mg/dL,70.0-99.0,1
+RES001278,ORD00598,Biochemistry,Serum_Creatinine,1.04,mg/dL,0.7-1.3,0
+RES001279,ORD00598,Biochemistry,Lipid_Cholesterol,161.08,mg/dL,120.0-200.0,0
+RES001280,ORD00599,Biochemistry,FBS,77.72,mg/dL,70.0-99.0,0
+RES001281,ORD00600,Hematology,CBC_Hemoglobin,13.46,g/dL,12.0-16.0,0
+RES001282,ORD00600,Biochemistry,PPBS,110.1,mg/dL,90.0-140.0,0
+RES001283,ORD00600,Critical Care,Serum_Potassium,1.94,mmol/L,3.5-5.0,1
+RES001284,ORD00601,Pathology,Urine_Routine_PusCells,1.66,cells/HPF,0.0-5.0,0
+RES001285,ORD00601,Biochemistry,Lipid_Cholesterol,150.38,mg/dL,120.0-200.0,0
+RES001286,ORD00601,Biochemistry,Serum_Creatinine,0.84,mg/dL,0.7-1.3,0
+RES001287,ORD00602,Critical Care,Serum_Potassium,3.76,mmol/L,3.5-5.0,0
+RES001288,ORD00602,Biochemistry,Lipid_Cholesterol,365.92,mg/dL,120.0-200.0,1
+RES001289,ORD00603,Biochemistry,PPBS,138.72,mg/dL,90.0-140.0,0
+RES001290,ORD00603,Immunoassay,TSH,3.02,uIU/mL,0.4-4.5,0
+RES001291,ORD00604,Hematology,CBC_Platelets,369.1,x10^3/uL,150.0-450.0,0
+RES001292,ORD00604,Biochemistry,Lipid_Cholesterol,177.13,mg/dL,120.0-200.0,0
+RES001293,ORD00605,Hematology,CBC_Platelets,405.99,x10^3/uL,150.0-450.0,0
+RES001294,ORD00605,Biochemistry,Lipid_Cholesterol,140.48,mg/dL,120.0-200.0,0
+RES001295,ORD00605,Biochemistry,Serum_Creatinine,1.32,mg/dL,0.7-1.3,0
+RES001296,ORD00606,Biochemistry,Serum_Creatinine,0.72,mg/dL,0.7-1.3,0
+RES001297,ORD00606,Biochemistry,PPBS,142.67,mg/dL,90.0-140.0,0
+RES001298,ORD00606,Hematology,CBC_Platelets,146.03,x10^3/uL,150.0-450.0,0
+RES001299,ORD00607,Biochemistry,Serum_Creatinine,1.19,mg/dL,0.7-1.3,0
+RES001300,ORD00608,Pathology,Urine_Routine_PusCells,0.92,cells/HPF,0.0-5.0,0
+RES001301,ORD00609,Immunoassay,TSH,1.47,uIU/mL,0.4-4.5,0
+RES001302,ORD00610,Hematology,CBC_Hemoglobin,16.58,g/dL,12.0-16.0,0
+RES001303,ORD00610,Biochemistry,Serum_Creatinine,1.29,mg/dL,0.7-1.3,0
+RES001304,ORD00610,Biochemistry,Lipid_Cholesterol,199.68,mg/dL,120.0-200.0,0
+RES001305,ORD00611,Biochemistry,Lipid_Cholesterol,123.73,mg/dL,120.0-200.0,0
+RES001306,ORD00611,Hematology,CBC_Hemoglobin,11.86,g/dL,12.0-16.0,0
+RES001307,ORD00612,Biochemistry,Serum_Creatinine,0.87,mg/dL,0.7-1.3,0
+RES001308,ORD00612,Hematology,CBC_Platelets,202.62,x10^3/uL,150.0-450.0,0
+RES001309,ORD00613,Biochemistry,Serum_Creatinine,0.69,mg/dL,0.7-1.3,0
+RES001310,ORD00613,Biochemistry,PPBS,131.25,mg/dL,90.0-140.0,0
+RES001311,ORD00614,Biochemistry,Lipid_Cholesterol,198.65,mg/dL,120.0-200.0,0
+RES001312,ORD00614,Immunoassay,TSH,4.39,uIU/mL,0.4-4.5,0
+RES001313,ORD00614,Hematology,CBC_Hemoglobin,13.5,g/dL,12.0-16.0,0
+RES001314,ORD00615,Biochemistry,Serum_Creatinine,0.97,mg/dL,0.7-1.3,0
+RES001315,ORD00615,Biochemistry,FBS,66.8,mg/dL,70.0-99.0,0
+RES001316,ORD00615,Immunoassay,TSH,1.61,uIU/mL,0.4-4.5,0
+RES001317,ORD00616,Critical Care,Serum_Potassium,3.8,mmol/L,3.5-5.0,0
+RES001318,ORD00617,Biochemistry,Lipid_Cholesterol,117.68,mg/dL,120.0-200.0,0
+RES001319,ORD00617,Biochemistry,Serum_Creatinine,1.32,mg/dL,0.7-1.3,0
+RES001320,ORD00617,Biochemistry,FBS,89.59,mg/dL,70.0-99.0,0
+RES001321,ORD00618,Biochemistry,FBS,77.9,mg/dL,70.0-99.0,0
+RES001322,ORD00618,Hematology,CBC_Hemoglobin,12.92,g/dL,12.0-16.0,0
+RES001323,ORD00619,Immunoassay,TSH,4.33,uIU/mL,0.4-4.5,0
+RES001324,ORD00619,Biochemistry,Serum_Creatinine,0.79,mg/dL,0.7-1.3,0
+RES001325,ORD00619,Biochemistry,Lipid_Cholesterol,148.9,mg/dL,120.0-200.0,0
+RES001326,ORD00620,Pathology,Urine_Routine_PusCells,1.45,cells/HPF,0.0-5.0,0
+RES001327,ORD00620,Immunoassay,TSH,0.76,uIU/mL,0.4-4.5,0
+RES001328,ORD00621,Biochemistry,PPBS,123.57,mg/dL,90.0-140.0,0
+RES001329,ORD00622,Critical Care,Serum_Potassium,4.71,mmol/L,3.5-5.0,0
+RES001330,ORD00622,Immunoassay,TSH,0.67,uIU/mL,0.4-4.5,0
+RES001331,ORD00622,Biochemistry,Lipid_Cholesterol,203.41,mg/dL,120.0-200.0,0
+RES001332,ORD00623,Biochemistry,FBS,85.04,mg/dL,70.0-99.0,0
+RES001333,ORD00623,Biochemistry,Serum_Creatinine,1.02,mg/dL,0.7-1.3,0
+RES001334,ORD00623,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1
+RES001335,ORD00624,Biochemistry,FBS,96.11,mg/dL,70.0-99.0,0
+RES001336,ORD00625,Biochemistry,FBS,77.43,mg/dL,70.0-99.0,0
+RES001337,ORD00626,Biochemistry,FBS,90.19,mg/dL,70.0-99.0,0
+RES001338,ORD00627,Biochemistry,FBS,74.71,mg/dL,70.0-99.0,0
+RES001339,ORD00627,Pathology,Urine_Routine_PusCells,0.93,cells/HPF,0.0-5.0,0
+RES001340,ORD00628,Pathology,Urine_Routine_PusCells,1.7,cells/HPF,0.0-5.0,0
+RES001341,ORD00628,Biochemistry,Serum_Creatinine,1.11,mg/dL,0.7-1.3,0
+RES001342,ORD00628,Hematology,CBC_Hemoglobin,13.54,g/dL,12.0-16.0,0
+RES001343,ORD00629,Biochemistry,Lipid_Cholesterol,161.09,mg/dL,120.0-200.0,0
+RES001344,ORD00630,Biochemistry,Lipid_Cholesterol,348.11,mg/dL,120.0-200.0,1
+RES001345,ORD00631,Biochemistry,FBS,95.09,mg/dL,70.0-99.0,0
+RES001346,ORD00631,Biochemistry,PPBS,88.19,mg/dL,90.0-140.0,0
+RES001347,ORD00632,Pathology,Urine_Routine_PusCells,1.78,cells/HPF,0.0-5.0,0
+RES001348,ORD00633,Hematology,CBC_Platelets,321.86,x10^3/uL,150.0-450.0,0
+RES001349,ORD00633,Biochemistry,Lipid_Cholesterol,166.19,mg/dL,120.0-200.0,0
+RES001350,ORD00634,Biochemistry,FBS,67.4,mg/dL,70.0-99.0,0
+RES001351,ORD00635,Hematology,CBC_Platelets,178.84,x10^3/uL,150.0-450.0,0
+RES001352,ORD00636,Biochemistry,FBS,73.17,mg/dL,70.0-99.0,0
+RES001353,ORD00637,Biochemistry,PPBS,126.2,mg/dL,90.0-140.0,0
+RES001354,ORD00637,Critical Care,Serum_Potassium,4.89,mmol/L,3.5-5.0,0
+RES001355,ORD00638,Hematology,CBC_Platelets,283.56,x10^3/uL,150.0-450.0,0
+RES001356,ORD00638,Biochemistry,PPBS,94.4,mg/dL,90.0-140.0,0
+RES001357,ORD00639,Immunoassay,TSH,3.22,uIU/mL,0.4-4.5,0
+RES001358,ORD00639,Biochemistry,Lipid_Cholesterol,154.19,mg/dL,120.0-200.0,0
+RES001359,ORD00640,Pathology,Urine_Routine_PusCells,1.23,cells/HPF,0.0-5.0,0
+RES001360,ORD00640,Biochemistry,Serum_Creatinine,5.99,mg/dL,0.7-1.3,1
+RES001361,ORD00641,Critical Care,Serum_Potassium,4.93,mmol/L,3.5-5.0,0
+RES001362,ORD00642,Biochemistry,Lipid_Cholesterol,445.26,mg/dL,120.0-200.0,1
+RES001363,ORD00642,Hematology,CBC_Hemoglobin,15.19,g/dL,12.0-16.0,0
+RES001364,ORD00642,Immunoassay,TSH,0.7,uIU/mL,0.4-4.5,0
+RES001365,ORD00643,Hematology,CBC_Hemoglobin,15.42,g/dL,12.0-16.0,0
+RES001366,ORD00643,Biochemistry,Lipid_Cholesterol,181.06,mg/dL,120.0-200.0,0
+RES001367,ORD00643,Pathology,Urine_Routine_PusCells,2.16,cells/HPF,0.0-5.0,0
+RES001368,ORD00644,Biochemistry,Lipid_Cholesterol,179.27,mg/dL,120.0-200.0,0
+RES001369,ORD00644,Biochemistry,FBS,87.25,mg/dL,70.0-99.0,0
+RES001370,ORD00644,Biochemistry,Serum_Creatinine,1.31,mg/dL,0.7-1.3,0
+RES001371,ORD00645,Biochemistry,Serum_Creatinine,0.7,mg/dL,0.7-1.3,0
+RES001372,ORD00646,Biochemistry,Lipid_Cholesterol,176.08,mg/dL,120.0-200.0,0
+RES001373,ORD00646,Biochemistry,FBS,70.56,mg/dL,70.0-99.0,0
+RES001374,ORD00647,Biochemistry,FBS,90.41,mg/dL,70.0-99.0,0
+RES001375,ORD00647,Critical Care,Serum_Potassium,2.63,mmol/L,3.5-5.0,1
+RES001376,ORD00647,Biochemistry,PPBS,120.17,mg/dL,90.0-140.0,0
+RES001377,ORD00648,Pathology,Urine_Routine_PusCells,2.05,cells/HPF,0.0-5.0,0
+RES001378,ORD00648,Biochemistry,Serum_Creatinine,0.76,mg/dL,0.7-1.3,0
+RES001379,ORD00649,Hematology,CBC_Hemoglobin,16.09,g/dL,12.0-16.0,0
+RES001380,ORD00650,Biochemistry,Lipid_Cholesterol,129.46,mg/dL,120.0-200.0,0
+RES001381,ORD00651,Biochemistry,FBS,103.84,mg/dL,70.0-99.0,0
+RES001382,ORD00651,Hematology,CBC_Hemoglobin,16.57,g/dL,12.0-16.0,0
+RES001383,ORD00652,Hematology,CBC_Platelets,18.41,x10^3/uL,150.0-450.0,1
+RES001384,ORD00653,Critical Care,Serum_Potassium,4.79,mmol/L,3.5-5.0,0
+RES001385,ORD00653,Hematology,CBC_Platelets,447.47,x10^3/uL,150.0-450.0,0
+RES001386,ORD00654,Biochemistry,Lipid_Cholesterol,173.96,mg/dL,120.0-200.0,0
+RES001387,ORD00654,Hematology,CBC_Platelets,170.05,x10^3/uL,150.0-450.0,0
+RES001388,ORD00654,Pathology,Urine_Routine_PusCells,2.36,cells/HPF,0.0-5.0,0
+RES001389,ORD00655,Critical Care,Serum_Potassium,4.42,mmol/L,3.5-5.0,0
+RES001390,ORD00656,Hematology,CBC_Platelets,178.25,x10^3/uL,150.0-450.0,0
+RES001391,ORD00656,Biochemistry,PPBS,109.91,mg/dL,90.0-140.0,0
+RES001392,ORD00656,Biochemistry,FBS,81.54,mg/dL,70.0-99.0,0
+RES001393,ORD00657,Pathology,Urine_Routine_PusCells,2.47,cells/HPF,0.0-5.0,0
+RES001394,ORD00658,Hematology,CBC_Platelets,1478.69,x10^3/uL,150.0-450.0,1
+RES001395,ORD00658,Biochemistry,Serum_Creatinine,0.85,mg/dL,0.7-1.3,0
+RES001396,ORD00659,Hematology,CBC_Hemoglobin,12.8,g/dL,12.0-16.0,0
+RES001397,ORD00659,Biochemistry,Serum_Creatinine,0.73,mg/dL,0.7-1.3,0
+RES001398,ORD00660,Hematology,CBC_Hemoglobin,15.14,g/dL,12.0-16.0,0
+RES001399,ORD00661,Biochemistry,Lipid_Cholesterol,204.14,mg/dL,120.0-200.0,0
+RES001400,ORD00661,Immunoassay,TSH,3.58,uIU/mL,0.4-4.5,0
+RES001401,ORD00661,Hematology,CBC_Platelets,192.17,x10^3/uL,150.0-450.0,0
+RES001402,ORD00662,Hematology,CBC_Platelets,425.4,x10^3/uL,150.0-450.0,0
+RES001403,ORD00663,Hematology,CBC_Hemoglobin,12.53,g/dL,12.0-16.0,0
+RES001404,ORD00664,Hematology,CBC_Platelets,292.98,x10^3/uL,150.0-450.0,0
+RES001405,ORD00665,Hematology,CBC_Hemoglobin,14.61,g/dL,12.0-16.0,0
+RES001406,ORD00665,Immunoassay,TSH,2.04,uIU/mL,0.4-4.5,0
+RES001407,ORD00666,Biochemistry,PPBS,123.4,mg/dL,90.0-140.0,0
+RES001408,ORD00667,Biochemistry,FBS,74.85,mg/dL,70.0-99.0,0
+RES001409,ORD00667,Critical Care,Serum_Potassium,4.06,mmol/L,3.5-5.0,0
+RES001410,ORD00667,Hematology,CBC_Hemoglobin,13.94,g/dL,12.0-16.0,0
+RES001411,ORD00668,Critical Care,Serum_Potassium,4.94,mmol/L,3.5-5.0,0
+RES001412,ORD00668,Pathology,Urine_Routine_PusCells,2.18,cells/HPF,0.0-5.0,0
+RES001413,ORD00668,Immunoassay,TSH,4.29,uIU/mL,0.4-4.5,0
+RES001414,ORD00669,Immunoassay,TSH,4.69,uIU/mL,0.4-4.5,0
+RES001415,ORD00669,Biochemistry,Lipid_Cholesterol,207.46,mg/dL,120.0-200.0,0
+RES001416,ORD00670,Biochemistry,Lipid_Cholesterol,163.66,mg/dL,120.0-200.0,0
+RES001417,ORD00670,Hematology,CBC_Hemoglobin,11.94,g/dL,12.0-16.0,0
+RES001418,ORD00671,Biochemistry,Serum_Creatinine,4.99,mg/dL,0.7-1.3,1
+RES001419,ORD00671,Biochemistry,PPBS,121.99,mg/dL,90.0-140.0,0
+RES001420,ORD00672,Biochemistry,Lipid_Cholesterol,135.29,mg/dL,120.0-200.0,0
+RES001421,ORD00672,Biochemistry,Serum_Creatinine,1.25,mg/dL,0.7-1.3,0
+RES001422,ORD00673,Biochemistry,FBS,88.82,mg/dL,70.0-99.0,0
+RES001423,ORD00673,Biochemistry,PPBS,102.87,mg/dL,90.0-140.0,0
+RES001424,ORD00673,Pathology,Urine_Routine_PusCells,0.49,cells/HPF,0.0-5.0,0
+RES001425,ORD00674,Hematology,CBC_Platelets,167.68,x10^3/uL,150.0-450.0,0
+RES001426,ORD00675,Biochemistry,FBS,79.34,mg/dL,70.0-99.0,0
+RES001427,ORD00676,Biochemistry,FBS,70.8,mg/dL,70.0-99.0,0
+RES001428,ORD00676,Biochemistry,Lipid_Cholesterol,145.44,mg/dL,120.0-200.0,0
+RES001429,ORD00676,Biochemistry,PPBS,130.26,mg/dL,90.0-140.0,0
+RES001430,ORD00677,Hematology,CBC_Platelets,446.87,x10^3/uL,150.0-450.0,0
+RES001431,ORD00677,Hematology,CBC_Hemoglobin,12.47,g/dL,12.0-16.0,0
+RES001432,ORD00677,Critical Care,Serum_Potassium,4.71,mmol/L,3.5-5.0,0
+RES001433,ORD00678,Critical Care,Serum_Potassium,4.06,mmol/L,3.5-5.0,0
+RES001434,ORD00678,Immunoassay,TSH,1.91,uIU/mL,0.4-4.5,0
+RES001435,ORD00678,Pathology,Urine_Routine_PusCells,4.3,cells/HPF,0.0-5.0,0
+RES001436,ORD00679,Pathology,Urine_Routine_PusCells,33.93,cells/HPF,0.0-5.0,1
+RES001437,ORD00679,Immunoassay,TSH,3.82,uIU/mL,0.4-4.5,0
+RES001438,ORD00679,Biochemistry,Serum_Creatinine,0.72,mg/dL,0.7-1.3,0
+RES001439,ORD00680,Immunoassay,TSH,1.78,uIU/mL,0.4-4.5,0
+RES001440,ORD00680,Biochemistry,Serum_Creatinine,0.71,mg/dL,0.7-1.3,0
+RES001441,ORD00680,Hematology,CBC_Platelets,212.52,x10^3/uL,150.0-450.0,0
+RES001442,ORD00681,Hematology,CBC_Hemoglobin,12.47,g/dL,12.0-16.0,0
+RES001443,ORD00681,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1
+RES001444,ORD00682,Biochemistry,FBS,98.56,mg/dL,70.0-99.0,0
+RES001445,ORD00682,Critical Care,Serum_Potassium,5.08,mmol/L,3.5-5.0,0
+RES001446,ORD00682,Pathology,Urine_Routine_PusCells,4.42,cells/HPF,0.0-5.0,0
+RES001447,ORD00683,Critical Care,Serum_Potassium,3.99,mmol/L,3.5-5.0,0
+RES001448,ORD00683,Pathology,Urine_Routine_PusCells,41.96,cells/HPF,0.0-5.0,1
+RES001449,ORD00684,Immunoassay,TSH,0.83,uIU/mL,0.4-4.5,0
+RES001450,ORD00685,Immunoassay,TSH,2.72,uIU/mL,0.4-4.5,0
+RES001451,ORD00686,Hematology,CBC_Hemoglobin,16.39,g/dL,12.0-16.0,0
+RES001452,ORD00686,Critical Care,Serum_Potassium,3.56,mmol/L,3.5-5.0,0
+RES001453,ORD00687,Biochemistry,Serum_Creatinine,0.86,mg/dL,0.7-1.3,0
+RES001454,ORD00687,Hematology,CBC_Platelets,301.79,x10^3/uL,150.0-450.0,0
+RES001455,ORD00687,Immunoassay,TSH,27.4,uIU/mL,0.4-4.5,1
+RES001456,ORD00688,Biochemistry,Serum_Creatinine,4.59,mg/dL,0.7-1.3,1
+RES001457,ORD00689,Hematology,CBC_Platelets,177.37,x10^3/uL,150.0-450.0,0
+RES001458,ORD00689,Biochemistry,Lipid_Cholesterol,202.0,mg/dL,120.0-200.0,0
+RES001459,ORD00690,Biochemistry,Lipid_Cholesterol,169.42,mg/dL,120.0-200.0,0
+RES001460,ORD00690,Critical Care,Serum_Potassium,4.21,mmol/L,3.5-5.0,0
+RES001461,ORD00691,Pathology,Urine_Routine_PusCells,4.87,cells/HPF,0.0-5.0,0
+RES001462,ORD00691,Hematology,CBC_Platelets,11.36,x10^3/uL,150.0-450.0,1
+RES001463,ORD00691,Biochemistry,Lipid_Cholesterol,162.76,mg/dL,120.0-200.0,0
+RES001464,ORD00692,Critical Care,Serum_Potassium,3.67,mmol/L,3.5-5.0,0
+RES001465,ORD00693,Biochemistry,Serum_Creatinine,1.29,mg/dL,0.7-1.3,0
+RES001466,ORD00694,Hematology,CBC_Hemoglobin,15.36,g/dL,12.0-16.0,0
+RES001467,ORD00694,Pathology,Urine_Routine_PusCells,1.41,cells/HPF,0.0-5.0,0
+RES001468,ORD00694,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0
+RES001469,ORD00695,Hematology,CBC_Platelets,221.24,x10^3/uL,150.0-450.0,0
+RES001470,ORD00695,Critical Care,Serum_Potassium,3.46,mmol/L,3.5-5.0,0
+RES001471,ORD00695,Hematology,CBC_Hemoglobin,16.26,g/dL,12.0-16.0,0
+RES001472,ORD00696,Biochemistry,Lipid_Cholesterol,195.9,mg/dL,120.0-200.0,0
+RES001473,ORD00697,Critical Care,Serum_Potassium,4.34,mmol/L,3.5-5.0,0
+RES001474,ORD00698,Pathology,Urine_Routine_PusCells,1.33,cells/HPF,0.0-5.0,0
+RES001475,ORD00698,Critical Care,Serum_Potassium,4.92,mmol/L,3.5-5.0,0
+RES001476,ORD00699,Biochemistry,FBS,91.19,mg/dL,70.0-99.0,0
+RES001477,ORD00699,Biochemistry,Lipid_Cholesterol,161.79,mg/dL,120.0-200.0,0
+RES001478,ORD00699,Biochemistry,Serum_Creatinine,1.18,mg/dL,0.7-1.3,0
+RES001479,ORD00700,Pathology,Urine_Routine_PusCells,4.78,cells/HPF,0.0-5.0,0
+RES001480,ORD00700,Hematology,CBC_Platelets,251.79,x10^3/uL,150.0-450.0,0
+RES001481,ORD00700,Critical Care,Serum_Potassium,5.14,mmol/L,3.5-5.0,0
+RES001482,ORD00701,Hematology,CBC_Platelets,462.43,x10^3/uL,150.0-450.0,0
+RES001483,ORD00701,Immunoassay,TSH,3.36,uIU/mL,0.4-4.5,0
+RES001484,ORD00702,Critical Care,Serum_Potassium,1.76,mmol/L,3.5-5.0,1
+RES001485,ORD00703,Critical Care,Serum_Potassium,5.02,mmol/L,3.5-5.0,0
+RES001486,ORD00704,Critical Care,Serum_Potassium,4.24,mmol/L,3.5-5.0,0
+RES001487,ORD00705,Hematology,CBC_Hemoglobin,13.14,g/dL,12.0-16.0,0
+RES001488,ORD00706,Hematology,CBC_Platelets,431.55,x10^3/uL,150.0-450.0,0
+RES001489,ORD00706,Biochemistry,Lipid_Cholesterol,127.31,mg/dL,120.0-200.0,0
+RES001490,ORD00707,Hematology,CBC_Hemoglobin,29.62,g/dL,12.0-16.0,1
+RES001491,ORD00707,Hematology,CBC_Platelets,391.93,x10^3/uL,150.0-450.0,0
+RES001492,ORD00708,Critical Care,Serum_Potassium,3.57,mmol/L,3.5-5.0,0
+RES001493,ORD00708,Biochemistry,FBS,83.83,mg/dL,70.0-99.0,0
+RES001494,ORD00708,Hematology,CBC_Hemoglobin,14.2,g/dL,12.0-16.0,0
+RES001495,ORD00709,Immunoassay,TSH,2.92,uIU/mL,0.4-4.5,0
+RES001496,ORD00709,Biochemistry,FBS,93.35,mg/dL,70.0-99.0,0
+RES001497,ORD00710,Critical Care,Serum_Potassium,4.71,mmol/L,3.5-5.0,0
+RES001498,ORD00711,Pathology,Urine_Routine_PusCells,34.26,cells/HPF,0.0-5.0,1
+RES001499,ORD00712,Biochemistry,Serum_Creatinine,1.05,mg/dL,0.7-1.3,0
+RES001500,ORD00713,Biochemistry,Lipid_Cholesterol,177.12,mg/dL,120.0-200.0,0
+RES001501,ORD00714,Critical Care,Serum_Potassium,3.53,mmol/L,3.5-5.0,0
+RES001502,ORD00714,Hematology,CBC_Hemoglobin,13.69,g/dL,12.0-16.0,0
+RES001503,ORD00714,Biochemistry,Serum_Creatinine,5.02,mg/dL,0.7-1.3,1
+RES001504,ORD00715,Biochemistry,Lipid_Cholesterol,158.0,mg/dL,120.0-200.0,0
+RES001505,ORD00715,Hematology,CBC_Platelets,14.51,x10^3/uL,150.0-450.0,1
+RES001506,ORD00716,Immunoassay,TSH,3.8,uIU/mL,0.4-4.5,0
+RES001507,ORD00716,Hematology,CBC_Platelets,394.16,x10^3/uL,150.0-450.0,0
+RES001508,ORD00717,Pathology,Urine_Routine_PusCells,3.09,cells/HPF,0.0-5.0,0
+RES001509,ORD00717,Critical Care,Serum_Potassium,4.45,mmol/L,3.5-5.0,0
+RES001510,ORD00717,Biochemistry,PPBS,89.66,mg/dL,90.0-140.0,0
+RES001511,ORD00718,Biochemistry,Serum_Creatinine,1.28,mg/dL,0.7-1.3,0
+RES001512,ORD00719,Biochemistry,PPBS,108.52,mg/dL,90.0-140.0,0
+RES001513,ORD00720,Pathology,Urine_Routine_PusCells,2.3,cells/HPF,0.0-5.0,0
+RES001514,ORD00720,Biochemistry,Serum_Creatinine,0.81,mg/dL,0.7-1.3,0
+RES001515,ORD00720,Biochemistry,PPBS,135.55,mg/dL,90.0-140.0,0
+RES001516,ORD00721,Immunoassay,TSH,2.85,uIU/mL,0.4-4.5,0
+RES001517,ORD00722,Hematology,CBC_Platelets,260.14,x10^3/uL,150.0-450.0,0
+RES001518,ORD00723,Biochemistry,Lipid_Cholesterol,142.63,mg/dL,120.0-200.0,0
+RES001519,ORD00724,Critical Care,Serum_Potassium,3.46,mmol/L,3.5-5.0,0
+RES001520,ORD00724,Hematology,CBC_Hemoglobin,16.63,g/dL,12.0-16.0,0
+RES001521,ORD00725,Pathology,Urine_Routine_PusCells,0.58,cells/HPF,0.0-5.0,0
+RES001522,ORD00726,Biochemistry,Lipid_Cholesterol,192.41,mg/dL,120.0-200.0,0
+RES001523,ORD00727,Biochemistry,PPBS,102.14,mg/dL,90.0-140.0,0
+RES001524,ORD00727,Hematology,CBC_Platelets,14.57,x10^3/uL,150.0-450.0,1
+RES001525,ORD00728,Pathology,Urine_Routine_PusCells,1.99,cells/HPF,0.0-5.0,0
+RES001526,ORD00729,Hematology,CBC_Hemoglobin,16.24,g/dL,12.0-16.0,0
+RES001527,ORD00729,Biochemistry,Lipid_Cholesterol,149.3,mg/dL,120.0-200.0,0
+RES001528,ORD00729,Biochemistry,FBS,82.85,mg/dL,70.0-99.0,0
+RES001529,ORD00730,Biochemistry,FBS,96.93,mg/dL,70.0-99.0,0
+RES001530,ORD00730,Pathology,Urine_Routine_PusCells,33.21,cells/HPF,0.0-5.0,1
+RES001531,ORD00730,Hematology,CBC_Hemoglobin,11.64,g/dL,12.0-16.0,0
+RES001532,ORD00731,Biochemistry,PPBS,118.93,mg/dL,90.0-140.0,0
+RES001533,ORD00732,Biochemistry,Serum_Creatinine,1.04,mg/dL,0.7-1.3,0
+RES001534,ORD00732,Critical Care,Serum_Potassium,3.99,mmol/L,3.5-5.0,0
+RES001535,ORD00733,Biochemistry,Serum_Creatinine,1.22,mg/dL,0.7-1.3,0
+RES001536,ORD00733,Biochemistry,PPBS,34.91,mg/dL,90.0-140.0,1
+RES001537,ORD00733,Biochemistry,Lipid_Cholesterol,205.49,mg/dL,120.0-200.0,0
+RES001538,ORD00734,Critical Care,Serum_Potassium,4.06,mmol/L,3.5-5.0,0
+RES001539,ORD00735,Pathology,Urine_Routine_PusCells,0.16,cells/HPF,0.0-5.0,0
+RES001540,ORD00735,Biochemistry,FBS,101.6,mg/dL,70.0-99.0,0
+RES001541,ORD00736,Hematology,CBC_Hemoglobin,15.37,g/dL,12.0-16.0,0
+RES001542,ORD00736,Pathology,Urine_Routine_PusCells,32.97,cells/HPF,0.0-5.0,1
+RES001543,ORD00736,Hematology,CBC_Platelets,380.53,x10^3/uL,150.0-450.0,0
+RES001544,ORD00737,Hematology,CBC_Platelets,147.51,x10^3/uL,150.0-450.0,0
+RES001545,ORD00737,Biochemistry,Serum_Creatinine,1.33,mg/dL,0.7-1.3,0
+RES001546,ORD00738,Biochemistry,FBS,91.25,mg/dL,70.0-99.0,0
+RES001547,ORD00738,Biochemistry,PPBS,137.63,mg/dL,90.0-140.0,0
+RES001548,ORD00739,Biochemistry,Serum_Creatinine,0.72,mg/dL,0.7-1.3,0
+RES001549,ORD00739,Hematology,CBC_Hemoglobin,14.38,g/dL,12.0-16.0,0
+RES001550,ORD00739,Biochemistry,FBS,82.99,mg/dL,70.0-99.0,0
+RES001551,ORD00740,Biochemistry,FBS,73.4,mg/dL,70.0-99.0,0
+RES001552,ORD00740,Biochemistry,Serum_Creatinine,0.97,mg/dL,0.7-1.3,0
+RES001553,ORD00740,Pathology,Urine_Routine_PusCells,2.91,cells/HPF,0.0-5.0,0
+RES001554,ORD00741,Immunoassay,TSH,2.58,uIU/mL,0.4-4.5,0
+RES001555,ORD00742,Biochemistry,PPBS,94.3,mg/dL,90.0-140.0,0
+RES001556,ORD00742,Hematology,CBC_Hemoglobin,15.66,g/dL,12.0-16.0,0
+RES001557,ORD00743,Biochemistry,Lipid_Cholesterol,134.3,mg/dL,120.0-200.0,0
+RES001558,ORD00743,Biochemistry,FBS,93.31,mg/dL,70.0-99.0,0
+RES001559,ORD00744,Biochemistry,PPBS,146.53,mg/dL,90.0-140.0,0
+RES001560,ORD00744,Pathology,Urine_Routine_PusCells,5.24,cells/HPF,0.0-5.0,0
+RES001561,ORD00745,Pathology,Urine_Routine_PusCells,4.39,cells/HPF,0.0-5.0,0
+RES001562,ORD00745,Hematology,CBC_Platelets,223.03,x10^3/uL,150.0-450.0,0
+RES001563,ORD00745,Biochemistry,Lipid_Cholesterol,187.69,mg/dL,120.0-200.0,0
+RES001564,ORD00746,Immunoassay,TSH,2.58,uIU/mL,0.4-4.5,0
+RES001565,ORD00746,Biochemistry,PPBS,125.68,mg/dL,90.0-140.0,0
+RES001566,ORD00747,Biochemistry,Lipid_Cholesterol,146.79,mg/dL,120.0-200.0,0
+RES001567,ORD00747,Critical Care,Serum_Potassium,4.11,mmol/L,3.5-5.0,0
+RES001568,ORD00748,Biochemistry,PPBS,132.58,mg/dL,90.0-140.0,0
+RES001569,ORD00749,Biochemistry,Lipid_Cholesterol,164.81,mg/dL,120.0-200.0,0
+RES001570,ORD00750,Immunoassay,TSH,4.28,uIU/mL,0.4-4.5,0
+RES001571,ORD00751,Hematology,CBC_Hemoglobin,12.13,g/dL,12.0-16.0,0
+RES001572,ORD00751,Critical Care,Serum_Potassium,4.8,mmol/L,3.5-5.0,0
+RES001573,ORD00751,Pathology,Urine_Routine_PusCells,4.92,cells/HPF,0.0-5.0,0
+RES001574,ORD00752,Pathology,Urine_Routine_PusCells,1.47,cells/HPF,0.0-5.0,0
+RES001575,ORD00753,Pathology,Urine_Routine_PusCells,1.67,cells/HPF,0.0-5.0,0
+RES001576,ORD00753,Hematology,CBC_Hemoglobin,12.17,g/dL,12.0-16.0,0
+RES001577,ORD00753,Biochemistry,Lipid_Cholesterol,184.52,mg/dL,120.0-200.0,0
+RES001578,ORD00754,Biochemistry,PPBS,115.43,mg/dL,90.0-140.0,0
+RES001579,ORD00755,Biochemistry,Serum_Creatinine,1.02,mg/dL,0.7-1.3,0
+RES001580,ORD00756,Immunoassay,TSH,4.47,uIU/mL,0.4-4.5,0
+RES001581,ORD00757,Hematology,CBC_Platelets,305.27,x10^3/uL,150.0-450.0,0
+RES001582,ORD00758,Biochemistry,PPBS,116.68,mg/dL,90.0-140.0,0
+RES001583,ORD00759,Immunoassay,TSH,4.02,uIU/mL,0.4-4.5,0
+RES001584,ORD00759,Biochemistry,Serum_Creatinine,1.33,mg/dL,0.7-1.3,0
+RES001585,ORD00759,Hematology,CBC_Hemoglobin,12.73,g/dL,12.0-16.0,0
+RES001586,ORD00760,Hematology,CBC_Platelets,431.54,x10^3/uL,150.0-450.0,0
+RES001587,ORD00760,Critical Care,Serum_Potassium,4.98,mmol/L,3.5-5.0,0
+RES001588,ORD00760,Biochemistry,PPBS,85.7,mg/dL,90.0-140.0,0
+RES001589,ORD00761,Biochemistry,Serum_Creatinine,1.33,mg/dL,0.7-1.3,0
+RES001590,ORD00761,Immunoassay,TSH,4.03,uIU/mL,0.4-4.5,0
+RES001591,ORD00761,Pathology,Urine_Routine_PusCells,3.51,cells/HPF,0.0-5.0,0
+RES001592,ORD00762,Hematology,CBC_Hemoglobin,14.98,g/dL,12.0-16.0,0
+RES001593,ORD00762,Hematology,CBC_Platelets,295.86,x10^3/uL,150.0-450.0,0
+RES001594,ORD00763,Hematology,CBC_Hemoglobin,3.58,g/dL,12.0-16.0,1
+RES001595,ORD00763,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0
+RES001596,ORD00764,Critical Care,Serum_Potassium,4.73,mmol/L,3.5-5.0,0
+RES001597,ORD00764,Biochemistry,FBS,97.15,mg/dL,70.0-99.0,0
+RES001598,ORD00765,Immunoassay,TSH,2.73,uIU/mL,0.4-4.5,0
+RES001599,ORD00766,Biochemistry,FBS,80.06,mg/dL,70.0-99.0,0
+RES001600,ORD00767,Pathology,Urine_Routine_PusCells,4.94,cells/HPF,0.0-5.0,0
+RES001601,ORD00768,Critical Care,Serum_Potassium,3.77,mmol/L,3.5-5.0,0
+RES001602,ORD00769,Critical Care,Serum_Potassium,8.36,mmol/L,3.5-5.0,1
+RES001603,ORD00769,Biochemistry,PPBS,86.41,mg/dL,90.0-140.0,0
+RES001604,ORD00769,Biochemistry,FBS,89.15,mg/dL,70.0-99.0,0
+RES001605,ORD00770,Critical Care,Serum_Potassium,3.72,mmol/L,3.5-5.0,0
+RES001606,ORD00771,Critical Care,Serum_Potassium,5.24,mmol/L,3.5-5.0,0
+RES001607,ORD00771,Biochemistry,Serum_Creatinine,1.33,mg/dL,0.7-1.3,0
+RES001608,ORD00772,Hematology,CBC_Platelets,252.2,x10^3/uL,150.0-450.0,0
+RES001609,ORD00772,Biochemistry,PPBS,145.51,mg/dL,90.0-140.0,0
+RES001610,ORD00773,Pathology,Urine_Routine_PusCells,38.16,cells/HPF,0.0-5.0,1
+RES001611,ORD00773,Biochemistry,Serum_Creatinine,1.18,mg/dL,0.7-1.3,0
+RES001612,ORD00774,Hematology,CBC_Platelets,220.29,x10^3/uL,150.0-450.0,0
+RES001613,ORD00774,Pathology,Urine_Routine_PusCells,2.54,cells/HPF,0.0-5.0,0
+RES001614,ORD00774,Biochemistry,Lipid_Cholesterol,185.01,mg/dL,120.0-200.0,0
+RES001615,ORD00775,Biochemistry,PPBS,145.27,mg/dL,90.0-140.0,0
+RES001616,ORD00775,Biochemistry,Lipid_Cholesterol,372.26,mg/dL,120.0-200.0,1
+RES001617,ORD00775,Pathology,Urine_Routine_PusCells,4.22,cells/HPF,0.0-5.0,0
+RES001618,ORD00776,Critical Care,Serum_Potassium,4.41,mmol/L,3.5-5.0,0
+RES001619,ORD00776,Immunoassay,TSH,1.64,uIU/mL,0.4-4.5,0
+RES001620,ORD00776,Pathology,Urine_Routine_PusCells,4.21,cells/HPF,0.0-5.0,0
+RES001621,ORD00777,Biochemistry,FBS,72.13,mg/dL,70.0-99.0,0
+RES001622,ORD00777,Immunoassay,TSH,23.81,uIU/mL,0.4-4.5,1
+RES001623,ORD00778,Biochemistry,PPBS,119.89,mg/dL,90.0-140.0,0
+RES001624,ORD00779,Hematology,CBC_Hemoglobin,14.96,g/dL,12.0-16.0,0
+RES001625,ORD00779,Critical Care,Serum_Potassium,2.32,mmol/L,3.5-5.0,1
+RES001626,ORD00779,Hematology,CBC_Platelets,229.27,x10^3/uL,150.0-450.0,0
+RES001627,ORD00780,Hematology,CBC_Platelets,11.95,x10^3/uL,150.0-450.0,1
+RES001628,ORD00780,Biochemistry,Serum_Creatinine,1.1,mg/dL,0.7-1.3,0
+RES001629,ORD00780,Biochemistry,PPBS,114.74,mg/dL,90.0-140.0,0
+RES001630,ORD00781,Pathology,Urine_Routine_PusCells,2.06,cells/HPF,0.0-5.0,0
+RES001631,ORD00781,Biochemistry,PPBS,128.93,mg/dL,90.0-140.0,0
+RES001632,ORD00782,Biochemistry,Lipid_Cholesterol,161.05,mg/dL,120.0-200.0,0
+RES001633,ORD00782,Hematology,CBC_Hemoglobin,15.1,g/dL,12.0-16.0,0
+RES001634,ORD00783,Immunoassay,TSH,4.19,uIU/mL,0.4-4.5,0
+RES001635,ORD00783,Hematology,CBC_Hemoglobin,12.43,g/dL,12.0-16.0,0
+RES001636,ORD00783,Biochemistry,PPBS,142.89,mg/dL,90.0-140.0,0
+RES001637,ORD00784,Critical Care,Serum_Potassium,3.39,mmol/L,3.5-5.0,0
+RES001638,ORD00784,Biochemistry,FBS,84.43,mg/dL,70.0-99.0,0
+RES001639,ORD00785,Hematology,CBC_Platelets,389.98,x10^3/uL,150.0-450.0,0
+RES001640,ORD00785,Pathology,Urine_Routine_PusCells,2.86,cells/HPF,0.0-5.0,0
+RES001641,ORD00786,Biochemistry,PPBS,137.52,mg/dL,90.0-140.0,0
+RES001642,ORD00787,Biochemistry,FBS,100.19,mg/dL,70.0-99.0,0
+RES001643,ORD00787,Immunoassay,TSH,1.12,uIU/mL,0.4-4.5,0
+RES001644,ORD00787,Hematology,CBC_Hemoglobin,15.3,g/dL,12.0-16.0,0
+RES001645,ORD00788,Biochemistry,Lipid_Cholesterol,118.27,mg/dL,120.0-200.0,0
+RES001646,ORD00788,Critical Care,Serum_Potassium,4.65,mmol/L,3.5-5.0,0
+RES001647,ORD00788,Biochemistry,FBS,90.29,mg/dL,70.0-99.0,0
+RES001648,ORD00789,Hematology,CBC_Platelets,1132.13,x10^3/uL,150.0-450.0,1
+RES001649,ORD00790,Biochemistry,PPBS,127.37,mg/dL,90.0-140.0,0
+RES001650,ORD00790,Biochemistry,Serum_Creatinine,1.27,mg/dL,0.7-1.3,0
+RES001651,ORD00791,Immunoassay,TSH,1.57,uIU/mL,0.4-4.5,0
+RES001652,ORD00791,Hematology,CBC_Hemoglobin,16.69,g/dL,12.0-16.0,0
+RES001653,ORD00791,Biochemistry,PPBS,112.54,mg/dL,90.0-140.0,0
+RES001654,ORD00792,Biochemistry,Lipid_Cholesterol,128.95,mg/dL,120.0-200.0,0
+RES001655,ORD00792,Biochemistry,FBS,103.72,mg/dL,70.0-99.0,0
+RES001656,ORD00792,Hematology,CBC_Hemoglobin,14.89,g/dL,12.0-16.0,0
+RES001657,ORD00793,Biochemistry,PPBS,114.26,mg/dL,90.0-140.0,0
+RES001658,ORD00793,Biochemistry,Serum_Creatinine,4.41,mg/dL,0.7-1.3,1
+RES001659,ORD00794,Biochemistry,FBS,79.94,mg/dL,70.0-99.0,0
+RES001660,ORD00794,Immunoassay,TSH,1.07,uIU/mL,0.4-4.5,0
+RES001661,ORD00794,Hematology,CBC_Platelets,253.6,x10^3/uL,150.0-450.0,0
+RES001662,ORD00795,Hematology,CBC_Platelets,417.75,x10^3/uL,150.0-450.0,0
+RES001663,ORD00795,Hematology,CBC_Hemoglobin,13.42,g/dL,12.0-16.0,0
+RES001664,ORD00795,Immunoassay,TSH,3.33,uIU/mL,0.4-4.5,0
+RES001665,ORD00796,Hematology,CBC_Hemoglobin,16.38,g/dL,12.0-16.0,0
+RES001666,ORD00796,Biochemistry,FBS,102.65,mg/dL,70.0-99.0,0
+RES001667,ORD00796,Biochemistry,PPBS,97.71,mg/dL,90.0-140.0,0
+RES001668,ORD00797,Immunoassay,TSH,1.1,uIU/mL,0.4-4.5,0
+RES001669,ORD00798,Hematology,CBC_Hemoglobin,4.85,g/dL,12.0-16.0,1
+RES001670,ORD00799,Biochemistry,Serum_Creatinine,0.99,mg/dL,0.7-1.3,0
+RES001671,ORD00799,Hematology,CBC_Platelets,445.09,x10^3/uL,150.0-450.0,0
+RES001672,ORD00799,Immunoassay,TSH,1.76,uIU/mL,0.4-4.5,0
+RES001673,ORD00800,Biochemistry,FBS,73.17,mg/dL,70.0-99.0,0
+RES001674,ORD00800,Biochemistry,Serum_Creatinine,0.92,mg/dL,0.7-1.3,0
+RES001675,ORD00801,Biochemistry,Serum_Creatinine,0.97,mg/dL,0.7-1.3,0
+RES001676,ORD00801,Biochemistry,FBS,90.99,mg/dL,70.0-99.0,0
+RES001677,ORD00802,Biochemistry,Lipid_Cholesterol,163.67,mg/dL,120.0-200.0,0
+RES001678,ORD00802,Pathology,Urine_Routine_PusCells,4.23,cells/HPF,0.0-5.0,0
+RES001679,ORD00803,Hematology,CBC_Hemoglobin,16.58,g/dL,12.0-16.0,0
+RES001680,ORD00803,Hematology,CBC_Platelets,397.05,x10^3/uL,150.0-450.0,0
+RES001681,ORD00803,Biochemistry,FBS,76.19,mg/dL,70.0-99.0,0
+RES001682,ORD00804,Biochemistry,PPBS,118.2,mg/dL,90.0-140.0,0
+RES001683,ORD00804,Biochemistry,Lipid_Cholesterol,178.77,mg/dL,120.0-200.0,0
+RES001684,ORD00805,Hematology,CBC_Hemoglobin,11.62,g/dL,12.0-16.0,0
+RES001685,ORD00805,Biochemistry,FBS,83.74,mg/dL,70.0-99.0,0
+RES001686,ORD00806,Critical Care,Serum_Potassium,3.36,mmol/L,3.5-5.0,0
+RES001687,ORD00806,Biochemistry,Lipid_Cholesterol,175.05,mg/dL,120.0-200.0,0
+RES001688,ORD00806,Hematology,CBC_Platelets,260.39,x10^3/uL,150.0-450.0,0
+RES001689,ORD00807,Hematology,CBC_Platelets,293.65,x10^3/uL,150.0-450.0,0
+RES001690,ORD00807,Hematology,CBC_Hemoglobin,16.36,g/dL,12.0-16.0,0
+RES001691,ORD00807,Biochemistry,Lipid_Cholesterol,203.5,mg/dL,120.0-200.0,0
+RES001692,ORD00808,Biochemistry,PPBS,90.34,mg/dL,90.0-140.0,0
+RES001693,ORD00808,Hematology,CBC_Hemoglobin,15.45,g/dL,12.0-16.0,0
+RES001694,ORD00808,Critical Care,Serum_Potassium,3.37,mmol/L,3.5-5.0,0
+RES001695,ORD00809,Pathology,Urine_Routine_PusCells,1.96,cells/HPF,0.0-5.0,0
+RES001696,ORD00809,Biochemistry,Serum_Creatinine,1.2,mg/dL,0.7-1.3,0
+RES001697,ORD00809,Immunoassay,TSH,3.63,uIU/mL,0.4-4.5,0
+RES001698,ORD00810,Biochemistry,FBS,95.79,mg/dL,70.0-99.0,0
+RES001699,ORD00810,Hematology,CBC_Hemoglobin,12.88,g/dL,12.0-16.0,0
+RES001700,ORD00811,Hematology,CBC_Platelets,250.99,x10^3/uL,150.0-450.0,0
+RES001701,ORD00811,Hematology,CBC_Hemoglobin,16.42,g/dL,12.0-16.0,0
+RES001702,ORD00812,Biochemistry,Serum_Creatinine,0.84,mg/dL,0.7-1.3,0
+RES001703,ORD00812,Biochemistry,Lipid_Cholesterol,430.06,mg/dL,120.0-200.0,1
+RES001704,ORD00813,Hematology,CBC_Platelets,1125.03,x10^3/uL,150.0-450.0,1
+RES001705,ORD00813,Pathology,Urine_Routine_PusCells,2.27,cells/HPF,0.0-5.0,0
+RES001706,ORD00814,Biochemistry,PPBS,146.52,mg/dL,90.0-140.0,0
+RES001707,ORD00814,Pathology,Urine_Routine_PusCells,0.94,cells/HPF,0.0-5.0,0
+RES001708,ORD00814,Biochemistry,Serum_Creatinine,1.21,mg/dL,0.7-1.3,0
+RES001709,ORD00815,Immunoassay,TSH,3.36,uIU/mL,0.4-4.5,0
+RES001710,ORD00815,Biochemistry,PPBS,124.63,mg/dL,90.0-140.0,0
+RES001711,ORD00816,Biochemistry,Lipid_Cholesterol,114.32,mg/dL,120.0-200.0,0
+RES001712,ORD00817,Hematology,CBC_Hemoglobin,14.74,g/dL,12.0-16.0,0
+RES001713,ORD00817,Biochemistry,Serum_Creatinine,1.1,mg/dL,0.7-1.3,0
+RES001714,ORD00818,Biochemistry,PPBS,139.84,mg/dL,90.0-140.0,0
+RES001715,ORD00818,Immunoassay,TSH,2.78,uIU/mL,0.4-4.5,0
+RES001716,ORD00818,Biochemistry,FBS,98.34,mg/dL,70.0-99.0,0
+RES001717,ORD00819,Biochemistry,FBS,83.77,mg/dL,70.0-99.0,0
+RES001718,ORD00820,Immunoassay,TSH,4.56,uIU/mL,0.4-4.5,0
+RES001719,ORD00820,Biochemistry,Lipid_Cholesterol,319.36,mg/dL,120.0-200.0,1
+RES001720,ORD00820,Biochemistry,PPBS,138.82,mg/dL,90.0-140.0,0
+RES001721,ORD00821,Pathology,Urine_Routine_PusCells,3.81,cells/HPF,0.0-5.0,0
+RES001722,ORD00821,Biochemistry,FBS,81.42,mg/dL,70.0-99.0,0
+RES001723,ORD00821,Biochemistry,Serum_Creatinine,1.2,mg/dL,0.7-1.3,0
+RES001724,ORD00822,Biochemistry,PPBS,106.4,mg/dL,90.0-140.0,0
+RES001725,ORD00822,Biochemistry,Lipid_Cholesterol,190.37,mg/dL,120.0-200.0,0
+RES001726,ORD00822,Hematology,CBC_Platelets,174.55,x10^3/uL,150.0-450.0,0
+RES001727,ORD00823,Immunoassay,TSH,2.85,uIU/mL,0.4-4.5,0
+RES001728,ORD00823,Hematology,CBC_Platelets,393.74,x10^3/uL,150.0-450.0,0
+RES001729,ORD00824,Biochemistry,Lipid_Cholesterol,156.23,mg/dL,120.0-200.0,0
+RES001730,ORD00824,Critical Care,Serum_Potassium,4.76,mmol/L,3.5-5.0,0
+RES001731,ORD00825,Critical Care,Serum_Potassium,3.35,mmol/L,3.5-5.0,0
+RES001732,ORD00826,Immunoassay,TSH,2.49,uIU/mL,0.4-4.5,0
+RES001733,ORD00826,Pathology,Urine_Routine_PusCells,2.76,cells/HPF,0.0-5.0,0
+RES001734,ORD00826,Biochemistry,Serum_Creatinine,1.29,mg/dL,0.7-1.3,0
+RES001735,ORD00827,Biochemistry,PPBS,120.52,mg/dL,90.0-140.0,0
+RES001736,ORD00827,Biochemistry,Serum_Creatinine,0.67,mg/dL,0.7-1.3,0
+RES001737,ORD00827,Biochemistry,Lipid_Cholesterol,192.61,mg/dL,120.0-200.0,0
+RES001738,ORD00828,Pathology,Urine_Routine_PusCells,5.05,cells/HPF,0.0-5.0,0
+RES001739,ORD00828,Biochemistry,PPBS,118.57,mg/dL,90.0-140.0,0
+RES001740,ORD00829,Biochemistry,Serum_Creatinine,1.17,mg/dL,0.7-1.3,0
+RES001741,ORD00830,Critical Care,Serum_Potassium,4.45,mmol/L,3.5-5.0,0
+RES001742,ORD00830,Biochemistry,FBS,83.89,mg/dL,70.0-99.0,0
+RES001743,ORD00830,Biochemistry,PPBS,133.56,mg/dL,90.0-140.0,0
+RES001744,ORD00831,Biochemistry,Serum_Creatinine,1.07,mg/dL,0.7-1.3,0
+RES001745,ORD00831,Hematology,CBC_Platelets,179.3,x10^3/uL,150.0-450.0,0
+RES001746,ORD00831,Biochemistry,Lipid_Cholesterol,188.63,mg/dL,120.0-200.0,0
+RES001747,ORD00832,Pathology,Urine_Routine_PusCells,5.0,cells/HPF,0.0-5.0,0
+RES001748,ORD00832,Hematology,CBC_Platelets,428.7,x10^3/uL,150.0-450.0,0
+RES001749,ORD00833,Hematology,CBC_Platelets,1279.3,x10^3/uL,150.0-450.0,1
+RES001750,ORD00834,Immunoassay,TSH,0.85,uIU/mL,0.4-4.5,0
+RES001751,ORD00834,Biochemistry,Lipid_Cholesterol,143.49,mg/dL,120.0-200.0,0
+RES001752,ORD00835,Biochemistry,Lipid_Cholesterol,189.44,mg/dL,120.0-200.0,0
+RES001753,ORD00835,Biochemistry,Serum_Creatinine,1.09,mg/dL,0.7-1.3,0
+RES001754,ORD00836,Critical Care,Serum_Potassium,3.97,mmol/L,3.5-5.0,0
+RES001755,ORD00836,Immunoassay,TSH,3.62,uIU/mL,0.4-4.5,0
+RES001756,ORD00837,Hematology,CBC_Hemoglobin,15.75,g/dL,12.0-16.0,0
+RES001757,ORD00838,Immunoassay,TSH,2.04,uIU/mL,0.4-4.5,0
+RES001758,ORD00839,Biochemistry,Serum_Creatinine,1.17,mg/dL,0.7-1.3,0
+RES001759,ORD00840,Hematology,CBC_Hemoglobin,4.45,g/dL,12.0-16.0,1
+RES001760,ORD00840,Biochemistry,FBS,77.14,mg/dL,70.0-99.0,0
+RES001761,ORD00840,Hematology,CBC_Platelets,433.18,x10^3/uL,150.0-450.0,0
+RES001762,ORD00841,Biochemistry,PPBS,119.11,mg/dL,90.0-140.0,0
+RES001763,ORD00841,Hematology,CBC_Platelets,326.2,x10^3/uL,150.0-450.0,0
+RES001764,ORD00841,Pathology,Urine_Routine_PusCells,3.62,cells/HPF,0.0-5.0,0
+RES001765,ORD00842,Biochemistry,Serum_Creatinine,0.82,mg/dL,0.7-1.3,0
+RES001766,ORD00842,Biochemistry,Lipid_Cholesterol,133.1,mg/dL,120.0-200.0,0
+RES001767,ORD00843,Hematology,CBC_Hemoglobin,15.89,g/dL,12.0-16.0,0
+RES001768,ORD00843,Hematology,CBC_Platelets,1218.06,x10^3/uL,150.0-450.0,1
+RES001769,ORD00844,Biochemistry,PPBS,440.22,mg/dL,90.0-140.0,1
+RES001770,ORD00844,Pathology,Urine_Routine_PusCells,2.7,cells/HPF,0.0-5.0,0
+RES001771,ORD00844,Critical Care,Serum_Potassium,4.43,mmol/L,3.5-5.0,0
+RES001772,ORD00845,Biochemistry,Lipid_Cholesterol,402.46,mg/dL,120.0-200.0,1
+RES001773,ORD00845,Immunoassay,TSH,2.67,uIU/mL,0.4-4.5,0
+RES001774,ORD00846,Biochemistry,FBS,82.5,mg/dL,70.0-99.0,0
+RES001775,ORD00847,Immunoassay,TSH,3.49,uIU/mL,0.4-4.5,0
+RES001776,ORD00848,Biochemistry,FBS,69.09,mg/dL,70.0-99.0,0
+RES001777,ORD00848,Biochemistry,Lipid_Cholesterol,203.13,mg/dL,120.0-200.0,0
+RES001778,ORD00848,Critical Care,Serum_Potassium,3.71,mmol/L,3.5-5.0,0
+RES001779,ORD00849,Biochemistry,PPBS,573.75,mg/dL,90.0-140.0,1
+RES001780,ORD00849,Hematology,CBC_Hemoglobin,11.67,g/dL,12.0-16.0,0
+RES001781,ORD00850,Pathology,Urine_Routine_PusCells,0.63,cells/HPF,0.0-5.0,0
+RES001782,ORD00850,Biochemistry,PPBS,122.7,mg/dL,90.0-140.0,0
+RES001783,ORD00850,Hematology,CBC_Platelets,247.07,x10^3/uL,150.0-450.0,0
+RES001784,ORD00851,Biochemistry,FBS,82.23,mg/dL,70.0-99.0,0
+RES001785,ORD00851,Pathology,Urine_Routine_PusCells,0.53,cells/HPF,0.0-5.0,0
+RES001786,ORD00852,Hematology,CBC_Hemoglobin,11.49,g/dL,12.0-16.0,0
+RES001787,ORD00853,Biochemistry,Lipid_Cholesterol,117.74,mg/dL,120.0-200.0,0
+RES001788,ORD00853,Pathology,Urine_Routine_PusCells,1.1,cells/HPF,0.0-5.0,0
+RES001789,ORD00853,Immunoassay,TSH,1.65,uIU/mL,0.4-4.5,0
+RES001790,ORD00854,Biochemistry,Lipid_Cholesterol,116.88,mg/dL,120.0-200.0,0
+RES001791,ORD00854,Immunoassay,TSH,2.13,uIU/mL,0.4-4.5,0
+RES001792,ORD00854,Biochemistry,FBS,98.01,mg/dL,70.0-99.0,0
+RES001793,ORD00855,Hematology,CBC_Hemoglobin,4.62,g/dL,12.0-16.0,1
+RES001794,ORD00856,Hematology,CBC_Platelets,279.48,x10^3/uL,150.0-450.0,0
+RES001795,ORD00857,Biochemistry,Lipid_Cholesterol,149.1,mg/dL,120.0-200.0,0
+RES001796,ORD00857,Immunoassay,TSH,3.49,uIU/mL,0.4-4.5,0
+RES001797,ORD00858,Biochemistry,PPBS,91.97,mg/dL,90.0-140.0,0
+RES001798,ORD00858,Hematology,CBC_Hemoglobin,12.4,g/dL,12.0-16.0,0
+RES001799,ORD00858,Biochemistry,Lipid_Cholesterol,145.55,mg/dL,120.0-200.0,0
+RES001800,ORD00859,Biochemistry,FBS,29.1,mg/dL,70.0-99.0,1
+RES001801,ORD00859,Hematology,CBC_Hemoglobin,11.58,g/dL,12.0-16.0,0
+RES001802,ORD00859,Immunoassay,TSH,1.08,uIU/mL,0.4-4.5,0
+RES001803,ORD00860,Hematology,CBC_Platelets,322.64,x10^3/uL,150.0-450.0,0
+RES001804,ORD00861,Hematology,CBC_Platelets,362.94,x10^3/uL,150.0-450.0,0
+RES001805,ORD00861,Pathology,Urine_Routine_PusCells,2.73,cells/HPF,0.0-5.0,0
+RES001806,ORD00862,Biochemistry,PPBS,103.69,mg/dL,90.0-140.0,0
+RES001807,ORD00862,Pathology,Urine_Routine_PusCells,1.61,cells/HPF,0.0-5.0,0
+RES001808,ORD00863,Biochemistry,Serum_Creatinine,0.91,mg/dL,0.7-1.3,0
+RES001809,ORD00863,Biochemistry,FBS,72.18,mg/dL,70.0-99.0,0
+RES001810,ORD00863,Biochemistry,PPBS,117.79,mg/dL,90.0-140.0,0
+RES001811,ORD00864,Biochemistry,Serum_Creatinine,1.09,mg/dL,0.7-1.3,0
+RES001812,ORD00864,Biochemistry,Lipid_Cholesterol,140.73,mg/dL,120.0-200.0,0
+RES001813,ORD00864,Critical Care,Serum_Potassium,5.15,mmol/L,3.5-5.0,0
+RES001814,ORD00865,Pathology,Urine_Routine_PusCells,3.22,cells/HPF,0.0-5.0,0
+RES001815,ORD00865,Critical Care,Serum_Potassium,3.44,mmol/L,3.5-5.0,0
+RES001816,ORD00865,Biochemistry,PPBS,94.34,mg/dL,90.0-140.0,0
+RES001817,ORD00866,Immunoassay,TSH,23.49,uIU/mL,0.4-4.5,1
+RES001818,ORD00867,Biochemistry,PPBS,124.16,mg/dL,90.0-140.0,0
+RES001819,ORD00867,Critical Care,Serum_Potassium,4.6,mmol/L,3.5-5.0,0
+RES001820,ORD00867,Hematology,CBC_Platelets,183.71,x10^3/uL,150.0-450.0,0
+RES001821,ORD00868,Biochemistry,PPBS,95.86,mg/dL,90.0-140.0,0
+RES001822,ORD00868,Hematology,CBC_Platelets,428.12,x10^3/uL,150.0-450.0,0
+RES001823,ORD00869,Hematology,CBC_Platelets,16.93,x10^3/uL,150.0-450.0,1
+RES001824,ORD00869,Hematology,CBC_Hemoglobin,15.36,g/dL,12.0-16.0,0
+RES001825,ORD00869,Biochemistry,Serum_Creatinine,1.11,mg/dL,0.7-1.3,0
+RES001826,ORD00870,Hematology,CBC_Hemoglobin,11.96,g/dL,12.0-16.0,0
+RES001827,ORD00871,Hematology,CBC_Hemoglobin,15.93,g/dL,12.0-16.0,0
+RES001828,ORD00871,Biochemistry,FBS,70.19,mg/dL,70.0-99.0,0
+RES001829,ORD00871,Critical Care,Serum_Potassium,6.94,mmol/L,3.5-5.0,1
+RES001830,ORD00872,Pathology,Urine_Routine_PusCells,4.27,cells/HPF,0.0-5.0,0
+RES001831,ORD00872,Biochemistry,FBS,95.62,mg/dL,70.0-99.0,0
+RES001832,ORD00873,Biochemistry,FBS,75.99,mg/dL,70.0-99.0,0
+RES001833,ORD00873,Hematology,CBC_Platelets,256.04,x10^3/uL,150.0-450.0,0
+RES001834,ORD00874,Pathology,Urine_Routine_PusCells,2.87,cells/HPF,0.0-5.0,0
+RES001835,ORD00875,Pathology,Urine_Routine_PusCells,1.61,cells/HPF,0.0-5.0,0
+RES001836,ORD00875,Biochemistry,Serum_Creatinine,0.73,mg/dL,0.7-1.3,0
+RES001837,ORD00876,Immunoassay,TSH,4.27,uIU/mL,0.4-4.5,0
+RES001838,ORD00876,Pathology,Urine_Routine_PusCells,5.04,cells/HPF,0.0-5.0,0
+RES001839,ORD00877,Biochemistry,Lipid_Cholesterol,133.07,mg/dL,120.0-200.0,0
+RES001840,ORD00877,Hematology,CBC_Hemoglobin,28.89,g/dL,12.0-16.0,1
+RES001841,ORD00877,Critical Care,Serum_Potassium,3.83,mmol/L,3.5-5.0,0
+RES001842,ORD00878,Biochemistry,PPBS,112.72,mg/dL,90.0-140.0,0
+RES001843,ORD00878,Immunoassay,TSH,27.01,uIU/mL,0.4-4.5,1
+RES001844,ORD00879,Biochemistry,Lipid_Cholesterol,347.9,mg/dL,120.0-200.0,1
+RES001845,ORD00880,Pathology,Urine_Routine_PusCells,3.29,cells/HPF,0.0-5.0,0
+RES001846,ORD00881,Immunoassay,TSH,0.71,uIU/mL,0.4-4.5,0
+RES001847,ORD00882,Hematology,CBC_Platelets,341.85,x10^3/uL,150.0-450.0,0
+RES001848,ORD00882,Immunoassay,TSH,3.5,uIU/mL,0.4-4.5,0
+RES001849,ORD00882,Biochemistry,FBS,87.25,mg/dL,70.0-99.0,0
+RES001850,ORD00883,Biochemistry,Lipid_Cholesterol,375.54,mg/dL,120.0-200.0,1
+RES001851,ORD00884,Critical Care,Serum_Potassium,4.27,mmol/L,3.5-5.0,0
+RES001852,ORD00884,Biochemistry,FBS,101.81,mg/dL,70.0-99.0,0
+RES001853,ORD00885,Hematology,CBC_Hemoglobin,15.08,g/dL,12.0-16.0,0
+RES001854,ORD00885,Biochemistry,Lipid_Cholesterol,114.65,mg/dL,120.0-200.0,0
+RES001855,ORD00885,Pathology,Urine_Routine_PusCells,3.74,cells/HPF,0.0-5.0,0
+RES001856,ORD00886,Biochemistry,Serum_Creatinine,1.36,mg/dL,0.7-1.3,0
+RES001857,ORD00886,Pathology,Urine_Routine_PusCells,0.15,cells/HPF,0.0-5.0,0
+RES001858,ORD00886,Critical Care,Serum_Potassium,4.73,mmol/L,3.5-5.0,0
+RES001859,ORD00887,Hematology,CBC_Platelets,174.13,x10^3/uL,150.0-450.0,0
+RES001860,ORD00887,Biochemistry,Lipid_Cholesterol,181.9,mg/dL,120.0-200.0,0
+RES001861,ORD00887,Hematology,CBC_Hemoglobin,14.1,g/dL,12.0-16.0,0
+RES001862,ORD00888,Pathology,Urine_Routine_PusCells,4.62,cells/HPF,0.0-5.0,0
+RES001863,ORD00889,Hematology,CBC_Hemoglobin,26.07,g/dL,12.0-16.0,1
+RES001864,ORD00889,Critical Care,Serum_Potassium,5.16,mmol/L,3.5-5.0,0
+RES001865,ORD00890,Immunoassay,TSH,4.25,uIU/mL,0.4-4.5,0
+RES001866,ORD00891,Biochemistry,PPBS,127.51,mg/dL,90.0-140.0,0
+RES001867,ORD00891,Critical Care,Serum_Potassium,3.65,mmol/L,3.5-5.0,0
+RES001868,ORD00891,Biochemistry,Lipid_Cholesterol,341.08,mg/dL,120.0-200.0,1
+RES001869,ORD00892,Immunoassay,TSH,0.99,uIU/mL,0.4-4.5,0
+RES001870,ORD00893,Immunoassay,TSH,2.83,uIU/mL,0.4-4.5,0
+RES001871,ORD00894,Critical Care,Serum_Potassium,4.15,mmol/L,3.5-5.0,0
+RES001872,ORD00895,Critical Care,Serum_Potassium,4.81,mmol/L,3.5-5.0,0
+RES001873,ORD00895,Hematology,CBC_Platelets,373.14,x10^3/uL,150.0-450.0,0
+RES001874,ORD00896,Biochemistry,FBS,29.24,mg/dL,70.0-99.0,1
+RES001875,ORD00896,Pathology,Urine_Routine_PusCells,0.28,cells/HPF,0.0-5.0,0
+RES001876,ORD00897,Biochemistry,Serum_Creatinine,5.91,mg/dL,0.7-1.3,1
+RES001877,ORD00898,Biochemistry,FBS,74.22,mg/dL,70.0-99.0,0
+RES001878,ORD00899,Hematology,CBC_Hemoglobin,14.63,g/dL,12.0-16.0,0
+RES001879,ORD00899,Biochemistry,FBS,76.17,mg/dL,70.0-99.0,0
+RES001880,ORD00900,Hematology,CBC_Hemoglobin,12.42,g/dL,12.0-16.0,0
+RES001881,ORD00900,Critical Care,Serum_Potassium,3.81,mmol/L,3.5-5.0,0
+RES001882,ORD00901,Biochemistry,PPBS,140.99,mg/dL,90.0-140.0,0
+RES001883,ORD00902,Critical Care,Serum_Potassium,4.09,mmol/L,3.5-5.0,0
+RES001884,ORD00902,Biochemistry,PPBS,97.93,mg/dL,90.0-140.0,0
+RES001885,ORD00903,Biochemistry,FBS,73.41,mg/dL,70.0-99.0,0
+RES001886,ORD00904,Biochemistry,FBS,78.41,mg/dL,70.0-99.0,0
+RES001887,ORD00904,Biochemistry,Serum_Creatinine,1.33,mg/dL,0.7-1.3,0
+RES001888,ORD00904,Hematology,CBC_Hemoglobin,16.53,g/dL,12.0-16.0,0
+RES001889,ORD00905,Biochemistry,PPBS,106.16,mg/dL,90.0-140.0,0
+RES001890,ORD00905,Biochemistry,Serum_Creatinine,0.68,mg/dL,0.7-1.3,0
+RES001891,ORD00905,Pathology,Urine_Routine_PusCells,4.43,cells/HPF,0.0-5.0,0
+RES001892,ORD00906,Hematology,CBC_Hemoglobin,11.49,g/dL,12.0-16.0,0
+RES001893,ORD00907,Biochemistry,FBS,98.59,mg/dL,70.0-99.0,0
+RES001894,ORD00907,Hematology,CBC_Hemoglobin,11.59,g/dL,12.0-16.0,0
+RES001895,ORD00907,Hematology,CBC_Platelets,149.03,x10^3/uL,150.0-450.0,0
+RES001896,ORD00908,Critical Care,Serum_Potassium,4.55,mmol/L,3.5-5.0,0
+RES001897,ORD00908,Immunoassay,TSH,4.28,uIU/mL,0.4-4.5,0
+RES001898,ORD00909,Immunoassay,TSH,2.26,uIU/mL,0.4-4.5,0
+RES001899,ORD00910,Immunoassay,TSH,2.2,uIU/mL,0.4-4.5,0
+RES001900,ORD00910,Biochemistry,Serum_Creatinine,0.98,mg/dL,0.7-1.3,0
+RES001901,ORD00910,Hematology,CBC_Platelets,262.47,x10^3/uL,150.0-450.0,0
+RES001902,ORD00911,Biochemistry,Serum_Creatinine,1.2,mg/dL,0.7-1.3,0
+RES001903,ORD00911,Immunoassay,TSH,3.18,uIU/mL,0.4-4.5,0
+RES001904,ORD00911,Pathology,Urine_Routine_PusCells,0.74,cells/HPF,0.0-5.0,0
+RES001905,ORD00912,Pathology,Urine_Routine_PusCells,4.92,cells/HPF,0.0-5.0,0
+RES001906,ORD00912,Biochemistry,Lipid_Cholesterol,204.55,mg/dL,120.0-200.0,0
+RES001907,ORD00913,Hematology,CBC_Hemoglobin,15.72,g/dL,12.0-16.0,0
+RES001908,ORD00914,Pathology,Urine_Routine_PusCells,32.38,cells/HPF,0.0-5.0,1
+RES001909,ORD00914,Biochemistry,FBS,504.44,mg/dL,70.0-99.0,1
+RES001910,ORD00914,Immunoassay,TSH,0.77,uIU/mL,0.4-4.5,0
+RES001911,ORD00915,Hematology,CBC_Platelets,238.11,x10^3/uL,150.0-450.0,0
+RES001912,ORD00915,Pathology,Urine_Routine_PusCells,2.95,cells/HPF,0.0-5.0,0
+RES001913,ORD00915,Biochemistry,Lipid_Cholesterol,128.59,mg/dL,120.0-200.0,0
+RES001914,ORD00916,Biochemistry,Serum_Creatinine,1.3,mg/dL,0.7-1.3,0
+RES001915,ORD00916,Biochemistry,PPBS,44.81,mg/dL,90.0-140.0,1
+RES001916,ORD00916,Immunoassay,TSH,2.45,uIU/mL,0.4-4.5,0
+RES001917,ORD00917,Immunoassay,TSH,4.23,uIU/mL,0.4-4.5,0
+RES001918,ORD00917,Pathology,Urine_Routine_PusCells,33.32,cells/HPF,0.0-5.0,1
+RES001919,ORD00918,Biochemistry,PPBS,115.93,mg/dL,90.0-140.0,0
+RES001920,ORD00918,Immunoassay,TSH,2.94,uIU/mL,0.4-4.5,0
+RES001921,ORD00918,Critical Care,Serum_Potassium,4.03,mmol/L,3.5-5.0,0
+RES001922,ORD00919,Critical Care,Serum_Potassium,3.97,mmol/L,3.5-5.0,0
+RES001923,ORD00919,Pathology,Urine_Routine_PusCells,5.22,cells/HPF,0.0-5.0,0
+RES001924,ORD00919,Biochemistry,Serum_Creatinine,1.13,mg/dL,0.7-1.3,0
+RES001925,ORD00920,Hematology,CBC_Hemoglobin,27.27,g/dL,12.0-16.0,1
+RES001926,ORD00920,Pathology,Urine_Routine_PusCells,4.22,cells/HPF,0.0-5.0,0
+RES001927,ORD00921,Biochemistry,PPBS,90.71,mg/dL,90.0-140.0,0
+RES001928,ORD00921,Hematology,CBC_Platelets,247.64,x10^3/uL,150.0-450.0,0
+RES001929,ORD00922,Biochemistry,Lipid_Cholesterol,136.75,mg/dL,120.0-200.0,0
+RES001930,ORD00923,Immunoassay,TSH,0.62,uIU/mL,0.4-4.5,0
+RES001931,ORD00923,Biochemistry,PPBS,141.96,mg/dL,90.0-140.0,0
+RES001932,ORD00924,Hematology,CBC_Hemoglobin,14.26,g/dL,12.0-16.0,0
+RES001933,ORD00925,Biochemistry,FBS,69.48,mg/dL,70.0-99.0,0
+RES001934,ORD00925,Hematology,CBC_Platelets,229.38,x10^3/uL,150.0-450.0,0
+RES001935,ORD00925,Biochemistry,PPBS,120.89,mg/dL,90.0-140.0,0
+RES001936,ORD00926,Biochemistry,Lipid_Cholesterol,194.26,mg/dL,120.0-200.0,0
+RES001937,ORD00927,Biochemistry,Serum_Creatinine,1.14,mg/dL,0.7-1.3,0
+RES001938,ORD00927,Biochemistry,FBS,72.54,mg/dL,70.0-99.0,0
+RES001939,ORD00927,Immunoassay,TSH,0.01,uIU/mL,0.4-4.5,1
+RES001940,ORD00928,Biochemistry,PPBS,141.74,mg/dL,90.0-140.0,0
+RES001941,ORD00928,Immunoassay,TSH,3.01,uIU/mL,0.4-4.5,0
+RES001942,ORD00928,Critical Care,Serum_Potassium,4.42,mmol/L,3.5-5.0,0
+RES001943,ORD00929,Immunoassay,TSH,1.12,uIU/mL,0.4-4.5,0
+RES001944,ORD00929,Biochemistry,Serum_Creatinine,0.95,mg/dL,0.7-1.3,0
+RES001945,ORD00930,Biochemistry,FBS,80.79,mg/dL,70.0-99.0,0
+RES001946,ORD00930,Biochemistry,Lipid_Cholesterol,128.34,mg/dL,120.0-200.0,0
+RES001947,ORD00931,Biochemistry,PPBS,31.1,mg/dL,90.0-140.0,1
+RES001948,ORD00932,Hematology,CBC_Platelets,195.24,x10^3/uL,150.0-450.0,0
+RES001949,ORD00932,Hematology,CBC_Hemoglobin,11.72,g/dL,12.0-16.0,0
+RES001950,ORD00932,Biochemistry,Serum_Creatinine,0.71,mg/dL,0.7-1.3,0
+RES001951,ORD00933,Hematology,CBC_Platelets,350.9,x10^3/uL,150.0-450.0,0
+RES001952,ORD00933,Biochemistry,FBS,78.13,mg/dL,70.0-99.0,0
+RES001953,ORD00934,Biochemistry,Lipid_Cholesterol,120.06,mg/dL,120.0-200.0,0
+RES001954,ORD00934,Immunoassay,TSH,2.19,uIU/mL,0.4-4.5,0
+RES001955,ORD00934,Critical Care,Serum_Potassium,3.95,mmol/L,3.5-5.0,0
+RES001956,ORD00935,Biochemistry,Serum_Creatinine,1.21,mg/dL,0.7-1.3,0
+RES001957,ORD00935,Biochemistry,Lipid_Cholesterol,201.49,mg/dL,120.0-200.0,0
+RES001958,ORD00936,Biochemistry,PPBS,105.28,mg/dL,90.0-140.0,0
+RES001959,ORD00936,Hematology,CBC_Hemoglobin,13.9,g/dL,12.0-16.0,0
+RES001960,ORD00936,Hematology,CBC_Platelets,455.06,x10^3/uL,150.0-450.0,0
+RES001961,ORD00937,Hematology,CBC_Platelets,351.41,x10^3/uL,150.0-450.0,0
+RES001962,ORD00938,Pathology,Urine_Routine_PusCells,0.99,cells/HPF,0.0-5.0,0
+RES001963,ORD00938,Biochemistry,Serum_Creatinine,1.09,mg/dL,0.7-1.3,0
+RES001964,ORD00938,Hematology,CBC_Hemoglobin,11.73,g/dL,12.0-16.0,0
+RES001965,ORD00939,Critical Care,Serum_Potassium,8.36,mmol/L,3.5-5.0,1
+RES001966,ORD00940,Immunoassay,TSH,2.36,uIU/mL,0.4-4.5,0
+RES001967,ORD00940,Biochemistry,PPBS,122.8,mg/dL,90.0-140.0,0
+RES001968,ORD00941,Immunoassay,TSH,2.01,uIU/mL,0.4-4.5,0
+RES001969,ORD00942,Critical Care,Serum_Potassium,4.78,mmol/L,3.5-5.0,0
+RES001970,ORD00943,Biochemistry,Lipid_Cholesterol,129.68,mg/dL,120.0-200.0,0
+RES001971,ORD00944,Hematology,CBC_Platelets,163.01,x10^3/uL,150.0-450.0,0
+RES001972,ORD00945,Biochemistry,Serum_Creatinine,5.43,mg/dL,0.7-1.3,1
+RES001973,ORD00945,Pathology,Urine_Routine_PusCells,40.18,cells/HPF,0.0-5.0,1
+RES001974,ORD00946,Immunoassay,TSH,3.29,uIU/mL,0.4-4.5,0
+RES001975,ORD00946,Hematology,CBC_Hemoglobin,25.43,g/dL,12.0-16.0,1
+RES001976,ORD00947,Hematology,CBC_Platelets,334.42,x10^3/uL,150.0-450.0,0
+RES001977,ORD00947,Biochemistry,FBS,100.15,mg/dL,70.0-99.0,0
+RES001978,ORD00947,Biochemistry,Lipid_Cholesterol,134.43,mg/dL,120.0-200.0,0
+RES001979,ORD00948,Critical Care,Serum_Potassium,3.83,mmol/L,3.5-5.0,0
+RES001980,ORD00948,Immunoassay,TSH,1.62,uIU/mL,0.4-4.5,0
+RES001981,ORD00948,Biochemistry,PPBS,537.25,mg/dL,90.0-140.0,1
+RES001982,ORD00949,Biochemistry,Serum_Creatinine,1.18,mg/dL,0.7-1.3,0
+RES001983,ORD00950,Critical Care,Serum_Potassium,2.45,mmol/L,3.5-5.0,1
+RES001984,ORD00950,Biochemistry,Serum_Creatinine,0.81,mg/dL,0.7-1.3,0
+RES001985,ORD00950,Pathology,Urine_Routine_PusCells,2.04,cells/HPF,0.0-5.0,0
+RES001986,ORD00951,Biochemistry,Serum_Creatinine,0.67,mg/dL,0.7-1.3,0
+RES001987,ORD00951,Biochemistry,PPBS,25.25,mg/dL,90.0-140.0,1
+RES001988,ORD00951,Critical Care,Serum_Potassium,3.33,mmol/L,3.5-5.0,0
+RES001989,ORD00952,Biochemistry,PPBS,86.88,mg/dL,90.0-140.0,0
+RES001990,ORD00952,Critical Care,Serum_Potassium,5.05,mmol/L,3.5-5.0,0
+RES001991,ORD00953,Biochemistry,FBS,30.28,mg/dL,70.0-99.0,1
+RES001992,ORD00953,Hematology,CBC_Platelets,333.83,x10^3/uL,150.0-450.0,0
+RES001993,ORD00953,Biochemistry,PPBS,102.11,mg/dL,90.0-140.0,0
+RES001994,ORD00954,Biochemistry,FBS,97.6,mg/dL,70.0-99.0,0
+RES001995,ORD00954,Pathology,Urine_Routine_PusCells,5.11,cells/HPF,0.0-5.0,0
+RES001996,ORD00955,Biochemistry,FBS,73.54,mg/dL,70.0-99.0,0
+RES001997,ORD00955,Critical Care,Serum_Potassium,4.88,mmol/L,3.5-5.0,0
+RES001998,ORD00956,Immunoassay,TSH,1.09,uIU/mL,0.4-4.5,0
+RES001999,ORD00956,Hematology,CBC_Platelets,265.02,x10^3/uL,150.0-450.0,0
+RES002000,ORD00956,Hematology,CBC_Hemoglobin,12.19,g/dL,12.0-16.0,0
+RES002001,ORD00957,Biochemistry,Lipid_Cholesterol,153.15,mg/dL,120.0-200.0,0
+RES002002,ORD00957,Hematology,CBC_Platelets,171.03,x10^3/uL,150.0-450.0,0
+RES002003,ORD00958,Biochemistry,Lipid_Cholesterol,196.53,mg/dL,120.0-200.0,0
+RES002004,ORD00958,Biochemistry,FBS,88.92,mg/dL,70.0-99.0,0
+RES002005,ORD00958,Pathology,Urine_Routine_PusCells,4.37,cells/HPF,0.0-5.0,0
+RES002006,ORD00959,Pathology,Urine_Routine_PusCells,2.73,cells/HPF,0.0-5.0,0
+RES002007,ORD00960,Immunoassay,TSH,2.09,uIU/mL,0.4-4.5,0
+RES002008,ORD00960,Hematology,CBC_Hemoglobin,15.45,g/dL,12.0-16.0,0
+RES002009,ORD00960,Critical Care,Serum_Potassium,5.23,mmol/L,3.5-5.0,0
+RES002010,ORD00961,Biochemistry,PPBS,128.24,mg/dL,90.0-140.0,0
+RES002011,ORD00961,Hematology,CBC_Platelets,391.91,x10^3/uL,150.0-450.0,0
+RES002012,ORD00961,Pathology,Urine_Routine_PusCells,1.1,cells/HPF,0.0-5.0,0
+RES002013,ORD00962,Biochemistry,PPBS,92.82,mg/dL,90.0-140.0,0
+RES002014,ORD00962,Pathology,Urine_Routine_PusCells,3.47,cells/HPF,0.0-5.0,0
+RES002015,ORD00962,Biochemistry,Lipid_Cholesterol,395.67,mg/dL,120.0-200.0,1
+RES002016,ORD00963,Biochemistry,FBS,79.66,mg/dL,70.0-99.0,0
+RES002017,ORD00963,Hematology,CBC_Platelets,298.79,x10^3/uL,150.0-450.0,0
+RES002018,ORD00963,Pathology,Urine_Routine_PusCells,3.95,cells/HPF,0.0-5.0,0
+RES002019,ORD00964,Biochemistry,PPBS,91.16,mg/dL,90.0-140.0,0
+RES002020,ORD00964,Hematology,CBC_Platelets,416.61,x10^3/uL,150.0-450.0,0
+RES002021,ORD00965,Immunoassay,TSH,3.76,uIU/mL,0.4-4.5,0
+RES002022,ORD00966,Pathology,Urine_Routine_PusCells,2.64,cells/HPF,0.0-5.0,0
+RES002023,ORD00967,Hematology,CBC_Platelets,196.21,x10^3/uL,150.0-450.0,0
+RES002024,ORD00967,Biochemistry,Lipid_Cholesterol,145.82,mg/dL,120.0-200.0,0
+RES002025,ORD00967,Biochemistry,Serum_Creatinine,0.77,mg/dL,0.7-1.3,0
+RES002026,ORD00968,Biochemistry,Lipid_Cholesterol,179.57,mg/dL,120.0-200.0,0
+RES002027,ORD00968,Biochemistry,Serum_Creatinine,0.83,mg/dL,0.7-1.3,0
+RES002028,ORD00969,Hematology,CBC_Hemoglobin,16.25,g/dL,12.0-16.0,0
+RES002029,ORD00969,Biochemistry,FBS,86.85,mg/dL,70.0-99.0,0
+RES002030,ORD00970,Immunoassay,TSH,4.37,uIU/mL,0.4-4.5,0
+RES002031,ORD00970,Hematology,CBC_Platelets,431.43,x10^3/uL,150.0-450.0,0
+RES002032,ORD00971,Immunoassay,TSH,22.67,uIU/mL,0.4-4.5,1
+RES002033,ORD00971,Critical Care,Serum_Potassium,4.4,mmol/L,3.5-5.0,0
+RES002034,ORD00971,Biochemistry,Serum_Creatinine,0.77,mg/dL,0.7-1.3,0
+RES002035,ORD00972,Pathology,Urine_Routine_PusCells,4.26,cells/HPF,0.0-5.0,0
+RES002036,ORD00972,Biochemistry,FBS,75.63,mg/dL,70.0-99.0,0
+RES002037,ORD00973,Pathology,Urine_Routine_PusCells,0.67,cells/HPF,0.0-5.0,0
+RES002038,ORD00973,Biochemistry,PPBS,138.46,mg/dL,90.0-140.0,0
+RES002039,ORD00974,Critical Care,Serum_Potassium,4.77,mmol/L,3.5-5.0,0
+RES002040,ORD00975,Biochemistry,Lipid_Cholesterol,205.14,mg/dL,120.0-200.0,0
+RES002041,ORD00976,Biochemistry,PPBS,111.16,mg/dL,90.0-140.0,0
+RES002042,ORD00976,Hematology,CBC_Hemoglobin,15.2,g/dL,12.0-16.0,0
+RES002043,ORD00977,Critical Care,Serum_Potassium,4.97,mmol/L,3.5-5.0,0
+RES002044,ORD00977,Immunoassay,TSH,2.5,uIU/mL,0.4-4.5,0
+RES002045,ORD00978,Biochemistry,PPBS,102.18,mg/dL,90.0-140.0,0
+RES002046,ORD00978,Critical Care,Serum_Potassium,4.31,mmol/L,3.5-5.0,0
+RES002047,ORD00978,Immunoassay,TSH,4.32,uIU/mL,0.4-4.5,0
+RES002048,ORD00979,Hematology,CBC_Hemoglobin,16.21,g/dL,12.0-16.0,0
+RES002049,ORD00979,Biochemistry,Serum_Creatinine,1.2,mg/dL,0.7-1.3,0
+RES002050,ORD00980,Biochemistry,Lipid_Cholesterol,141.98,mg/dL,120.0-200.0,0
+RES002051,ORD00980,Biochemistry,PPBS,122.29,mg/dL,90.0-140.0,0
+RES002052,ORD00980,Immunoassay,TSH,1.85,uIU/mL,0.4-4.5,0
+RES002053,ORD00981,Biochemistry,Lipid_Cholesterol,138.24,mg/dL,120.0-200.0,0
+RES002054,ORD00981,Critical Care,Serum_Potassium,4.89,mmol/L,3.5-5.0,0
+RES002055,ORD00982,Critical Care,Serum_Potassium,5.21,mmol/L,3.5-5.0,0
+RES002056,ORD00982,Hematology,CBC_Hemoglobin,14.04,g/dL,12.0-16.0,0
+RES002057,ORD00982,Biochemistry,PPBS,112.39,mg/dL,90.0-140.0,0
+RES002058,ORD00983,Pathology,Urine_Routine_PusCells,0.67,cells/HPF,0.0-5.0,0
+RES002059,ORD00984,Critical Care,Serum_Potassium,3.77,mmol/L,3.5-5.0,0
+RES002060,ORD00984,Pathology,Urine_Routine_PusCells,3.0,cells/HPF,0.0-5.0,0
+RES002061,ORD00985,Biochemistry,Lipid_Cholesterol,193.21,mg/dL,120.0-200.0,0
+RES002062,ORD00986,Biochemistry,Serum_Creatinine,0.82,mg/dL,0.7-1.3,0
+RES002063,ORD00987,Hematology,CBC_Hemoglobin,11.94,g/dL,12.0-16.0,0
+RES002064,ORD00987,Hematology,CBC_Platelets,1249.14,x10^3/uL,150.0-450.0,1
+RES002065,ORD00988,Hematology,CBC_Platelets,431.3,x10^3/uL,150.0-450.0,0
+RES002066,ORD00989,Biochemistry,PPBS,128.48,mg/dL,90.0-140.0,0
+RES002067,ORD00990,Biochemistry,Serum_Creatinine,0.99,mg/dL,0.7-1.3,0
+RES002068,ORD00990,Hematology,CBC_Hemoglobin,23.2,g/dL,12.0-16.0,1
+RES002069,ORD00991,Hematology,CBC_Platelets,289.46,x10^3/uL,150.0-450.0,0
+RES002070,ORD00992,Biochemistry,Serum_Creatinine,1.12,mg/dL,0.7-1.3,0
+RES002071,ORD00993,Biochemistry,Lipid_Cholesterol,118.81,mg/dL,120.0-200.0,0
+RES002072,ORD00993,Biochemistry,PPBS,501.56,mg/dL,90.0-140.0,1
+RES002073,ORD00993,Critical Care,Serum_Potassium,4.98,mmol/L,3.5-5.0,0
+RES002074,ORD00994,Biochemistry,FBS,95.83,mg/dL,70.0-99.0,0
+RES002075,ORD00995,Biochemistry,PPBS,43.39,mg/dL,90.0-140.0,1
+RES002076,ORD00996,Biochemistry,Serum_Creatinine,0.89,mg/dL,0.7-1.3,0
+RES002077,ORD00997,Hematology,CBC_Platelets,186.16,x10^3/uL,150.0-450.0,0
+RES002078,ORD00998,Biochemistry,Serum_Creatinine,1.09,mg/dL,0.7-1.3,0
+RES002079,ORD00999,Pathology,Urine_Routine_PusCells,2.45,cells/HPF,0.0-5.0,0
+RES002080,ORD00999,Hematology,CBC_Hemoglobin,14.21,g/dL,12.0-16.0,0
+RES002081,ORD01000,Biochemistry,FBS,88.96,mg/dL,70.0-99.0,0
